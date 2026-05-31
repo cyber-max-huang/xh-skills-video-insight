@@ -1,0 +1,175 @@
+1
+00:00:01,160 --> 00:00:03,960
+Hello friends, I hope you like my videos.
+
+2
+00:00:04,280 --> 00:00:15,120
+Today, in this video, we will discuss a very important topic in the pharmaceutical quality system: FMEA, which stands for Failure Mode and Effect Analysis tool.
+
+3
+00:00:17,240 --> 00:00:24,240
+Friends, my YouTube channel name is Farmer Quality, so please view, like, comment and subscribe my channel.
+
+4
+00:00:26,380 --> 00:01:01,860
+So now first we will understand what is FMEA tool so the failure mode and effect analysis or FMEA is a systematic approach to identifying and addressing potential failure in a process or products right so a failure mode refers to the specific ways a process or product might fail to perform as intended so the FMEA involves analyzing these failure modes understanding their potential effects, Identifying the root cause and implementing the action to mitigate or prevent these failures, right?
+
+5
+00:01:02,140 --> 00:01:16,580
+So by systematically evaluating risk, FMEA helps to improve reliability, safety, and overall quality in processes and products, which ensure compliance with industry standards and regulations, right?
+
+6
+00:01:18,720 --> 00:01:43,920
+So now here we will discuss about the FMEA tool that is when it is to be used right so the purpose of FMEA is to take action to eliminate or reduce failures starting with the highest priority ones right FMEA helps document current knowledge and action related to potential risk and failure which creating a foundation for continuous improvement.
+
+7
+00:01:44,840 --> 00:01:59,240
+So basically, FMEA tools and its approach is particularly valuable during the design phase where it helps to prevent failures before they occur, which ensure the reliability and safety of product and processes, right?
+
+8
+00:02:01,520 --> 00:02:25,840
+So now here we will discuss about the key terms in FMEA tools right so first one is the failure mode so this refers to the ways in which a process or product could fail next one is the effect so these are the consequences or outcome of the failure right which often impacting quality safety or performance.
+
+9
+00:02:26,440 --> 00:02:31,920
+Next is cause, so the underlying reason or root cause behind the failure.
+
+10
+00:02:33,520 --> 00:03:01,440
+So to prioritize these risks FMEA uses the risk priority number which is called RPN so the formula for RPN is severity into occurrence into detection so this calculated value helps to determine which risk require immediate attention ensuring that high priority issues are addressed first that means if the risk is higher then you need to take the corrective and preventive actions right.
+
+11
+00:03:01,820 --> 00:03:15,460
+So the calculation criteria I have explained in my last video of quality risk management, so you can refer the criteria from that video and also I'm putting the link into this description so that you can refer right.
+
+12
+00:03:17,740 --> 00:03:24,860
+So now in this slide we will discuss the types of FMEA, so first one is the design FMEA.
+
+13
+00:03:25,740 --> 00:03:48,420
+So the design FMEA is a systematic approach used during the design phase of a product it helps identify potential failure modes their effect and their causes before the production begins right so at the time of procurement these design FMEA need to be implemented right to assess the risk.
+
+14
+00:03:48,460 --> 00:04:12,420
+So the primary goal of the design FMEA is to improve product design, enhance reliability and reduce the risk and here are some key elements which include first one is the function analysis of components so with the understanding the roles and interaction of each component in the design right next is the identification of potential design related failures.
+
+15
+00:04:12,540 --> 00:04:20,220
+So here pinpointing areas where the design might fail to meet the performance or safety standards, right?
+
+16
+00:04:20,300 --> 00:04:23,780
+Next is the implementation of corrective action.
+
+17
+00:04:23,820 --> 00:04:33,740
+If your risk is identified at higher category, then you need to take the steps to eliminate or reduce the risk identified during the analysis, right?
+
+18
+00:04:34,420 --> 00:04:41,560
+So by addressing potential issues early, 设计FMEA确保了稳健且可靠的产设计，对吧？
+
+19
+00:04:43,160 --> 00:04:46,640
+所以，让我们理解下一个，即过程FMEA。
+
+20
+00:04:46,680 --> 00:04:58,800
+所以，过程FMEA是一种结构化的方法，用于识别和分析制造或装配过程中潜在的失败模式，对吧？
+
+21
+00:04:59,360 --> 00:05:03,040
+所以，过程FMEA的目标是提高过程可靠性。
+
+22
+00:05:03,160 --> 00:05:06,040
+And ensure consistent product quality, right?
+
+23
+00:05:06,400 --> 00:05:13,520
+So this process FMEA when we can use at the time of routine process activity, right?
+
+24
+00:05:14,920 --> 00:05:26,600
+So the few key elements which includes first one is analyzing each step of the process where examining every stage to identify potential weak points, right?
+
+25
+00:05:27,200 --> 00:06:02,280
+Next is identifying potential process related failures and their impacts so here understanding how process deviations can affect the final product or performance right next is developing controls and action to mitigate the risk so implementing the preventive measure and corrective action to address identified risk if that risk is at higher category right so by systematically addressing process related risk, Process FMEA ensure smooth operation and high quality outcomes, right?
+
+26
+00:06:03,200 --> 00:06:24,680
+So here let's understand the design FMEA and process FMEA with an example so here I am taking just one random example from isolator right so here several other requirement and processes can be evaluated in the same way so let's first understand with design FMEA right.
+
+27
+00:06:25,180 --> 00:06:51,940
+So let's take one example that your requirement is like designing an isolator system to provide unidirectional vertical airflow so your sub state step will be non-uniform vertical airflow over the working area and the harm could be contaminated working area leading to compromise product sterility so severity I have written here as five.
+
+28
+00:06:52,560 --> 00:06:56,080
+Right, so the next is cause of form.
+
+29
+00:06:56,360 --> 00:07:19,560
+So cause of form which may include poor design of air flow distribution, incorrect HEPA filter placement in adequate fan capacity right and the occurrence for this I have ranked as four right so in the next column you need to provide the existing control so existing control could be computational fluid dynamics simulation for airflow design.
+
+30
+00:07:20,240 --> 00:07:27,400
+Hepa filter efficiency validation, fan capacity calculation, particle detection feature, right?
+
+31
+00:07:27,740 --> 00:07:36,060
+And the deduction I have assigned as one, so the RPN calculation that is S into O into D.
+
+32
+00:07:36,080 --> 00:07:46,840
+是等于20，所以残余风险将被接受，不需要计算RPN。
+
+33
+00:07:49,300 --> 00:07:59,140
+You know, take this example to design FMEA right so now let's understand the next example for process FMEA.
+
+34
+00:08:00,340 --> 00:08:24,940
+So let's say your requirement is operating the isolated system to maintain uni-directional vertical airflow, so the process unit or sub-step could be deviation in air flow velocity during routine operation, right and the harm for this requirement can be increased risk of microbial contamination or particle deposition.
+
+35
+00:08:25,740 --> 00:08:43,780
+So the severity for this I have assigned as five, so next is the cause of harm, so cause of harm could be blockage in the hepafilter, incorrect system maintenance or calibration equipment wear and tear, right?
+
+36
+00:08:43,820 --> 00:09:01,220
+And next I have assigned the ranking as four for the occurrence right so here we need to provide the existing control so existing control could be preventive maintenance schedule routine airflow velocity checks environmental monitoring program.
+
+37
+00:09:02,540 --> 00:09:07,020
+Next is the detection, so I have assigned it as one.
+
+38
+00:09:07,060 --> 00:09:10,260
+So the RPN calculation will be twenty, right?
+
+39
+00:09:10,900 --> 00:09:13,660
+And the residual risk shall be accepted.
+
+40
+00:09:14,340 --> 00:09:18,540
+And again, you do not need to recalculate the RPN, right?
+
+41
+00:09:19,660 --> 00:09:22,220
+So overall, in this way, you can.
+
+42
+00:09:22,700 --> 00:09:32,060
+The FMEA for design, for design of equipment and for process of equipment, right?
+
+43
+00:09:33,900 --> 00:09:38,620
+So friends, this is all about the FMEA tool.
+
+44
+00:09:38,900 --> 00:09:40,580
+Thank you so much for watching the video!

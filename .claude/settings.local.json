@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:bailian.console.aliyun.com)",
+      "WebSearch",
+      "WebFetch(domain:deepwiki.com)",
+      "WebFetch(domain:help.aliyun.com)",
+      "Bash(curl -sL --max-time 30 -o /tmp/bailian_doc_overview.html -w \"HTTP_CODE:%{http_code}\\\\nSIZE:%{size_download}\\\\n\" \"https://bailian.console.aliyun.com/cn-beijing?spm=5176.29597918.J_F4r-7Zs_PtjrjEY48APSA.d_primary.379d133cW45s3r&tab=doc#/doc/?type=model&url=2579562\")",
+      "Bash(curl -sL --max-time 30 -o /tmp/bailian_doc_vision.html -w \"HTTP_CODE:%{http_code}\\\\nSIZE:%{size_download}\\\\n\" \"https://bailian.console.aliyun.com/cn-beijing?spm=5176.29597918.J_F4r-7Zs_PtjrjEY48APSA.d_primary.379d133cW45s3r&tab=doc#/doc/?type=model&url=2845871\")",
+      "Bash(curl -sL --max-time 30 -o /tmp/bailian_doc_asr.html -w \"HTTP_CODE:%{http_code}\\\\nSIZE:%{size_download}\\\\n\" \"https://bailian.console.aliyun.com/cn-beijing?spm=5176.29597918.J_F4r-7Zs_PtjrjEY48APSA.d_primary.379d133cW45s3r&tab=doc#/doc/?type=model&url=2979031\")",
+      "Bash(curl *)",
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python3 *)"
+    ]
+  }
+}

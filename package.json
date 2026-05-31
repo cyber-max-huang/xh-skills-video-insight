@@ -1,0 +1,28 @@
+{
+  "name": "xh-skills-video-insight",
+  "version": "1.0.0",
+  "description": "Video insight skill: extract subtitles and generate comprehensive video understanding reports using Alibaba Cloud Bailian models (Fun-ASR-MTL + Qwen3.6-Plus)",
+  "main": "src/pipeline.py",
+  "scripts": {
+    "analyze": "python3 src/pipeline.py",
+    "test": "python3 -m pytest tests/"
+  },
+  "keywords": [
+    "video",
+    "insight",
+    "subtitle",
+    "asr",
+    "speech-recognition",
+    "video-understanding",
+    "qwen",
+    "fun-asr",
+    "bailian",
+    "claude-code-skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
