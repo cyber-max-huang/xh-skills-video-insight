@@ -1,10 +1,9 @@
 """
-Visual path: Video understanding via Qwen3.6-Plus.
+视觉路径：通过 Qwen3.6-Plus 进行视频画面理解。
 
-Uses the Alibaba Cloud Bailian visual understanding model to analyze
-video frames and produce timestamped scene descriptions.
+使用阿里云百炼视觉理解模型分析视频帧，生成带时间戳的场景描述。
 
-API reference: https://help.aliyun.com/zh/model-studio/vision
+接口文档：https://help.aliyun.com/zh/model-studio/vision
 """
 
 import json
@@ -13,9 +12,9 @@ import re
 from openai import OpenAI
 
 try:
-    from .utils import get_api_key, get_base_url, logger
+    from .utils import get_api_key, get_base_url, logger, retry_with_backoff
 except ImportError:
-    from utils import get_api_key, get_base_url, logger
+    from utils import get_api_key, get_base_url, logger, retry_with_backoff
 
 # Prompt template for structured video analysis
 VISION_PROMPT = """请详细分析这个视频的内容。按时间顺序描述每个主要场景或事件段落。
@@ -61,33 +60,46 @@ def analyze(video_url: str, fps: float = 1.0) -> list[dict]:
     api_key = get_api_key()
     base_url = get_base_url()
 
-    logger.info(f"Submitting video for visual analysis: {video_url}")
-    logger.info(f"Model: qwen3.6-plus, fps: {fps}")
+    logger.info(f"提交视频视觉分析: {video_url}")
+    logger.info(f"模型: qwen3.6-plus, fps: {fps}, max_tokens: 8192")
 
     client = OpenAI(api_key=api_key, base_url=base_url)
 
-    completion = client.chat.completions.create(
-        model="qwen3.6-plus",
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "video_url",
-                        "video_url": {"url": video_url},
-                        "fps": fps,
-                    },
-                    {"type": "text", "text": VISION_PROMPT},
-                ],
-            }
-        ],
+    def _call_vision_api():
+        return client.chat.completions.create(
+            model="qwen3.6-plus",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "video_url",
+                            "video_url": {"url": video_url},
+                            "fps": fps,
+                        },
+                        {"type": "text", "text": VISION_PROMPT},
+                    ],
+                }
+            ],
+            max_tokens=8192,
+            temperature=0.3,
+        )
+
+    completion = retry_with_backoff(
+        func=_call_vision_api,
+        max_retries=3,
+        base_delay=2.0,
+        retryable_errors=(Exception,),
     )
 
+    if not completion.choices or not completion.choices[0].message.content:
+        raise RuntimeError("视觉模型返回了空结果，请检查视频是否可访问或重试")
+
     raw_text = completion.choices[0].message.content
-    logger.info(f"Vision model returned {len(raw_text)} characters")
+    logger.info(f"视觉模型返回 {len(raw_text)} 字符")
 
     scenes = _parse_scene_json(raw_text)
-    logger.info(f"Parsed {len(scenes)} scene segments")
+    logger.info(f"解析到 {len(scenes)} 个场景段落")
 
     return scenes
 
@@ -108,14 +120,14 @@ def _parse_scene_json(text: str) -> list[dict]:
         # Try to extract JSON array from text
         match = re.search(r"\[.*\]", text, re.DOTALL)
         if not match:
-            logger.error(f"Failed to parse vision response as JSON. Raw text:\n{text[:500]}")
+            logger.error(f"无法将视觉响应解析为 JSON。原始文本:\n{text[:500]}")
             return [{"start_time": "00:00:00", "end_time": "00:00:00",
                      "start_sec": 0, "end_sec": 0,
                      "description": text}]
         try:
             raw_scenes = json.loads(match.group())
         except json.JSONDecodeError:
-            logger.error(f"Failed to parse extracted JSON. Raw text:\n{text[:500]}")
+            logger.error(f"无法解析提取的 JSON。原始文本:\n{text[:500]}")
             return [{"start_time": "00:00:00", "end_time": "00:00:00",
                      "start_sec": 0, "end_sec": 0,
                      "description": text}]

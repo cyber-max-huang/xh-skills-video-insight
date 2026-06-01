@@ -1,15 +1,14 @@
 """
-Report generation: Align ASR and vision results, produce SRT subtitles
-and a comprehensive Markdown video understanding report.
+报告生成：对齐 ASR 和视觉分析结果，生成 SRT 字幕文件和综合 Markdown 视频理解报告。
 """
 
 import json
 from openai import OpenAI
 
 try:
-    from .utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger
+    from .utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger, retry_with_backoff
 except ImportError:
-    from utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger
+    from utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger, retry_with_backoff
 
 # System prompt for the final video understanding report
 REPORT_SYSTEM_PROMPT = """你是一个专业的视频内容分析助手。你会收到同一段视频的两份信息：
@@ -20,9 +19,10 @@ REPORT_SYSTEM_PROMPT = """你是一个专业的视频内容分析助手。你会
 你的任务是综合这两份信息，生成一份完整的视频理解报告。
 
 在分析时请遵循以下原则：
-- 将字幕和画面在时间轴上对齐，同一个时间窗口里，说了什么、画面展现了什么，结合起来理解
-- 如果字幕和画面存在呼应关系（比如说话内容在解释画面中的事物），请明确指出
-- 对于没有字幕的时间段，仅根据画面内容进行描述
+- 将语音和画面在时间轴上对齐，同一个时间窗口里，说了什么、画面展现了什么，结合起来理解
+- 如果语音和画面存在呼应关系（比如说话内容在解释画面中的事物），请明确指出
+- 对于没有语音的时间段，仅根据画面内容进行描述
+- 描述要具体、有细节，避免空洞和泛泛而谈
 
 请严格按照以下结构输出报告（Markdown 格式），以 `# 视频理解报告` 开头：
 
@@ -32,7 +32,7 @@ REPORT_SYSTEM_PROMPT = """你是一个专业的视频内容分析助手。你会
 - **视频主题**：[一句话概括]
 - **视频时长**：[估算的总时长]
 - **内容类型**：[教学/演讲/娱乐/新闻/Vlog/产品介绍/其他]
-- **语言**：[语种]
+- **语言**：[使用的语言]
 - **整体风格**：[正式/轻松/专业/生活化等]
 
 ## 分段详解
@@ -45,7 +45,7 @@ REPORT_SYSTEM_PROMPT = """你是一个专业的视频内容分析助手。你会
 - **关键细节**：值得关注的画面细节、语气变化、场景切换等
 
 ## 关键节点
-（列出视频中最重要的3-8个关键时刻）
+（列出视频中最重要的3-8个关键时刻，以表格形式呈现）
 
 | 时间戳 | 节点描述 | 重要性说明 |
 |--------|---------|-----------|
@@ -54,16 +54,31 @@ REPORT_SYSTEM_PROMPT = """你是一个专业的视频内容分析助手。你会
 
 
 # System prompt for the "内容详情" article — pure text rewrite of video content
-CONTENT_DETAIL_SYSTEM_PROMPT = """你是一个专业的内容写作者。你会收到一段视频的综合分析数据（包含语音转写和画面描述），你的任务是把这些信息改写为一篇纯文字文章。
+CONTENT_DETAIL_SYSTEM_PROMPT = """你是一个专业的内容写作者。你会收到一段视频的综合分析数据（包含语音转写和画面描述），你的任务是把这些信息改写为一篇纯文字的知识文章。
 
-要求：
-1. **纯文字表达**：文章中不能出现"画面"、"视频"、"时间戳"、"镜头"、"屏幕"等与视频格式相关的词汇，就像在写一篇知识文章
-2. **高度还原**：尽可能详细地还原视频中传达的所有知识点、观点、案例和数据，不要遗漏重要信息
-3. **结构清晰**：按照以下结构组织文章：
-   - 第一部分：主题概述（对应视频概要）
-   - 第二部分：详细内容（对应分段详解，按内容的逻辑层次展开，不要分段标题中出现时间信息）
-   - 第三部分：核心要点（对应关键节点，总结最核心的观点）
-4. **语言风格**：以视频中的语言为主，保持专业准确的同时兼顾可读性
+## 核心规则
+
+### 1. 纯文字表达
+文章中绝对不能出现"画面"、"视频"、"时间戳"、"镜头"、"屏幕"、"帧"、"片段"等与视频格式相关的词汇。写作时应当假设读者根本不知道这来源于一段视频，就像在读一篇独立的知识文章。
+
+### 2. 高度还原
+尽可能详细地还原视频中传达的所有知识点、观点、案例、数据和推理过程。不要遗漏重要信息。数字、公式、评分标准等具体数据要原样保留。对于案例部分（如隔离器的DFMEA/PFMEA分析），要完整再现每个字段的值和含义。
+
+### 3. 灵活运用格式增强可读性
+- 当涉及对比性内容时（如DFMEA vs PFMEA），优先使用表格呈现，让读者一目了然
+- 当罗列要点、步骤、要素时，使用列表清晰呈现
+- 对于公式、关键定义、重要结论，使用引用块（>）突出展示
+- 示例数据（如RPN计算过程）用表格逐字段展示最为清晰
+- 适当使用加粗强调核心概念和关键术语
+
+### 4. 结构清晰
+按照以下结构组织文章：
+- 第一部分：主题概述（对应视频概要，让读者快速了解这篇文章讲什么）
+- 第二部分：详细内容（对应分段详解，按内容的逻辑层次展开，分段标题中不出现时间信息，而是基于知识脉络来切分章节）
+- 第三部分：核心要点（对应关键节点，总结最核心的几个观点，不含时间信息）
+
+### 5. 语言风格
+以视频中的主要语言为准，保持专业准确的同时兼顾可读性。对专业术语在首次出现时给出全称。让文章既经得起专业读者的审视，也便于初学者理解。
 
 请以 Markdown 格式输出，文章标题用 `# 内容详情`。"""
 
@@ -72,7 +87,7 @@ def generate_content_detail(
     asr_result: dict,
     vision_scenes: list[dict],
     video_url: str,
-    model: str = "qwen-plus",
+    model: str = "qwen3.7-max",
 ) -> str:
     """
     Generate a pure-text article rewriting the video content.
@@ -89,10 +104,10 @@ def generate_content_detail(
     api_key = get_api_key()
     base_url = get_base_url()
 
-    logger.info("Building aligned data for content detail article...")
+    logger.info("正在构建内容详情对齐数据...")
     aligned_text = _build_aligned_view(asr_result, vision_scenes)
 
-    logger.info(f"Generating content detail article using model: {model}")
+    logger.info(f"正在生成内容详情文章，模型: {model}, max_tokens: 16384")
     client = OpenAI(api_key=api_key, base_url=base_url)
 
     user_prompt = f"""以下是一段视频的逐时间窗口对齐数据，包含语音转写和画面描述：
@@ -103,16 +118,29 @@ def generate_content_detail(
 
 请根据以上信息，生成内容详情文章。记住：纯文字表达，不要出现画面/视频/时间戳等词汇，尽量详细还原所有知识点。"""
 
-    completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": CONTENT_DETAIL_SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ],
+    def _call_content_detail_api():
+        return client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": CONTENT_DETAIL_SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_tokens=16384,
+            temperature=0.3,
+        )
+
+    completion = retry_with_backoff(
+        func=_call_content_detail_api,
+        max_retries=3,
+        base_delay=2.0,
+        retryable_errors=(Exception,),
     )
 
+    if not completion.choices or not completion.choices[0].message.content:
+        raise RuntimeError("内容详情生成模型返回了空结果，请重试")
+
     article = completion.choices[0].message.content
-    logger.info(f"Content detail article generated: {len(article)} characters")
+    logger.info(f"内容详情文章已生成: {len(article)} 字符")
     return article
 
 
@@ -120,7 +148,7 @@ def generate_report(
     asr_result: dict,
     vision_scenes: list[dict],
     video_url: str,
-    model: str = "qwen-plus",
+    model: str = "qwen3.7-max",
 ) -> str:
     """
     Generate a comprehensive video understanding report.
@@ -137,10 +165,10 @@ def generate_report(
     api_key = get_api_key()
     base_url = get_base_url()
 
-    logger.info("Aligning ASR and vision data on time axis...")
+    logger.info("正在将 ASR 和视觉数据按时间轴对齐...")
     aligned_text = _build_aligned_view(asr_result, vision_scenes)
 
-    logger.info(f"Generating report using model: {model}")
+    logger.info(f"正在生成视频理解报告，模型: {model}, max_tokens: 16384")
     client = OpenAI(api_key=api_key, base_url=base_url)
 
     user_prompt = f"""以下是一段视频的逐时间窗口对齐数据，包含语音转写和画面描述：
@@ -151,24 +179,42 @@ def generate_report(
 
 请根据以上信息，生成视频理解报告。"""
 
-    completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": REPORT_SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ],
+    def _call_report_api():
+        return client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": REPORT_SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+            max_tokens=16384,
+            temperature=0.3,
+        )
+
+    completion = retry_with_backoff(
+        func=_call_report_api,
+        max_retries=3,
+        base_delay=2.0,
+        retryable_errors=(Exception,),
     )
 
+    if not completion.choices or not completion.choices[0].message.content:
+        raise RuntimeError("报告生成模型返回了空结果，请重试")
+
     report = completion.choices[0].message.content
-    logger.info(f"Report generated: {len(report)} characters")
+    logger.info(f"报告已生成: {len(report)} 字符")
     return report
 
 
 def _build_aligned_view(asr_result: dict, vision_scenes: list[dict]) -> str:
     """
-    Build a time-aligned text view merging ASR and vision data.
+    构建 ASR 和视觉数据在时间轴上的对齐视图。
 
-    For each time window, interleave what was spoken and what was shown.
+    以视觉场景时间窗口为主轴，将同一时间窗口内的语音内容与画面描述
+    合并输出，形成可供 LLM 理解的「此时画面是什么 + 此时在说什么」的
+    结构化文本。该文本直接嵌入 user prompt 喂给报告生成模型，用于生成
+    视频理解报告（video_insight_report.md）和内容详情文章（content_detail.md）。
+
+    注意：此函数产出的文本仅作为 LLM 的输入上下文，不单独落盘。
     """
     sentences = asr_result.get("sentences", [])
 
@@ -290,4 +336,4 @@ def save_results(
     debug_path = os.path.join(output_dir, "pipeline_debug.json")
     save_text_file(debug_path, json.dumps(debug_data, ensure_ascii=False, indent=2))
 
-    logger.info(f"All outputs saved to: {output_dir}")
+    logger.info(f"所有输出已保存至: {output_dir}")

@@ -1,0 +1,739 @@
+1
+00:00:00,000 --> 00:00:02,040
+Hey guys, Andy here with CQE Academy.
+
+2
+00:00:02,280 --> 00:00:07,120
+And in today's video, I want to talk about a really important topic, which is the seven QC tools.
+
+3
+00:00:07,640 --> 00:00:18,160
+Now, whether you just want to get better at work and use these tools in your everyday job, or you're preparing for something like the Green Belt exam or the Black Belt exam or the CQE exam, today's lecture is for you.
+
+4
+00:00:18,440 --> 00:00:20,040
+All right, let's hit it with the computer and get started.
+
+5
+00:00:20,840 --> 00:00:22,760
+All right, let's go ahead and jump in right into the agenda.
+
+6
+00:00:23,240 --> 00:00:30,960
+So we're going to start with a brief intro of the seven QC tools, kind of talk about all of them and how they fit into the problem-solving process or the improvement process.
+
+7
+00:00:31,320 --> 00:00:32,640
+And then we're going to go through each one.
+
+8
+00:00:32,680 --> 00:00:40,120
+We're going to start the flow chart, the check sheet, the Pareto chart, the cause and effect diagram, scatter diagram, histogram, and then the control charts.
+
+9
+00:00:40,160 --> 00:00:49,360
+And then along the way as we go through this, we're actually going to work a problem using all seven tools, and we're going to reduce the number of defects associated with our toaster.
+
+10
+00:00:49,760 --> 00:00:50,520
+All right, let's go and get started.
+
+11
+00:00:50,880 --> 00:00:55,440
+So the seven QC tools, I love this quote from Keoru Ishikawa who said.
+
+12
+00:00:55,500 --> 00:01:03,140
+As much as 95% of quality problems can be solved with seven fundamental tools, and I absolutely agree with that.
+
+13
+00:01:03,260 --> 00:01:11,260
+I think these tools are probably the seven most powerful tools, whether you're talking about green belt or black belt or quality engineering.
+
+14
+00:01:11,380 --> 00:01:17,740
+It doesn't matter; these seven tools are incredibly powerful for solving problems and making improvements.
+
+15
+00:01:18,220 --> 00:01:19,580
+And this is a really important topic.
+
+16
+00:01:19,860 --> 00:01:26,660
+By the way, as we go through this, I'll make sure to talk about where we're at in something like the plan-do-check-act or the Deming cycle.
+
+17
+00:01:26,920 --> 00:01:32,640
+We're going to solve a problem with our toaster and we'll use either the DMAIC or the Plan-Do-Check-Act process to do it.
+
+18
+00:01:33,480 --> 00:01:34,120
+All right, let's get into it.
+
+19
+00:01:34,560 --> 00:01:37,200
+All right, so the very first tool is the flowchart.
+
+20
+00:01:37,520 --> 00:01:44,200
+And what a flowchart does is it's a visual tool that helps you depict the flow or the sequence of a process.
+
+21
+00:01:44,240 --> 00:01:49,640
+This could be things like the flow of information or the flow of tasks or material or people or decisions.
+
+22
+00:01:50,000 --> 00:01:50,920
+It doesn't matter.
+
+23
+00:01:50,960 --> 00:02:21,480
+The reason that a flowchart is so incredibly valuable is it makes a really complex process simple and it promotes a common understanding of a process anytime you get more than one person in a room to talk about a process there's likely going to be disagreement about how the process works and I love using this analogy oftentimes when we sit down to analyze a process there's what management thinks is happening there's what the procedure says is happening there's what's actually happening on the production floor and then there's what could be happening.
+
+24
+00:02:21,540 --> 00:02:28,140
+And the beauty of a flowchart is it does just that, it gets everyone on the same page about what's actually happening.
+
+25
+00:02:28,180 --> 00:02:29,980
+And I love this quote from Dr.
+
+26
+00:02:30,060 --> 00:02:35,940
+Deming who said, "If you can't describe what you're doing as a process, you don't know what you're doing.
+
+27
+00:02:35,960 --> 00:02:40,060
+" And the best way to describe what you're doing is to use a flowchart.
+
+28
+00:02:40,380 --> 00:02:41,780
+And that's why this tool is so powerful.
+
+29
+00:02:41,900 --> 00:02:52,780
+If you're in the planning phase or the define phase, it's really good to use a flowchart, define your process and then use that flowchart to plan out your experiment and plan out how you're going to make an improvement.
+
+30
+00:02:53,060 --> 00:03:17,900
+So let's do just that, let's say we're talking about our toaster and we want to make an improvement right and so the first thing we're going to do is we're going to start with the boundaries we want to analyze a process but we want to start with the boundaries first so we're going to go from receiving a work order to completing a work order that's the boundaries of our flow chart now I've got the team here because all of these activities all these tools are all team based so imagine you're sitting down with your team and the first thing you're going to do is brainstorm.
+
+31
+00:03:18,700 --> 00:03:20,540
+All of the steps in the process, right?
+
+32
+00:03:20,860 --> 00:03:21,660
+Talk to the experts.
+
+33
+00:03:21,780 --> 00:03:22,900
+How does the process work?
+
+34
+00:03:23,380 --> 00:03:24,540
+Use post-it notes, right?
+
+35
+00:03:24,580 --> 00:03:25,740
+Don't try to do this in some software.
+
+36
+00:03:26,380 --> 00:03:28,380
+Use post-it notes, write down all the activities.
+
+37
+00:03:28,420 --> 00:03:37,220
+And then once you're done brainstorming, organize those thoughts into that logical flow or that logical sequence of activities for your process.
+
+38
+00:03:37,260 --> 00:03:41,540
+And now that we have our process here, we're in that planning phase and we want to create a target, right?
+
+39
+00:03:41,740 --> 00:03:43,420
+What sort of improvement are we going to make?
+
+40
+00:03:43,460 --> 00:03:46,660
+And we want to reduce defects by twenty five percent.
+
+41
+00:03:46,740 --> 00:03:50,540
+Now, we can't make an improvement and we can't solve a problem without data.
+
+42
+00:03:50,860 --> 00:03:53,900
+And we know that most of our defects happen during final testing.
+
+43
+00:03:54,380 --> 00:03:56,740
+So now we need to collect a little bit of data.
+
+44
+00:03:56,780 --> 00:03:58,700
+And this is where the check sheet comes into play.
+
+45
+00:03:58,940 --> 00:04:04,580
+So the check sheet is a very simple tool for collecting, organizing and analyzing data.
+
+46
+00:04:05,100 --> 00:04:09,100
+Every problem you solve or every improvement you make should be based on data.
+
+47
+00:04:09,140 --> 00:04:13,020
+And the check sheet is probably the most powerful tool for collecting data.
+
+48
+00:04:13,160 --> 00:04:37,440
+There's something wrong with the check sheet that I'm showing you here on the screen and that problem is it doesn't have any metadata if you're collecting data and you want to make a high quality decision using that data, you also need metadata so when you're creating your check sheet don't forget to include things like who and when and where all those key elements of data integrity and data accuracy are really important for making high quality decisions.
+
+49
+00:04:37,460 --> 00:04:40,820
+Okay, so we've got the team together and again we did a little bit more brainstorming.
+
+50
+00:04:40,900 --> 00:04:45,180
+We said okay, at final testing we have eight defects that we want to collect some data on.
+
+51
+00:04:45,260 --> 00:04:52,860
+So we create this check sheet, we've got our metadata here, we hand this off to the team and they come back to us a week later with a bunch of data.
+
+52
+00:04:52,900 --> 00:04:59,740
+Now this is fantastic, we finally have some data that we can analyze and the question is which defect do we focus on?
+
+53
+00:05:00,260 --> 00:05:01,420
+I want to improve our target.
+
+54
+00:05:01,620 --> 00:05:02,700
+So we originally said.
+
+55
+00:05:03,000 --> 00:05:05,220
+We want to reduce defects by 25%.
+
+56
+00:05:05,600 --> 00:05:08,640
+Well, now that we have a little bit of data, we can actually create a target.
+
+57
+00:05:08,680 --> 00:05:12,440
+So, we have 145 defects across a whole week—that's seven days.
+
+58
+00:05:12,480 --> 00:05:17,240
+That means we're averaging about 20 to 21 defects per day.
+
+59
+00:05:17,280 --> 00:05:23,480
+Now, if we can reduce that by 25%, we will eliminate five defects per day.
+
+60
+00:05:23,520 --> 00:05:29,600
+Now, we obviously can't focus on all these defects, so the real question is: how do we know what to focus on?
+
+61
+00:05:29,660 --> 00:05:31,940
+And that's where the Pareto chart comes into play.
+
+62
+00:05:32,180 --> 00:05:39,980
+So, the Pareto chart is another QC tool that allows you to analyze your data in search of the Pareto principle.
+
+63
+00:05:40,500 --> 00:05:41,380
+What is the Pareto rule?
+
+64
+00:05:41,500 --> 00:05:43,020
+What is this 80/20 rule?
+
+65
+00:05:43,580 --> 00:05:55,540
+This is a natural phenomenon discovered by a guy named Vilfredo Pareto, an Italian researcher studying land ownership and wealth distribution in Italy and Europe.
+
+66
+00:05:55,700 --> 00:06:00,460
+He found that 80% of the land was owned by 20% of the people.
+
+67
+00:06:00,480 --> 00:06:06,520
+And this 80-20 rule and this 80-20 phenomenon was also experienced by a guy named Joseph Juran.
+
+68
+00:06:06,920 --> 00:06:14,360
+Now, he gave credit for the tool to Vilfredo Pareto, but he was the one who popularized this idea of the 80-20 rule and this idea of the Pareto chart.
+
+69
+00:06:14,840 --> 00:06:21,480
+And what he told us and what he taught us is that a Pareto chart helps you separate the vital few from the trivial many.
+
+70
+00:06:21,640 --> 00:06:22,680
+Now, what did Juran mean?
+
+71
+00:06:23,000 --> 00:06:26,440
+What he means is when you're solving a problem, there's often one or two.
+
+72
+00:06:27,180 --> 00:06:35,020
+Key issues, key root causes or key defects that you need to focus on to have a major impact on that particular situation.
+
+73
+00:06:35,060 --> 00:06:39,940
+And that's exactly what you see here when we take our data from the check sheet and we put it into this Pareto chart.
+
+74
+00:06:40,300 --> 00:06:46,500
+We see that control PCB issues accounts for nearly forty percent of our defects.
+
+75
+00:06:46,540 --> 00:06:51,660
+You can see if we come across here, we've got forty percent of our defects coming directly from control PCB.
+
+76
+00:06:52,220 --> 00:06:53,580
+Now there's two things happening on this graph.
+
+77
+00:06:53,780 --> 00:06:59,620
+Obviously, there's the blue bars which are simply just the frequency or the count of defects that occurred throughout the week.
+
+78
+00:06:59,640 --> 00:07:04,880
+And then this black bar is actually the cumulative line, so this first defect accounts for 40 percent.
+
+79
+00:07:04,920 --> 00:07:06,920
+And then we go up and up and up all the way to 100 percent.
+
+80
+00:07:07,600 --> 00:07:12,400
+Now that we have this Pareto analysis, we know that control PCB is our primary issue.
+
+81
+00:07:12,560 --> 00:07:14,560
+It tells us what to focus on now.
+
+82
+00:07:14,600 --> 00:07:21,240
+We still don't understand why these issues are happening, and this is where something like the cause and effect diagram can be incredibly useful.
+
+83
+00:07:21,560 --> 00:07:24,840
+So this is the fishbone diagram or the Ishikawa diagram.
+
+84
+00:07:24,980 --> 00:07:28,220
+There's all sorts of different names for it, but it is a cause and effect diagram.
+
+85
+00:07:28,380 --> 00:07:33,580
+And the way this works is we start with the effect that's over here on the right, that's the head of the fish here in orange.
+
+86
+00:07:33,620 --> 00:07:34,580
+This is our effect.
+
+87
+00:07:34,940 --> 00:07:40,380
+And so step one of the cause and effect diagram is to start with a really well written problem statement.
+
+88
+00:07:40,900 --> 00:07:47,180
+So I put in PCB failures, but in reality you want to have a much more descriptive problem statement than this.
+
+89
+00:07:47,220 --> 00:07:52,100
+And once you have this effect, you can start working through the fishbone process.
+
+90
+00:07:52,420 --> 00:07:55,700
+To analyze all of the potential causes and failures.
+
+91
+00:07:55,780 --> 00:08:03,900
+Now, I'm showing here what's called the eight M's, and this is the beauty of the fishbone process is that it's a well structured approach to root cause analysis.
+
+92
+00:08:04,500 --> 00:08:12,820
+It forces you to think about all of the potential different categories or scenarios or causes that might be contributing to your problem.
+
+93
+00:08:13,460 --> 00:08:17,620
+Now, along with the cause and effect diagram are a number of tools that you should be using.
+
+94
+00:08:17,760 --> 00:08:28,440
+I would recommend you get out your flow chart, look at your process, use your flow chart and ask yourself how might each step in the process fail and contribute to the effect that we're seeing.
+
+95
+00:08:29,040 --> 00:08:30,520
+Teamwork is also a must here.
+
+96
+00:08:31,000 --> 00:08:44,840
+You're not going to be a subject matter expert in all of those eight M's and you need people from operations and engineering and quality and R&D and marketing and maintenance to really do a thorough analysis in each of those areas to truly understand the root cause.
+
+97
+00:08:45,120 --> 00:08:50,080
+And then of course brainstorming, you know, you're going to have to creatively think about and talk about and discuss.
+
+98
+00:08:50,120 --> 00:08:54,640
+Potential root causes that maybe you're not even aware of, and then the 5Y analysis.
+
+99
+00:08:54,800 --> 00:09:04,600
+I love the 5Ys; it really helps you go from a high-level symptom down to the true root cause and really ask why, why, why to truly get to those real root causes that you need to address.
+
+100
+00:09:05,320 --> 00:09:14,000
+And then as you have that team discussion and you go through the process, you can identify potential root causes and contributing factors to the problem you're trying to solve.
+
+101
+00:09:14,560 --> 00:09:21,040
+Now obviously again, we have to go back to that pretty principle: we can't focus on everything; we have to talk about the most.
+
+102
+00:09:21,080 --> 00:09:24,240
+likely root causes and the most likely contributing factors.
+
+103
+00:09:24,560 --> 00:09:30,040
+So again, at the end of your cause and effect diagram, you might identify three or four issues that you need to study further.
+
+104
+00:09:30,080 --> 00:09:33,000
+Now I want to talk about this one: high humidity during assembly.
+
+105
+00:09:33,720 --> 00:09:41,600
+Now as we were working through the cause and effect diagram process, the engineer who was helping us looked at our check sheet and noticed an interesting pattern.
+
+106
+00:09:42,720 --> 00:09:46,720
+What they noticed here, and I've highlighted it here in yellow, Is it Sunday, Monday, Tuesday?
+
+107
+00:09:47,000 --> 00:09:48,760
+We only had a few defects, right?
+
+108
+00:09:48,840 --> 00:09:50,280
+Six and four and one.
+
+109
+00:09:50,400 --> 00:09:54,520
+Whereas on Wednesday, Thursday, Friday, you'll notice that our defect rate jumped up a little bit.
+
+110
+00:09:54,920 --> 00:10:02,040
+And what the engineer remembered is that we had a rainstorm come through on Tuesday night, and the humidity level in the facility really jumped up.
+
+111
+00:10:02,080 --> 00:10:07,040
+And so what the hypothesis here is that humidity is affecting our defect rate.
+
+112
+00:10:07,280 --> 00:10:12,120
+So I created this little table here to show the days of the week along with the defects.
+
+113
+00:10:12,220 --> 00:10:18,140
+And the humidity now to truly understand this relationship, we have to create a scatter diagram.
+
+114
+00:10:19,180 --> 00:10:21,780
+So here's exactly what that scatter diagram looks like.
+
+115
+00:10:22,260 --> 00:10:24,540
+What we do here is we're plotting pairs of data.
+
+116
+00:10:24,900 --> 00:10:28,860
+So for example, on Sunday, we had six defects and 18% humidity.
+
+117
+00:10:29,540 --> 00:10:30,500
+You can see that right here.
+
+118
+00:10:30,540 --> 00:10:31,460
+That's this data point right here.
+
+119
+00:10:31,540 --> 00:10:33,820
+We had six defects, 18% humidity.
+
+120
+00:10:34,420 --> 00:10:38,780
+Now the way this scatter diagram works, or you might hear this called an XY scatter plot.
+
+121
+00:10:38,880 --> 00:10:46,120
+Here on the X axis, we put our controllable variable, our independent variable, and then on the Y axis, we put our response variable.
+
+122
+00:10:46,680 --> 00:10:54,400
+So here we believe that relative humidity is the independent variable that is affecting our response variable, which is defects.
+
+123
+00:10:54,720 --> 00:11:01,240
+And you can see here that there appears to be some relationship between PCB failures and humidity.
+
+124
+00:11:01,840 --> 00:11:07,880
+Now it's really important when you're looking at a scatter diagram not to assume that this relationship is a causal relationship.
+
+125
+00:11:08,120 --> 00:11:09,560
+There's this really important concept.
+
+126
+00:11:09,600 --> 00:11:12,840
+That you can have correlation without causation.
+
+127
+00:11:12,960 --> 00:11:17,400
+Two parameters or two variables can correlate without having a cause and effect relationship.
+
+128
+00:11:18,040 --> 00:11:25,800
+So let's assume though, let's assume that we've done a DOE here and we've proven that humidity has an effect on our PCB defects.
+
+129
+00:11:26,320 --> 00:11:28,000
+We could come back to the scatter diagram.
+
+130
+00:11:28,280 --> 00:11:32,960
+We could say, okay, our target for PCB defects is five or less.
+
+131
+00:11:33,080 --> 00:11:34,880
+Let's call it, let's call it five or less.
+
+132
+00:11:34,920 --> 00:11:42,840
+And so we come down here to humidity and say, okay, we want to control humidity to around 20% to keep our defects low.
+
+133
+00:11:43,280 --> 00:11:43,800
+Does that make sense?
+
+134
+00:11:44,200 --> 00:11:50,360
+And this is a great way; a scatter diagram is a great way to understand the relationship between two possible variables.
+
+135
+00:11:50,800 --> 00:11:55,600
+Now, once you've done your scatter diagram, you can quantify the relationship between those two variables.
+
+136
+00:11:55,920 --> 00:11:58,920
+So what I'm showing here is the Pearson correlation coefficient.
+
+137
+00:11:59,000 --> 00:12:05,240
+And this coefficient ranges from positive one all the way over here on the left to negative one all the way over here on the right.
+
+138
+00:12:05,600 --> 00:12:11,560
+And that ranges from a perfectly positive correlation here, you can see that as x changes, y changes identically.
+
+139
+00:12:12,040 --> 00:12:15,600
+And then same thing here with r equals minus one, this is a perfect negative correlation.
+
+140
+00:12:16,360 --> 00:12:19,760
+Now, as we get closer to zero, we start to lose that relationship.
+
+141
+00:12:20,120 --> 00:12:24,840
+So an R value of zero means there's no correlation between those two parameters.
+
+142
+00:12:25,000 --> 00:12:28,040
+As X changes, Y basically does whatever it wants.
+
+143
+00:12:28,080 --> 00:12:29,880
+There's no relationship between those two variables.
+
+144
+00:12:30,320 --> 00:12:35,600
+Now the next thing we could do in our analysis is to look at relative humidity over time.
+
+145
+00:12:36,160 --> 00:12:52,840
+So let's say we go out, we talk to our facilities engineers, we say okay, give us the relative humidity within our environment every six hours for the last six months and we can take that data and we want to plot it because we need to understand how relative humidity is changing within our facility.
+
+146
+00:12:53,000 --> 00:12:55,960
+One of the ways you could analyze that data is with a histogram.
+
+147
+00:12:56,360 --> 00:13:02,560
+So, a histogram is just a very simple bar chart that graphs the frequency of occurrence of continuous data.
+
+148
+00:13:03,160 --> 00:13:06,160
+And again, this is a great way to talk about your process.
+
+149
+00:13:06,200 --> 00:13:14,920
+Every process or every product or every quality attribute out there has some level of random normal variation that will often occur in a pattern.
+
+150
+00:13:15,360 --> 00:13:21,320
+And as engineers, we need to understand what is the pattern associated with our outputs or our process.
+
+151
+00:13:21,360 --> 00:13:26,800
+And a histogram is a great way to understand the pattern or the variation in your process.
+
+152
+00:13:27,220 --> 00:13:57,180
+Now you might grab this data and you might get like a skewed distribution or maybe a bimodal distribution or an exponential distribution there's all sorts of distributions you might get but it's great to know how your process is behaving now the other beautiful part about a histogram is you can take this data and let's overlay some specification limits right now what we have is the beginnings of process capability so the histogram is a fantastic tool to quantify and understand how your process behaves.
+
+153
+00:13:57,260 --> 00:14:02,020
+And if you compare that against the specification limits, we can now start talking about process capability.
+
+154
+00:14:03,100 --> 00:14:05,700
+Okay, so we're on to the very last and final QC tool.
+
+155
+00:14:06,140 --> 00:14:12,980
+Let's assume we now control for humidity and we want to make sure that that change has been effective over time.
+
+156
+00:14:13,020 --> 00:14:16,460
+A control chart is the right tool or the perfect tool to do that.
+
+157
+00:14:16,500 --> 00:14:17,620
+So what is a control chart?
+
+158
+00:14:17,980 --> 00:14:23,100
+It is essentially a tool that allows you to confirm that your process is in control.
+
+159
+00:14:23,800 --> 00:14:28,280
+Now when I say in control, what I mean is that you're only experiencing normal variation.
+
+160
+00:14:28,720 --> 00:14:35,320
+When your process is experiencing normal cause variation, your data should fall within those control limits.
+
+161
+00:14:35,960 --> 00:14:39,480
+By the way, if you're new to SPC, I have a whole separate video on control charts.
+
+162
+00:14:39,560 --> 00:14:40,280
+You can go check it out.
+
+163
+00:14:40,440 --> 00:14:43,400
+I've got both the X-bar and R chart as well as attribute data.
+
+164
+00:14:43,440 --> 00:14:50,400
+And a control chart is a fantastic tool to use at the end of a project to monitor and control your process and make sure that your changes were effective.
+
+165
+00:14:50,980 --> 00:14:54,500
+And let's take a look at what this looks like for our particular process.
+
+166
+00:14:54,820 --> 00:14:55,860
+So here's our process, right?
+
+167
+00:14:55,980 --> 00:15:02,580
+The first week of data, you can see we're really all over the place and our control limits are really wide because we're not controlling for humidity.
+
+168
+00:15:03,140 --> 00:15:08,380
+And we've got all this data and you can see on average, we have about eight defects per day, right?
+
+169
+00:15:08,420 --> 00:15:09,740
+And we're really jumping around here.
+
+170
+00:15:09,780 --> 00:15:12,940
+And then let's say on day nine, we start controlling for relative humidity.
+
+171
+00:15:13,500 --> 00:15:16,140
+And we've got our control chart and we're collecting data.
+
+172
+00:15:16,260 --> 00:15:21,940
+You can see that for the next 20-plus days, our defect rate has dramatically fallen.
+
+173
+00:15:22,060 --> 00:15:26,180
+In fact, our new mean defects per day is around three.
+
+174
+00:15:26,620 --> 00:15:35,560
+So essentially, we've gone from eight defects per day down to three defects per day, and we've hit our target of reducing defects by 25%.
+
+175
+00:15:36,020 --> 00:15:41,980
+We've gone from 20-plus defects a day down to about 15, all by controlling relative humidity in our process.
+
+176
+00:15:42,520 --> 00:15:44,200
+Alright, that's it for today.
+
+177
+00:15:44,240 --> 00:15:44,960
+I hope you enjoyed it.
+
+178
+00:15:45,080 --> 00:15:46,480
+If you did, hit that like button.
+
+179
+00:15:46,960 --> 00:15:50,080
+Also, if you're serious about becoming a CQE, I've got a free course.
+
+180
+00:15:50,200 --> 00:15:51,880
+Go check it out at cqeacademy.
+
+181
+00:15:52,000 --> 00:15:59,600
+com/freecourse, where I cover the top 10 topics on the CQE exam and give you a bunch of great free practice exams to help you on that journey.
+
+182
+00:16:00,200 --> 00:16:01,120
+All right, I hope you enjoyed it.
+
+183
+00:16:01,160 --> 00:16:01,480
+Thanks so much!
+
+184
+00:16:01,520 --> 00:16:02,120
+I'll see you again.
+
+185
+00:16:02,440 --> 00:16:02,800
+Bye.

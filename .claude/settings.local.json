@@ -11,7 +11,11 @@
       "Bash(curl *)",
       "Bash(python3 -c ' *)",
       "Bash(pip install *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(rm -rf /Users/xiaohuang/Desktop/vibe_project/workflow/video_insight/scripts /Users/xiaohuang/Desktop/vibe_project/workflow/video_insight/tests)",
+      "Bash(rm /Users/xiaohuang/Desktop/vibe_project/workflow/video_insight/package.json)",
+      "Bash(export http_proxy=http://127.0.0.1:1087)",
+      "Bash(export https_proxy=http://127.0.0.1:1087)"
     ]
   }
 }

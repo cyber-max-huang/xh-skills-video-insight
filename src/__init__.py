@@ -1,3 +1,3 @@
-"""Video Insight Skill - package init."""
+"""视频洞察技能 — 包初始化。"""
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"

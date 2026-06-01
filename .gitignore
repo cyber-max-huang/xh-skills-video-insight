@@ -1,0 +1,19 @@
+# 环境变量（含 API Key，切勿提交到版本库）
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 输出目录
+video_insight_output/
+test_output/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db

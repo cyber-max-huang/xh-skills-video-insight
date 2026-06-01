@@ -1,18 +1,23 @@
 #!/usr/bin/env python3
 """
-Video Insight Pipeline — Main entry point.
+视频洞察流水线 — 主入口。
 
-Orchestrates the full video understanding workflow:
-  1. Speech recognition via Fun-ASR-MTL (audio path)
-  2. Visual analysis via Qwen3.6-Plus (visual path)
-  3. Time-aligned merging of both data streams
-  4. Generate SRT subtitles and Markdown video understanding report
+编排完整的视频理解工作流：
+  1. 语音识别（Fun-ASR-MTL，音频路径）
+  2. 视觉分析（Qwen3.6-Plus，视觉路径）
+  3. 时间对齐合并两条数据流
+  4. 生成 SRT 字幕和 Markdown 视频理解报告
 
-Usage:
-    python3 src/pipeline.py --url <video_url> [--output <output_dir>]
+单视频模式：
+    python3 src/pipeline.py --url <视频URL> [--output <输出目录>]
 
-Environment:
-    DASHSCOPE_API_KEY    Alibaba Cloud Bailian API key (required)
+批量模式：
+    python3 src/pipeline.py --batch <URL列表文件> [--output <父输出目录>]
+    python3 src/pipeline.py --batch <URL列表文件> --dry-run  # 预览模式
+
+配置：
+    在项目根目录 .env 文件中设置 DASHSCOPE_API_KEY（推荐）
+    或设置环境变量 DASHSCOPE_API_KEY
 """
 
 import argparse
@@ -25,80 +30,86 @@ try:
     from .asr import transcribe
     from .vision import analyze
     from .report import generate_report, generate_srt, generate_content_detail, save_results
-    from .utils import logger, save_text_file
+    from .utils import logger, save_text_file, extract_output_dirname
 except ImportError:
     from asr import transcribe
     from vision import analyze
     from report import generate_report, generate_srt, generate_content_detail, save_results
-    from utils import logger, save_text_file
+    from utils import logger, save_text_file, extract_output_dirname
 
 
-def run(video_url: str, output_dir: str = "./video_insight_output",
+def run(video_url: str, output_dir: str = None,
         fps: float = 1.0, language_hints: list[str] = None,
-        report_model: str = "qwen-plus") -> dict:
+        report_model: str = "qwen3.7-max") -> dict:
     """
-    Run the complete video insight pipeline.
+    运行完整的视频洞察流水线。
 
     Args:
-        video_url: Publicly accessible video URL.
-        output_dir: Directory to write output files.
-        fps: Frame extraction rate for visual analysis (0.1 - 10).
-        language_hints: Language codes for ASR, e.g. ['zh', 'en'].
-        report_model: Text model for final report generation.
+        video_url: 视频的公开访问 URL。
+        output_dir: 输出目录。默认从视频文件名自动生成。
+        fps: 视觉分析帧提取率（0.1 - 10）。
+        language_hints: ASR 语言代码，如 ['zh', 'en']。
+        report_model: 报告生成的文本模型。
 
     Returns:
-        Dict with paths to generated files:
+        包含生成文件路径的字典：
         {
             "srt_path": "...",
             "report_path": "...",
+            "detail_path": "...",
             "debug_path": "..."
         }
     """
     start_time = time.time()
 
+    # 未指定输出目录时，从视频 URL 自动提取文件名
+    if output_dir is None:
+        output_dir = extract_output_dirname(video_url)
+        logger.info(f"输出目录自动生成: {output_dir}")
+
     logger.info("=" * 60)
-    logger.info("Video Insight Pipeline - Starting")
-    logger.info(f"Video URL: {video_url}")
-    logger.info(f"Output dir: {output_dir}")
+    logger.info("视频洞察流水线 — 启动")
+    logger.info(f"视频 URL: {video_url}")
+    logger.info(f"输出目录: {output_dir}")
     logger.info("=" * 60)
 
-    # Step 1: Audio path — Speech Recognition via Fun-ASR-MTL
+    # 阶段一：音频路径 — Fun-ASR-MTL 语音识别
     logger.info("")
-    logger.info("[Step 1/3] Audio path: Speech recognition via Fun-ASR-MTL...")
+    logger.info("[阶段 1/3] 音频路径：Fun-ASR-MTL 语音识别...")
     asr_result = transcribe(video_url, language_hints=language_hints)
     asr_text = asr_result.get("full_text", "")
-    logger.info(f"[Step 1/3] Done. Transcribed {len(asr_text)} characters, "
-                f"{len(asr_result['sentences'])} sentences.")
+    logger.info(f"[阶段 1/3] 完成。转写 {len(asr_text)} 字符，"
+                f"{len(asr_result['sentences'])} 个句子。")
 
-    # Step 2: Visual path — Video understanding via Qwen3.6-Plus
+    # 阶段二：视觉路径 — Qwen3.6-Plus 视频画面分析
     logger.info("")
-    logger.info("[Step 2/3] Visual path: Video analysis via Qwen3.6-Plus...")
+    logger.info("[阶段 2/3] 视觉路径：Qwen3.6-Plus 视频画面分析...")
     vision_scenes = analyze(video_url, fps=fps)
-    logger.info(f"[Step 2/3] Done. Detected {len(vision_scenes)} scenes.")
+    logger.info(f"[阶段 2/3] 完成。检测到 {len(vision_scenes)} 个场景。")
 
-    # Step 3: Merge — Generate SRT + Report + Content Detail
+    # 阶段三：合并 — 生成 SRT 字幕 + 视频理解报告 + 内容详情
     logger.info("")
-    logger.info("[Step 3/3] Merging: Generating SRT subtitles, report, and content detail...")
+    logger.info("[阶段 3/3] 合并：生成 SRT 字幕、报告和内容详情...")
     srt_content = generate_srt(asr_result)
     report_content = generate_report(asr_result, vision_scenes, video_url,
                                      model=report_model)
     content_detail = generate_content_detail(asr_result, vision_scenes, video_url,
                                               model=report_model)
 
-    # Save all outputs
+    # 保存所有输出
     logger.info("")
-    logger.info("Saving outputs...")
+    logger.info("正在保存输出文件...")
     save_results(output_dir, srt_content, report_content, content_detail,
                  asr_result, vision_scenes, video_url)
 
     elapsed = time.time() - start_time
     logger.info("")
     logger.info("=" * 60)
-    logger.info(f"Pipeline complete in {elapsed:.1f}s")
-    logger.info(f"Subtitles:      {output_dir}/subtitles.srt")
-    logger.info(f"Report:         {output_dir}/video_insight_report.md")
-    logger.info(f"Content Detail: {output_dir}/content_detail.md")
-    logger.info(f"Debug data:     {output_dir}/pipeline_debug.json")
+    logger.info(f"流水线完成，耗时 {elapsed:.1f} 秒")
+    logger.info(f"字幕文件:     {output_dir}/subtitles.srt")
+    logger.info(f"理解报告:     {output_dir}/video_insight_report.md")
+    logger.info(f"内容详情:     {output_dir}/content_detail.md")
+    logger.info(f"调试数据:     {output_dir}/pipeline_debug.json")
     logger.info("=" * 60)
 
     return {
@@ -111,54 +122,98 @@ def run(video_url: str, output_dir: str = "./video_insight_output",
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Video Insight — Generate subtitles and analysis report from a video URL",
+        description="视频洞察 — 从视频 URL 生成字幕和分析报告",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Examples:
+单视频示例：
   python3 src/pipeline.py --url https://example.com/video.mp4
-  python3 src/pipeline.py --url https://example.com/video.mp4 --output ./results
-  python3 src/pipeline.py --url https://example.com/video.mp4 --fps 2 --lang zh
+  python3 src/pipeline.py --url https://example.com/video.mp4 --output ./results --fps 2
 
-Environment:
-  DASHSCOPE_API_KEY    Alibaba Cloud Bailian API key (required)
+批量示例：
+  python3 src/pipeline.py --batch urls.txt
+  python3 src/pipeline.py --batch urls.txt --output ./batch_output --fps 2
+  python3 src/pipeline.py --batch urls.txt --dry-run    # 预览模式
+
+批量输入文件格式：
+  # 注释行和空行自动跳过
+  https://example.com/video1.mp4
+  https://example.com/video2.mp4  --lang en --fps 2     # 行级参数覆盖
+
+配置：
+  在项目根目录 .env 文件中设置 DASHSCOPE_API_KEY（推荐）
+  或设置环境变量 export DASHSCOPE_API_KEY='sk-xxx'
         """,
     )
-    parser.add_argument(
-        "--url", type=str, required=True,
-        help="Publicly accessible video URL to analyze"
+
+    # 互斥组：--url 和 --batch 二选一
+    mode_group = parser.add_mutually_exclusive_group(required=True)
+    mode_group.add_argument(
+        "--url", type=str, default=None,
+        help="待分析的单个视频 URL（必须可公开访问）"
     )
+    mode_group.add_argument(
+        "--batch", type=str, default=None,
+        help="批量输入文件路径（每行一个视频 URL）"
+    )
+
     parser.add_argument(
-        "--output", "-o", type=str, default="./video_insight_output",
-        help="Output directory (default: ./video_insight_output)"
+        "--output", "-o", type=str, default=None,
+        help="输出目录：单视频模式默认为视频文件名；批量模式默认为 ./batch_output"
     )
     parser.add_argument(
         "--fps", type=float, default=1.0,
-        help="Frame extraction rate for visual analysis [0.1-10] (default: 1.0)"
+        help="视觉分析帧提取率 [0.1-10]（默认：1.0）"
     )
     parser.add_argument(
         "--lang", type=str, nargs="+", default=None,
-        help="Language hints for ASR, e.g. zh en (default: zh en)"
+        help="ASR 语言提示，如 zh en（默认：zh en）"
     )
     parser.add_argument(
-        "--report-model", type=str, default="qwen-plus",
-        help="Text model for report generation (default: qwen-plus)"
+        "--report-model", type=str, default="qwen3.7-max",
+        help="报告生成模型（默认：qwen3.7-max）"
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true",
+        help="批量模式下只预览不执行（与 --batch 配合使用）"
     )
 
     args = parser.parse_args()
 
+    # 参数校验
+    if args.dry_run and not args.batch:
+        parser.error("--dry-run 只能与 --batch 一起使用")
+
     try:
-        run(
-            video_url=args.url,
-            output_dir=args.output,
-            fps=args.fps,
-            language_hints=args.lang,
-            report_model=args.report_model,
-        )
+        if args.batch:
+            # 批量模式 — 延迟导入避免循环依赖
+            try:
+                from .batch import process_batch
+            except ImportError:
+                from batch import process_batch
+
+            batch_output_dir = args.output or "./batch_output"
+            process_batch(
+                urls_file=args.batch,
+                parent_output_dir=batch_output_dir,
+                fps=args.fps,
+                language_hints=args.lang,
+                report_model=args.report_model,
+                dry_run=args.dry_run,
+            )
+        else:
+            # 单视频模式
+            run(
+                video_url=args.url,
+                output_dir=args.output,
+                fps=args.fps,
+                language_hints=args.lang,
+                report_model=args.report_model,
+            )
     except RuntimeError as e:
-        logger.error(f"Pipeline failed: {e}")
+        logger.error(f"流水线失败: {e}")
         sys.exit(1)
     except KeyboardInterrupt:
-        logger.warning("Pipeline interrupted by user")
+        logger.warning("用户中断流水线")
         sys.exit(130)
 
 

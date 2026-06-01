@@ -1,0 +1,775 @@
+1
+00:00:00,000 --> 00:00:02,440
+Hey guys, Andy Robertson here at CQE Academy.
+
+2
+00:00:02,560 --> 00:00:08,000
+And in today's video, I want to teach you the core fundamental elements of the FMEA process.
+
+3
+00:00:08,600 --> 00:00:19,000
+Whether you're trying to apply this at work or you're studying for some sort of exam like the CQE exam or the Green Belt exam or the Black Belt exam, today's video is going to teach you what you need to know to be successful.
+
+4
+00:00:19,120 --> 00:00:20,600
+Alright, let's head over to the computer and get started.
+
+5
+00:00:21,360 --> 00:00:25,720
+Okay, let's quickly look at the agenda for today's lecture so that you.
+
+6
+00:00:25,840 --> 00:00:27,320
+You kind of understand where we're going to go.
+
+7
+00:00:27,360 --> 00:00:29,640
+I'm going to start with a brief intro to FMEA.
+
+8
+00:00:30,080 --> 00:00:35,800
+If you're watching this, you're probably already familiar with some of the basic concepts of an FMEA, but I want to refresh you on that.
+
+9
+00:00:35,840 --> 00:00:39,560
+I also want to explain how FMEA fits into the big picture of risk management.
+
+10
+00:00:40,440 --> 00:00:53,680
+Obviously, FMEA is one of the most popular and important risk management tools, but I want to make sure you understand how versatile FMEA is and how many different areas of the risk management process that the FMEA can cover.
+
+11
+00:00:53,720 --> 00:00:58,560
+And then I want to talk about the differences and similarities between a DFMEA and a PFMEA.
+
+12
+00:00:59,080 --> 00:01:09,680
+Today, we're really going to focus on a PFMEA, but in those situations where you might take a different approach given the steps of the process, I'll kind of cover those within the individual steps.
+
+13
+00:01:09,960 --> 00:01:15,000
+The bulk of the presentation today is going to be going through the 10-step process to the FMEA.
+
+14
+00:01:15,880 --> 00:01:19,720
+Basically, I'm going to walk you through a template of the FMEA process.
+
+15
+00:01:20,160 --> 00:01:47,960
+And explain how to go through each step of the process that includes things like identifying root cause and then probably the most important which is taking corrective action and then stick around to the very end if you're preparing for something like the CQE exam or the Green Belt exam I want to give you a special free giveaway to help you on your journey to pass those exams all right let's go ahead and jump into this so the FMEA what is an FMEA the FMEA or failure mode effects analysis is a systematic process.
+
+16
+00:01:47,960 --> 00:01:57,560
+That essentially walks you and a team through a very thoughtful consideration of all of the possible failure modes associated with a new design or a new process.
+
+17
+00:01:57,600 --> 00:02:04,720
+I say new design because in a perfect world, you're doing a DFMEA or a PFMEA while you're developing the process.
+
+18
+00:02:04,760 --> 00:02:15,640
+This is the time when you're supposed to be managing risks, identifying risks, mitigating risks is early on in the process when you're doing that design work and you're creating your product or your process.
+
+19
+00:02:15,760 --> 00:02:17,400
+You can still do them retroactively.
+
+20
+00:02:17,600 --> 00:02:31,280
+If you have a process or a design, you can still do a PFMEA or do a DFMEA to identify weaknesses and identify failure modes, and you can still go through the effort of implementing corrective actions and controls to mitigate those risks.
+
+21
+00:02:31,680 --> 00:02:35,200
+But obviously in a perfect world, it's done upfront in the process.
+
+22
+00:02:35,240 --> 00:02:41,840
+And then for the rest of the lecture, basically what I've done is I've taken this FMEA template and I've pasted it along the bottom.
+
+23
+00:02:41,960 --> 00:02:44,800
+And as we go through this, you're going to see how each step.
+
+24
+00:02:45,240 --> 00:02:51,680
+Essentially walks you through the FMEA template from left to right, going from process steps to failure modes to effects.
+
+25
+00:02:52,120 --> 00:02:56,120
+So I'm gonna leave this on the bottom so you can always kind of see where we're at in the process.
+
+26
+00:02:57,480 --> 00:03:10,320
+All right, the next thing I wanna cover is I wanna talk just for a moment about the big picture risk management process and help you understand how a tool like the FMEA can be incredibly effective at walking you through all of the different.
+
+27
+00:03:10,360 --> 00:03:11,400
+Steps in risk management.
+
+28
+00:03:11,880 --> 00:03:15,440
+So in risk management, there's really three major categories of activities.
+
+29
+00:03:15,520 --> 00:03:19,480
+There's risk assessment, risk control, and then risk review.
+
+30
+00:03:19,520 --> 00:03:22,560
+And then over on the left here, you can see risk communication.
+
+31
+00:03:22,640 --> 00:03:27,760
+Communication is such an important part of risk management, both up and down the organization, but laterally throughout the organization.
+
+32
+00:03:28,480 --> 00:03:37,520
+And essentially, as we go through the FMEA process, I'm going to talk about how the FMEA, which is one of the most important risk management tools.
+
+33
+00:03:37,540 --> 00:03:42,700
+Essentially facilitates almost all of these unique activities within risk management.
+
+34
+00:03:43,020 --> 00:03:55,780
+We identify risk, we analyze them, we evaluate those risks, we reduce risk through things like corrective action, and then ultimately at the end of the day, we have to accept the risks that we've described within our FMEA, right?
+
+35
+00:03:55,900 --> 00:04:03,220
+When we approve it and we go into production with an approved PFMEA, we are inherently accepting the risks that we've identified.
+
+36
+00:04:03,300 --> 00:04:08,220
+And then ultimately, it comes back to risk review and risk events as you go live and as you're in production.
+
+37
+00:04:08,540 --> 00:04:24,940
+As failure modes occur that aren't necessarily captured in your FMEA already, you can use those events through the CAPA process to update your FMEA to assess the risk of those failure modes and keep this a living document that helps you manage risk throughout the entire life cycle of your product.
+
+38
+00:04:25,700 --> 00:04:27,460
+All right, and then the DFMEA and the PFMEA.
+
+39
+00:04:27,860 --> 00:04:32,740
+So obviously, the design FMEA is focused on analyzing new designs, right?
+
+40
+00:04:32,780 --> 00:04:33,740
+That's obviously.
+
+41
+00:04:33,960 --> 00:04:42,840
+In the title of the name, and the focus here is on design deficiencies that basically focus on interactions, interfaces, and product features.
+
+42
+00:04:42,960 --> 00:04:44,600
+That's a big one associated with your new design.
+
+43
+00:04:45,320 --> 00:04:50,840
+Part of the design process is identifying product features that directly impact product functionality.
+
+44
+00:04:51,360 --> 00:05:02,720
+And the FMEA is a great tool to help you identify specific features of your product that if they were to be non-conforming would directly impact either the safety of your product or the functionality.
+
+45
+00:05:03,360 --> 00:05:06,640
+That's a really important aspect of design as identifying critical to quality attributes.
+
+46
+00:05:07,040 --> 00:05:30,240
+And then basically once you're done with your DFMEA, you can start your process FMEA because what you do is you take those critical to quality attributes and you think about your process and the relationship that your process has to those critical to quality attributes and you ask yourself how can our process fail in a way that impacts these critical quality attributes or these critical to quality features about our product.
+
+47
+00:05:30,720 --> 00:05:34,000
+And so there's definitely a relationship between PFMEA and DFMEA.
+
+48
+00:05:34,100 --> 00:05:39,420
+As we go through the steps, I'll talk about different tools you can use in these different scenarios.
+
+49
+00:05:40,020 --> 00:05:42,900
+All right, so let's go through the 10 steps to the FMEA process.
+
+50
+00:05:43,180 --> 00:05:47,980
+Steps 1 and 2 are to essentially define your system or process to be analyzed.
+
+51
+00:05:48,460 --> 00:05:53,060
+You want to be clear around the boundaries that you're putting on your process or system.
+
+52
+00:05:53,100 --> 00:05:59,740
+I would recommend smaller is better if you try to analyze a really complex design or a really complex process.
+
+53
+00:06:00,300 --> 00:06:05,660
+It can feel like boiling the ocean, so step one is to define exactly the boundaries of what we're analyzing.
+
+54
+00:06:06,100 --> 00:06:08,100
+And then step two is to identify those failure modes.
+
+55
+00:06:08,660 --> 00:06:10,660
+This falls into the category of risk identification.
+
+56
+00:06:11,700 --> 00:06:16,420
+We're essentially identifying those failure modes that could impact our customer.
+
+57
+00:06:16,460 --> 00:06:20,220
+And then steps three through nine is all about risk analysis.
+
+58
+00:06:20,820 --> 00:06:23,020
+This is where we take the risks we've identified.
+
+59
+00:06:23,300 --> 00:06:26,020
+We talk about severity, occurrence and detection.
+
+60
+00:06:26,100 --> 00:06:50,980
+This is the risk analysis process and at the end of the day we're going to calculate an RPN number and then finally is corrective actions if we take our RPN number and we compare it against our acceptance criteria right what is the acceptable level of risk that we're willing to accept or not accept now we need to take corrective actions right let's say we have a really high RPN it's time to mitigate that risk reduce that risk and ultimately control that risk through corrective actions.
+
+61
+00:06:51,500 --> 00:06:53,780
+Alright, so let's get into the 10-step process here.
+
+62
+00:06:53,860 --> 00:06:59,900
+Step zero: this was not on the previous slide, but it is a really important step before you even start the PFMEA.
+
+63
+00:07:00,020 --> 00:07:01,420
+You have to establish the ground rules.
+
+64
+00:07:01,740 --> 00:07:08,940
+Now I'm assuming that your organization has some type of FMEA template that you use, which has predefined scales.
+
+65
+00:07:09,260 --> 00:07:16,620
+But if you don't have that, one of the first things you have to do is define the scales that you plan on using for severity, occurrence, and detection.
+
+66
+00:07:17,200 --> 00:07:28,640
+And remember, this is unique to your product, this is unique to your industry and your customer because especially the severity scores they can very much differ depending on the types of products you're making.
+
+67
+00:07:28,920 --> 00:07:31,840
+Other things you should do before you ever start is document any assumptions.
+
+68
+00:07:32,280 --> 00:07:39,680
+Your FMEA is a living document so three five ten years down the road somebody's going to read this and you want to make sure you've clearly communicated your assumptions.
+
+69
+00:07:40,400 --> 00:07:47,200
+For example one of the most important starting assumptions in FMEA is that your raw materials are all in specification.
+
+70
+00:07:47,220 --> 00:07:51,940
+That's a pretty common assumption, and you just want to document whatever those assumptions are.
+
+71
+00:07:51,980 --> 00:07:57,140
+And then the last thing you have to do, and this is super important, is defining your acceptable risk level.
+
+72
+00:07:57,740 --> 00:08:11,780
+Every organization has a different appetite for risk, your customers have a certain appetite for risk, and so you have to in your risk policy define what you believe is an acceptable and unacceptable level of risk for your product or for your organization.
+
+73
+00:08:12,480 --> 00:08:25,360
+That's important to do upfront before you ever get started because if you wait until the end to define your acceptable level of risk, there's a chance that some bias might creep into the process and you might end up accepting more risk than you otherwise would have.
+
+74
+00:08:25,920 --> 00:08:29,160
+By the way, these scales are super arbitrary; I'm showing one through six.
+
+75
+00:08:29,600 --> 00:08:33,400
+Some organizations do one through ten, and I've seen one, three, five, seven, nine.
+
+76
+00:08:33,840 --> 00:08:39,400
+You can do this any way you want to, but just define these upfront and use them consistently throughout the process.
+
+77
+00:08:40,159 --> 00:08:42,760
+Step number one, define your system.
+
+78
+00:08:42,960 --> 00:08:49,240
+Remember, we want to scope our FMEA—whether it's a PFMEA or a DFMEA—we want to scope that upfront.
+
+79
+00:08:49,440 --> 00:08:53,360
+If you're doing a PFMEA, one of the best ways to do this is with a flow diagram.
+
+80
+00:08:53,920 --> 00:09:00,280
+You can take this visual representation of your process and use it to establish the boundaries of your process.
+
+81
+00:09:00,720 --> 00:09:05,840
+You can also use this to identify all of the key manufacturing steps within your process.
+
+82
+00:09:06,340 --> 00:09:16,980
+If you're doing a DFMEA, you can use something like a system block diagram to visually show all of the interfaces and relationships between the different components and subsystems in your design.
+
+83
+00:09:17,500 --> 00:09:18,420
+So you can see it here, right?
+
+84
+00:09:18,460 --> 00:09:23,420
+We've got our components, we've got maybe a subsystem, and then we've got the entire system of our product.
+
+85
+00:09:23,980 --> 00:09:31,220
+Again, I recommend you try to narrow the scope as tightly as possible just to make the process a little easier and a little simpler.
+
+86
+00:09:31,340 --> 00:09:35,860
+If you blow out the scope, people can get burnt out, and then the process fails.
+
+87
+00:09:36,000 --> 00:09:39,240
+Again, if you can try to limit the scope as best as possible.
+
+88
+00:09:39,840 --> 00:09:44,600
+And then step number two, once you've identified the scope, it's time to talk about potential failure modes.
+
+89
+00:09:45,200 --> 00:09:46,800
+So what is a failure mode?
+
+90
+00:09:46,840 --> 00:09:54,160
+Well, a failure is any nonconformance or error, or you could call it a defect associated with your process.
+
+91
+00:09:54,640 --> 00:09:57,120
+Now what we're looking for are failure modes.
+
+92
+00:09:57,480 --> 00:10:03,560
+So a failure mode, I use the word mode, is the mode, method, or way in which something might fail.
+
+93
+00:10:03,620 --> 00:10:06,860
+Essentially, what we're asking here is: what might go wrong?
+
+94
+00:10:07,260 --> 00:10:10,700
+How are those different ways that our process might fail?
+
+95
+00:10:10,780 --> 00:10:15,060
+What could go wrong that we would end up creating a nonconformance or a defect?
+
+96
+00:10:15,420 --> 00:10:17,980
+So, that's a failure mode for a DFMEA.
+
+97
+00:10:18,060 --> 00:10:21,820
+What I recommend is that people start with their design drawings.
+
+98
+00:10:21,980 --> 00:10:24,700
+You've got this new design; you've got components and subsystems.
+
+99
+00:10:25,140 --> 00:10:32,180
+What you want to look for are features that, if they were out of specification, would directly impact the functionality of your product.
+
+100
+00:10:32,540 --> 00:10:34,540
+This is a critical-to-quality attribute.
+
+101
+00:10:35,020 --> 00:10:38,100
+And this can help you when you're tolerancing and dimensioning your product.
+
+102
+00:10:38,460 --> 00:10:44,900
+If you have a product feature that is directly related to functionality, maybe you need really tight tolerances.
+
+103
+00:10:45,140 --> 00:10:54,220
+But if you have other features that are maybe only indirectly related to functionality or they're not related to functionality at all, maybe you can widen those tolerances a little bit.
+
+104
+00:10:54,260 --> 00:10:55,820
+By the way, I love this picture over here on the right.
+
+105
+00:10:56,060 --> 00:11:01,520
+I want to emphasize that the entire FMEA process, whether design or process, It is a team sport.
+
+106
+00:11:01,920 --> 00:11:17,160
+You need to make sure you've got the right subject matter experts from manufacturing engineering to process engineering, to product engineering, R&D, reliability, quality engineering, all the different functions and subject matter experts should get together to participate in the FMEA process.
+
+107
+00:11:17,200 --> 00:11:19,880
+And then over here, I've got this picture of this destructive test.
+
+108
+00:11:20,720 --> 00:11:27,480
+You need to use prototype testing and reliability testing and all sorts of data to feed into your design FMEA.
+
+109
+00:11:28,060 --> 00:11:33,300
+You're going to make a lot of assumptions early in this DFMEA, and you want to back that up with real data and real testing.
+
+110
+00:11:33,900 --> 00:11:43,940
+So over time throughout the design process, as you collect data about the ways in which your product fails, feed that back into your DFMEA and refine those estimates of risk.
+
+111
+00:11:45,260 --> 00:11:54,780
+And then for the PFMEA, if you're doing a process FMEA and you're wondering about how your process might fail, the most important thing you can do is walk your process.
+
+112
+00:11:55,500 --> 00:12:02,860
+Take your subject matter experts, go down to the floor, watch the process in action and see how your process might fail.
+
+113
+00:12:03,260 --> 00:12:08,100
+Talk to the operators, talk to the supervisor and understand what goes wrong on a daily basis.
+
+114
+00:12:08,700 --> 00:12:18,700
+The other thing that's important to note here is that not only do you want to document actual failures that have occurred, you want to do a little bit of brainstorming to talk about potential failure modes.
+
+115
+00:12:18,740 --> 00:12:25,140
+This is a really powerful element of the FMEA process where we don't just talk about the actual risks that have occurred.
+
+116
+00:12:25,540 --> 00:12:31,620
+We identify potential risks and then we can mitigate those things and prevent them from ever occurring in the first place.
+
+117
+00:12:31,660 --> 00:12:38,300
+And I've got this picture over here for data, it's really important again to use whatever data you have to drive the process.
+
+118
+00:12:38,340 --> 00:12:53,060
+If you have other similar processes that have known failure modes, use those, take that and inject it into your new PFMEA and use that data around the occurrence rate or the detectability and to better estimate things like severity, occurrence and detection.
+
+119
+00:12:54,180 --> 00:13:01,980
+And then the effects, so when we talk about the effect of a failure mode, what we're really talking about is the impact on the end user.
+
+120
+00:13:02,420 --> 00:13:07,900
+When our process fails, when this failure mode occurs, what is the effect on the end user?
+
+121
+00:13:07,940 --> 00:13:13,180
+And we want to have that discussion because your effect is what drives your severity score.
+
+122
+00:13:13,540 --> 00:13:20,580
+So here we are, we're down here where we're talking about the effects of the failure, and there's a reason that we put effects right next to severity.
+
+123
+00:13:20,700 --> 00:13:26,660
+The impact on the end user should drive your severity score, and I want to show you this graphic.
+
+124
+00:13:26,700 --> 00:13:28,820
+We have a failure mode, right?
+
+125
+00:13:29,060 --> 00:13:31,860
+And that results in some impact to the end user.
+
+126
+00:13:32,220 --> 00:13:36,740
+Now, in a minute, we're going to talk about the root causes because what we want to address is the root cause.
+
+127
+00:13:37,300 --> 00:13:44,460
+But before we do that, we have to talk about how these failure modes impact the end user because again, that's what drives severity.
+
+128
+00:13:45,040 --> 00:13:55,640
+Now, the way we talk about severity is essentially a measure of the degree to which the end user is impacted or affected by the failure mode.
+
+129
+00:13:55,840 --> 00:14:03,440
+Again, I'm showing this severity score as a 1 through 6 scale; there are also 1 through 10 scales and various other scales.
+
+130
+00:14:03,880 --> 00:14:12,520
+However, you want to define this scale in relation to your own product and the severity of your specific unique failure modes.
+
+131
+00:14:12,960 --> 00:14:37,320
+That are related back to your product, but again I'm showing one through six, six being the worst right so if you have a severity score of a six here that is a catastrophic impact to the end user, the product is inoperable it results in an unsafe working condition and could result in harm to the end user, a score of a one is something like no relevant effect on reliability or safety or functionality that's bottom of the barrel.
+
+132
+00:14:37,780 --> 00:14:39,700
+And then now we can talk about causes.
+
+133
+00:14:40,380 --> 00:14:45,980
+Remember, we've identified failure modes at this point, we've analyzed the effect, and now it's time to talk about root causes.
+
+134
+00:14:46,660 --> 00:14:50,460
+And some of the best tools that you can use here are things like the five why analysis.
+
+135
+00:14:50,900 --> 00:14:51,580
+Why did that happen?
+
+136
+00:14:51,700 --> 00:14:52,420
+Why did that happen?
+
+137
+00:14:52,780 --> 00:14:55,700
+To really drill down to the true root cause.
+
+138
+00:14:55,740 --> 00:15:00,020
+And then again, it's a lot of brainstorming, especially when we're talking about potential failure modes.
+
+139
+00:15:00,580 --> 00:15:03,020
+The other tool that's really important to use here.
+
+140
+00:15:03,040 --> 00:15:12,840
+The fishbone diagram, the cause and effect diagram has a great mentality around identifying potential root causes specifically the eight Ms.
+
+141
+00:15:13,240 --> 00:15:32,920
+So if you've ever used a fishbone diagram you'll know that there's eight common categories of root causes man machine method materials mother nature measurement management and maintenance now I put an asterisk here next to materials because that's one of the starting assumptions in the FMEA process that our raw materials are all conforming to the specification.
+
+142
+00:15:33,340 --> 00:15:44,620
+So this might be the one exception, but as you're talking about root causes, it's important to be holistic and to think broadly because if you don't identify the right root cause, you can't eliminate that cause, right?
+
+143
+00:15:44,700 --> 00:15:49,220
+You can't reduce the risk or you can't mitigate the risk if you haven't really identified the root cause.
+
+144
+00:15:49,740 --> 00:15:52,820
+So this is a really important step in the process.
+
+145
+00:15:52,860 --> 00:15:59,180
+And then once we understand those root causes, we can use those causes to estimate the occurrence.
+
+146
+00:15:59,780 --> 00:16:26,740
+So the occurrence ranking, this you can see it in blue down here, this score is again I'm showing as a one to six scale is a reflection of the likelihood or the probability that a failure will occur if you don't have any data you can simply do this using an expert opinion on a semi quantitative scale right one through six if you understand things like process capability or defects per million or the probability of a failure.
+
+147
+00:16:26,820 --> 00:16:36,940
+Those are other more quantitative ways to estimate probability, if you have the data, you should use it here because it makes your estimate of risk that much more accurate.
+
+148
+00:16:37,600 --> 00:16:39,200
+So what is a control?
+
+149
+00:16:39,520 --> 00:16:45,800
+A control is anything in your process that might prevent or detect the failure mode being analyzed.
+
+150
+00:16:45,840 --> 00:16:48,080
+Now, what I'm showing here is a control plan.
+
+151
+00:16:48,680 --> 00:16:53,240
+There is a very tight relationship between your PFMEA and your control plan.
+
+152
+00:16:53,880 --> 00:17:00,240
+We create a control plan to monitor and control our process in an effort to mitigate and reduce risk.
+
+153
+00:17:00,640 --> 00:17:05,119
+We create a PFMEA to identify risks that should be controlled and monitored in our process.
+
+154
+00:17:05,579 --> 00:17:12,020
+These two documents should be created hand in hand because you want to control the risks that you are aware of.
+
+155
+00:17:12,579 --> 00:17:19,940
+So your control plan and your PFMEA are very much related, and again, it is just your ability to prevent or detect failures.
+
+156
+00:17:20,020 --> 00:17:24,500
+Once you've defined your controls in your process, it's time to talk about detection.
+
+157
+00:17:25,500 --> 00:17:29,460
+So your detection is a reflection of the capability of your process.
+
+158
+00:17:30,160 --> 00:17:34,480
+To identify a failure mode once it has occurred, that's a really important point by the way.
+
+159
+00:17:35,000 --> 00:17:39,480
+Remember the detection score is based on the assumption that the failure mode has occurred.
+
+160
+00:17:40,080 --> 00:17:49,840
+So no matter what the frequency of occurrence is, let's assume it has occurred and now let's talk about how likely we are to actually detect that failure mode once it has occurred.
+
+161
+00:17:50,000 --> 00:17:52,480
+And again, this comes back to our control plan, right?
+
+162
+00:17:52,600 --> 00:17:57,160
+How well does our control plan detect that failure mode once it has occurred?
+
+163
+00:17:57,220 --> 00:17:58,420
+And then let's give it a score.
+
+164
+00:17:58,660 --> 00:18:07,140
+We can talk about it in qualitative terms, like we're certain to catch it, where we have a high probability or low probability, or maybe it's undetectable.
+
+165
+00:18:07,300 --> 00:18:13,900
+Then you can put it in more semi-quantitative terms: we have 50% detection or 75% detection.
+
+166
+00:18:14,540 --> 00:18:18,340
+Those are different ways to score detectability.
+
+167
+00:18:18,740 --> 00:18:28,660
+Now remember, when you improve detectability, your ranking goes from like a six to a five to a four because you're essentially getting better at detecting that failure mode.
+
+168
+00:18:28,700 --> 00:18:32,620
+And again, that's the last assessment we make on a failure mode.
+
+169
+00:18:32,860 --> 00:18:34,740
+Now we're ready to calculate RPN.
+
+170
+00:18:35,300 --> 00:18:36,500
+So what is RPN?
+
+171
+00:18:36,540 --> 00:18:43,420
+RPN stands for Risk Priority Number, and it's calculated as severity times occurrence times detection.
+
+172
+00:18:43,620 --> 00:18:49,380
+Let's say we have this example: we have a failure mode with a severity of 4, an occurrence of 6, and a detection of 5.
+
+173
+00:18:50,100 --> 00:18:54,380
+Well, our RPN number is simply 4 times 6 times 5, which equals 120.
+
+174
+00:18:55,120 --> 00:19:18,880
+The reason that we like RPN and the reason that RPN is so valuable is it gives you an objective prioritization tool when you go through the FMEA process, you're going to identify hundreds if not thousands of failure modes and you cannot work on all of them at the same time, you need a tool to help you prioritize and focus your time on the highest risk or the highest priority failure modes in terms of corrective actions.
+
+175
+00:19:19,480 --> 00:19:25,960
+The risk priority number is a great tool to help you focus your corrective actions, which is step 10 in the process.
+
+176
+00:19:26,440 --> 00:19:40,400
+Once you calculate an RPN number, you can compare that against your acceptable and unacceptable levels of risk to understand where you need to implement new controls or mitigation strategies to reduce that risk.
+
+177
+00:19:40,760 --> 00:19:43,240
+This is one of the most important steps in the process.
+
+178
+00:19:43,640 --> 00:20:10,280
+A lot of people get to the end and they estimate their risk and they feel like they're done but this is really where the work just begins you really want to now take action to reduce and mitigate the risks that you've identified now I want to show you this template again because I want to show you the right half here maybe we can zoom in and you can see that we recommend actions right and then there's a whole follow through process there's a whole follow up process maybe there's projects to implement corrective actions or preventive actions.
+
+179
+00:20:10,920 --> 00:20:31,880
+And then when we're done, we want to document what we did, what were the results of our effort, what action did we take and as a result of those actions, what is the new severity score, the new occurrence or the new detection and ultimately what is the new RPN and that way at the end of the day we can show before and after and what is our risk priority number at the end of the day.
+
+180
+00:20:32,520 --> 00:20:34,720
+All right, that was it for the FMEA process.
+
+181
+00:20:35,240 --> 00:20:43,120
+By the way, if you are preparing for something like the CQE exam or the Green Belt exam or the Black Belt exam, I want to give you more resources to help you be successful.
+
+182
+00:20:43,600 --> 00:20:52,080
+On the left here is a 10-page guide that goes even more in detail about the FMEA process and it will help you prepare for one of those exams.
+
+183
+00:20:52,640 --> 00:20:55,320
+On the right is a practice quiz, a practice exam.
+
+184
+00:20:55,840 --> 00:20:59,600
+I'm big in practice exams; I think they're the best way to prepare for a certification exam.
+
+185
+00:21:00,180 --> 00:21:03,260
+And you can get both of those for free if you go to CQEAcademy.
+
+186
+00:21:03,380 --> 00:21:04,780
+com/fmea.
+
+187
+00:21:04,820 --> 00:21:09,940
+I'll also give you the free FMEA template if you're interested in doing this yourself at your own company.
+
+188
+00:21:09,980 --> 00:21:14,300
+If you're interested in working the actual FMEA process, just go to CQEAcademy.
+
+189
+00:21:14,460 --> 00:21:17,460
+com/fmea at the top; there'll be a link to get all those free resources.
+
+190
+00:21:18,020 --> 00:21:18,860
+All right, that's it for today.
+
+191
+00:21:18,980 --> 00:21:22,580
+If you really like this, hit that like button so other people just like you can find this.
+
+192
+00:21:22,860 --> 00:21:27,940
+And if you want to stay on the journey to become a CQE or a green belt, hit that subscribe button.
+
+193
+00:21:28,020 --> 00:21:34,780
+That way, when I publish new content, it gets delivered to you, and you can stay on this journey and learn with me and become a CQE.
+
+194
+00:21:35,040 --> 00:21:38,380
+Alright thanks so much have a good day bye.

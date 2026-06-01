@@ -1,0 +1,191 @@
+1
+00:00:01,340 --> 00:00:04,380
+Hello friends, I hope you like my videos.
+
+2
+00:00:04,700 --> 00:00:08,580
+If you have any questions, you can ask me in the comments.
+
+3
+00:00:08,980 --> 00:00:17,380
+In this video, we will discuss one of the frequently used investigation tools: 5Y analysis.
+
+4
+00:00:19,460 --> 00:00:29,820
+Friends, my YouTube channel name is Pharma Quality, so please view, like, comment and subscribe my channel to get the knowledge about the pharma quality standards and practices.
+
+5
+00:00:34,140 --> 00:00:39,620
+So now in this slide we will discuss what is 5Y analysis.
+
+6
+00:00:39,940 --> 00:00:49,940
+Basically, during any non-conformance, deviation out of specification or out of calibration results, 5Y tools can be used to identify the root cause.
+
+7
+00:00:51,820 --> 00:00:58,740
+A 5Y investigation is a systematic problem-solving technique used to identify the root cause of an issue.
+
+8
+00:00:59,300 --> 00:01:02,220
+通过反复问为什么来。
+
+9
+00:01:04,120 --> 00:01:12,040
+Next, 5Y is a useful and effective tool for identifying the root cause during the investigation.
+
+10
+00:01:16,360 --> 00:01:23,960
+Next, simply ask the question and try to find the exact answer for that.
+
+11
+00:01:24,200 --> 00:01:32,240
+In this, we can ask "why" on every step to go into the deep and identify the root cause.
+
+12
+00:01:33,040 --> 00:01:41,280
+In 5Y analysis, we can frequently ask "why it happened," so we can get the right answer.
+
+13
+00:01:43,300 --> 00:01:50,940
+So now we will discuss when 5Y analysis can be used; that is, the exact purpose of using 5Y.
+
+14
+00:01:52,140 --> 00:02:01,020
+First, it helps to identify the root cause of a problem, meaning you can find out the root cause of a nonconformance.
+
+15
+00:02:02,700 --> 00:02:08,979
+Second, it determines the relationship between different root causes of a problem.
+
+16
+00:02:09,120 --> 00:02:13,720
+That is, you can interpret the different cause with five why analysis.
+
+17
+00:02:15,160 --> 00:02:28,640
+Third is it is one of the simplest tools and easy to complete without any statistical analysis right so in this you do not need to have any statistical data to find out the root cause.
+
+18
+00:02:31,980 --> 00:02:36,860
+So now we will discuss how to use 5Y analysis.
+
+19
+00:02:37,140 --> 00:02:47,020
+First, write down the specific problem; writing the issue helps you to formalize the problem and describe it completely.
+
+20
+00:02:47,060 --> 00:02:50,620
+It also helps a team to focus on the same problem.
+
+21
+00:02:50,780 --> 00:02:54,220
+So, you need to have a clear specific problem.
+
+22
+00:02:55,380 --> 00:03:00,460
+Then, ask why the problem happens and write the answer down below the problem.
+
+23
+00:03:01,260 --> 00:03:05,780
+Right, so when you ask why problem observed, so you must have an answer.
+
+24
+00:03:06,460 --> 00:03:31,060
+So that answer you need to write it right then now if the answer you just provided does not identify the root cause of the problem that you wrote down in step one, ask why again and route write that answer down right so again you can ask why it was happened based on the answer you got here in the first time okay?
+
+25
+00:03:32,900 --> 00:03:57,780
+So now loop back to step three here until the team is in agreement that problems root cause is identified and again this may take fewer or more times than five times right so again you can ask why it was happened based on the answer you got second time right so in such a way you can ask why and get the root cause of a problem.
+
+26
+00:03:57,880 --> 00:03:59,760
+直到根因识别。
+
+27
+00:04:02,620 --> 00:04:09,620
+Now in this slide we will take an example that is how to apply 5Y in an investigation, right?
+
+28
+00:04:10,340 --> 00:04:18,660
+So for example let's take one example with problem statement that is machine breakdown in a manufacturing facility, right?
+
+29
+00:04:19,420 --> 00:04:22,220
+So our first question will be why did the machine breakdown?
+
+30
+00:04:22,940 --> 00:04:27,820
+So let's say the answer is due to overheating, right?
+
+31
+00:04:27,920 --> 00:04:31,480
+So, second question will be why did it overheat?
+
+32
+00:04:31,880 --> 00:04:31,920
+Right.
+
+33
+00:04:32,320 --> 00:04:35,760
+So answer let's assume that lack of regular maintenance.
+
+34
+00:04:36,600 --> 00:04:40,400
+So due to the lack of regular maintenance, it was overheated.
+
+35
+00:04:40,480 --> 00:04:40,520
+Right.
+
+36
+00:04:41,160 --> 00:04:44,480
+So third question will be why was maintenance irregular?
+
+37
+00:04:45,240 --> 00:04:49,280
+So let's assume the answer is insufficient staffing.
+
+38
+00:04:49,320 --> 00:04:49,520
+Right.
+
+39
+00:04:49,760 --> 00:04:55,200
+So next question will be like why was the staffing insufficient?
+
+40
+00:04:55,240 --> 00:04:55,840
+Right.
+
+41
+00:04:55,880 --> 00:04:58,880
+So let's assume the answer that is budget constraints.
+
+42
+00:04:58,920 --> 00:04:59,160
+Right.
+
+43
+00:04:59,680 --> 00:05:05,800
+So the next question will be why were there buzzup constraints, right?
+
+44
+00:05:06,080 --> 00:05:11,960
+So the answer let's assume it financial cut in operational expenses, right.
+
+45
+00:05:13,500 --> 00:05:40,100
+So now you can say the machine breakdown in manufacturing facility is caused by overheating and specifically due to the lack of regular maintenance so in such a way you can perform the five why analysis so here I am I have given one normal you know example so it may be different cause based on the problem statement right.
+
+46
+00:05:42,560 --> 00:05:46,200
+朋友们，这就是关于5Y调查工具的全部内容。
+
+47
+00:05:46,400 --> 00:05:50,680
+我希望你们现在能够理解什么是5Y分析。
+
+48
+00:05:51,680 --> 00:05:53,160
+谢谢大家观看这个视频。

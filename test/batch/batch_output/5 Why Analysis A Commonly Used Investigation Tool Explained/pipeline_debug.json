@@ -1,0 +1,6929 @@
+{
+  "video_url": "https://cyber-public.tos-cn-beijing.volces.com/video/test/5%20Why%20Analysis%20A%20Commonly%20Used%20Investigation%20Tool%C2%A0Explained.mp4",
+  "asr_sentences": [
+    {
+      "begin_sec": 1.34,
+      "end_sec": 4.38,
+      "begin_ms": 1340,
+      "end_ms": 4380,
+      "text": "Hello friends, I hope you like my videos.",
+      "srt_begin": "00:00:01,340",
+      "srt_end": "00:00:04,380",
+      "words": [
+        {
+          "begin_sec": 1.34,
+          "end_sec": 2.14,
+          "begin_ms": 1340,
+          "end_ms": 2140,
+          "text": "Hello",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 2.14,
+          "end_sec": 2.54,
+          "begin_ms": 2140,
+          "end_ms": 2540,
+          "text": " friends",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 2.58,
+          "end_sec": 2.82,
+          "begin_ms": 2580,
+          "end_ms": 2820,
+          "text": " I",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 2.82,
+          "end_sec": 3.18,
+          "begin_ms": 2820,
+          "end_ms": 3180,
+          "text": " hope",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 3.18,
+          "end_sec": 3.38,
+          "begin_ms": 3180,
+          "end_ms": 3380,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 3.38,
+          "end_sec": 3.62,
+          "begin_ms": 3380,
+          "end_ms": 3620,
+          "text": " like",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 3.62,
+          "end_sec": 3.9,
+          "begin_ms": 3620,
+          "end_ms": 3900,
+          "text": " my",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 3.9,
+          "end_sec": 4.38,
+          "begin_ms": 3900,
+          "end_ms": 4380,
+          "text": " videos",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 4.7,
+      "end_sec": 8.58,
+      "begin_ms": 4700,
+      "end_ms": 8580,
+      "text": "If you have any questions, you can ask me in the comments.",
+      "srt_begin": "00:00:04,700",
+      "srt_end": "00:00:08,580",
+      "words": [
+        {
+          "begin_sec": 4.7,
+          "end_sec": 4.9,
+          "begin_ms": 4700,
+          "end_ms": 4900,
+          "text": " If",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 4.9,
+          "end_sec": 5.06,
+          "begin_ms": 4900,
+          "end_ms": 5060,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 5.06,
+          "end_sec": 5.38,
+          "begin_ms": 5060,
+          "end_ms": 5380,
+          "text": " have",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 5.38,
+          "end_sec": 5.62,
+          "begin_ms": 5380,
+          "end_ms": 5620,
+          "text": " any",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 5.62,
+          "end_sec": 6.1,
+          "begin_ms": 5620,
+          "end_ms": 6100,
+          "text": " questions",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 6.14,
+          "end_sec": 6.26,
+          "begin_ms": 6140,
+          "end_ms": 6260,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 6.26,
+          "end_sec": 6.54,
+          "begin_ms": 6260,
+          "end_ms": 6540,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 6.54,
+          "end_sec": 6.78,
+          "begin_ms": 6540,
+          "end_ms": 6780,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 6.78,
+          "end_sec": 7.06,
+          "begin_ms": 6780,
+          "end_ms": 7060,
+          "text": " me",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 7.06,
+          "end_sec": 7.22,
+          "begin_ms": 7060,
+          "end_ms": 7220,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 7.22,
+          "end_sec": 7.46,
+          "begin_ms": 7220,
+          "end_ms": 7460,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 7.46,
+          "end_sec": 8.58,
+          "begin_ms": 7460,
+          "end_ms": 8580,
+          "text": " comments",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 8.98,
+      "end_sec": 17.38,
+      "begin_ms": 8980,
+      "end_ms": 17380,
+      "text": "In this video, we will discuss one of the frequently used investigation tools: 5Y analysis.",
+      "srt_begin": "00:00:08,980",
+      "srt_end": "00:00:17,380",
+      "words": [
+        {
+          "begin_sec": 8.98,
+          "end_sec": 9.18,
+          "begin_ms": 8980,
+          "end_ms": 9180,
+          "text": " In",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 9.18,
+          "end_sec": 9.54,
+          "begin_ms": 9180,
+          "end_ms": 9540,
+          "text": " this",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 9.54,
+          "end_sec": 9.86,
+          "begin_ms": 9540,
+          "end_ms": 9860,
+          "text": " video",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 9.9,
+          "end_sec": 10.02,
+          "begin_ms": 9900,
+          "end_ms": 10020,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 10.02,
+          "end_sec": 10.38,
+          "begin_ms": 10020,
+          "end_ms": 10380,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 10.38,
+          "end_sec": 11.38,
+          "begin_ms": 10380,
+          "end_ms": 11380,
+          "text": " discuss",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 11.38,
+          "end_sec": 11.54,
+          "begin_ms": 11380,
+          "end_ms": 11540,
+          "text": " one",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 11.54,
+          "end_sec": 11.7,
+          "begin_ms": 11540,
+          "end_ms": 11700,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 11.7,
+          "end_sec": 12.06,
+          "begin_ms": 11700,
+          "end_ms": 12060,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 12.06,
+          "end_sec": 12.58,
+          "begin_ms": 12060,
+          "end_ms": 12580,
+          "text": " frequently",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 12.58,
+          "end_sec": 13.3,
+          "begin_ms": 12580,
+          "end_ms": 13300,
+          "text": " used",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 13.3,
+          "end_sec": 13.82,
+          "begin_ms": 13300,
+          "end_ms": 13820,
+          "text": " investigation",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 13.82,
+          "end_sec": 14.46,
+          "begin_ms": 13820,
+          "end_ms": 14460,
+          "text": " tools",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 14.46,
+          "end_sec": 15.06,
+          "begin_ms": 14460,
+          "end_ms": 15060,
+          "text": ":",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 15.54,
+          "end_sec": 15.7,
+          "begin_ms": 15540,
+          "end_ms": 15700,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 15.7,
+          "end_sec": 15.86,
+          "begin_ms": 15700,
+          "end_ms": 15860,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 15.86,
+          "end_sec": 16.3,
+          "begin_ms": 15860,
+          "end_ms": 16300,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 16.3,
+          "end_sec": 17.38,
+          "begin_ms": 16300,
+          "end_ms": 17380,
+          "text": " analysis",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 19.46,
+      "end_sec": 29.82,
+      "begin_ms": 19460,
+      "end_ms": 29820,
+      "text": "Friends, my YouTube channel name is Pharma Quality, so please view, like, comment and subscribe my channel to get the knowledge about the pharma quality standards and practices.",
+      "srt_begin": "00:00:19,460",
+      "srt_end": "00:00:29,820",
+      "words": [
+        {
+          "begin_sec": 19.46,
+          "end_sec": 20.46,
+          "begin_ms": 19460,
+          "end_ms": 20460,
+          "text": "Friends",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 20.5,
+          "end_sec": 20.74,
+          "begin_ms": 20500,
+          "end_ms": 20740,
+          "text": " my",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 20.74,
+          "end_sec": 21.06,
+          "begin_ms": 20740,
+          "end_ms": 21060,
+          "text": " YouTube",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 21.06,
+          "end_sec": 21.26,
+          "begin_ms": 21060,
+          "end_ms": 21260,
+          "text": " channel",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 21.26,
+          "end_sec": 21.38,
+          "begin_ms": 21260,
+          "end_ms": 21380,
+          "text": " name",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 21.38,
+          "end_sec": 21.7,
+          "begin_ms": 21380,
+          "end_ms": 21700,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 21.7,
+          "end_sec": 22.1,
+          "begin_ms": 21700,
+          "end_ms": 22100,
+          "text": " Pharma",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 22.1,
+          "end_sec": 22.34,
+          "begin_ms": 22100,
+          "end_ms": 22340,
+          "text": " Quality",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 22.86,
+          "end_sec": 23.18,
+          "begin_ms": 22860,
+          "end_ms": 23180,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 23.18,
+          "end_sec": 23.78,
+          "begin_ms": 23180,
+          "end_ms": 23780,
+          "text": " please",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 23.78,
+          "end_sec": 23.98,
+          "begin_ms": 23780,
+          "end_ms": 23980,
+          "text": " view",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 24.1,
+          "end_sec": 24.26,
+          "begin_ms": 24100,
+          "end_ms": 24260,
+          "text": " like",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 24.46,
+          "end_sec": 24.82,
+          "begin_ms": 24460,
+          "end_ms": 24820,
+          "text": " comment",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 24.82,
+          "end_sec": 25.14,
+          "begin_ms": 24820,
+          "end_ms": 25140,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 25.14,
+          "end_sec": 25.54,
+          "begin_ms": 25140,
+          "end_ms": 25540,
+          "text": " subscribe",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 25.54,
+          "end_sec": 25.82,
+          "begin_ms": 25540,
+          "end_ms": 25820,
+          "text": " my",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 25.82,
+          "end_sec": 26.22,
+          "begin_ms": 25820,
+          "end_ms": 26220,
+          "text": " channel",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 26.22,
+          "end_sec": 26.46,
+          "begin_ms": 26220,
+          "end_ms": 26460,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 26.46,
+          "end_sec": 26.86,
+          "begin_ms": 26460,
+          "end_ms": 26860,
+          "text": " get",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 26.86,
+          "end_sec": 27.14,
+          "begin_ms": 26860,
+          "end_ms": 27140,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 27.14,
+          "end_sec": 27.34,
+          "begin_ms": 27140,
+          "end_ms": 27340,
+          "text": " knowledge",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 27.34,
+          "end_sec": 27.58,
+          "begin_ms": 27340,
+          "end_ms": 27580,
+          "text": " about",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 27.58,
+          "end_sec": 27.7,
+          "begin_ms": 27580,
+          "end_ms": 27700,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 27.7,
+          "end_sec": 27.86,
+          "begin_ms": 27700,
+          "end_ms": 27860,
+          "text": " ph",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 27.86,
+          "end_sec": 28.06,
+          "begin_ms": 27860,
+          "end_ms": 28060,
+          "text": "arma",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 28.06,
+          "end_sec": 28.66,
+          "begin_ms": 28060,
+          "end_ms": 28660,
+          "text": " quality",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 28.66,
+          "end_sec": 29.1,
+          "begin_ms": 28660,
+          "end_ms": 29100,
+          "text": " standards",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 29.1,
+          "end_sec": 29.66,
+          "begin_ms": 29100,
+          "end_ms": 29660,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 29.66,
+          "end_sec": 29.82,
+          "begin_ms": 29660,
+          "end_ms": 29820,
+          "text": " practices",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 34.14,
+      "end_sec": 39.62,
+      "begin_ms": 34140,
+      "end_ms": 39620,
+      "text": "So now in this slide we will discuss what is 5Y analysis.",
+      "srt_begin": "00:00:34,140",
+      "srt_end": "00:00:39,620",
+      "words": [
+        {
+          "begin_sec": 34.14,
+          "end_sec": 34.86,
+          "begin_ms": 34140,
+          "end_ms": 34860,
+          "text": "So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 34.86,
+          "end_sec": 35.06,
+          "begin_ms": 34860,
+          "end_ms": 35060,
+          "text": " now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 35.06,
+          "end_sec": 35.22,
+          "begin_ms": 35060,
+          "end_ms": 35220,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 35.22,
+          "end_sec": 35.46,
+          "begin_ms": 35220,
+          "end_ms": 35460,
+          "text": " this",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 35.46,
+          "end_sec": 35.74,
+          "begin_ms": 35460,
+          "end_ms": 35740,
+          "text": " slide",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 35.74,
+          "end_sec": 35.9,
+          "begin_ms": 35740,
+          "end_ms": 35900,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 35.9,
+          "end_sec": 36.26,
+          "begin_ms": 35900,
+          "end_ms": 36260,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 36.26,
+          "end_sec": 36.86,
+          "begin_ms": 36260,
+          "end_ms": 36860,
+          "text": " discuss",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 36.86,
+          "end_sec": 37.06,
+          "begin_ms": 36860,
+          "end_ms": 37060,
+          "text": " what",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 37.06,
+          "end_sec": 37.34,
+          "begin_ms": 37060,
+          "end_ms": 37340,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 37.34,
+          "end_sec": 37.5,
+          "begin_ms": 37340,
+          "end_ms": 37500,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 37.5,
+          "end_sec": 37.66,
+          "begin_ms": 37500,
+          "end_ms": 37660,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 37.66,
+          "end_sec": 38.1,
+          "begin_ms": 37660,
+          "end_ms": 38100,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 38.1,
+          "end_sec": 39.62,
+          "begin_ms": 38100,
+          "end_ms": 39620,
+          "text": " analysis",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 39.94,
+      "end_sec": 49.94,
+      "begin_ms": 39940,
+      "end_ms": 49940,
+      "text": "Basically, during any non-conformance, deviation out of specification or out of calibration results, 5Y tools can be used to identify the root cause.",
+      "srt_begin": "00:00:39,940",
+      "srt_end": "00:00:49,940",
+      "words": [
+        {
+          "begin_sec": 39.94,
+          "end_sec": 40.26,
+          "begin_ms": 39940,
+          "end_ms": 40260,
+          "text": " Basically",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 40.42,
+          "end_sec": 40.7,
+          "begin_ms": 40420,
+          "end_ms": 40700,
+          "text": " during",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 40.7,
+          "end_sec": 40.94,
+          "begin_ms": 40700,
+          "end_ms": 40940,
+          "text": " any",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 40.94,
+          "end_sec": 41.06,
+          "begin_ms": 40940,
+          "end_ms": 41060,
+          "text": " non",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 41.06,
+          "end_sec": 41.14,
+          "begin_ms": 41060,
+          "end_ms": 41140,
+          "text": "-",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 41.14,
+          "end_sec": 41.26,
+          "begin_ms": 41140,
+          "end_ms": 41260,
+          "text": "con",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 41.26,
+          "end_sec": 41.78,
+          "begin_ms": 41260,
+          "end_ms": 41780,
+          "text": "formance",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 42.06,
+          "end_sec": 42.86,
+          "begin_ms": 42060,
+          "end_ms": 42860,
+          "text": " deviation",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 42.86,
+          "end_sec": 43.1,
+          "begin_ms": 42860,
+          "end_ms": 43100,
+          "text": " out",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 43.1,
+          "end_sec": 43.42,
+          "begin_ms": 43100,
+          "end_ms": 43420,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 43.42,
+          "end_sec": 44.22,
+          "begin_ms": 43420,
+          "end_ms": 44220,
+          "text": " specification",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 44.22,
+          "end_sec": 44.58,
+          "begin_ms": 44220,
+          "end_ms": 44580,
+          "text": " or",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 44.58,
+          "end_sec": 44.82,
+          "begin_ms": 44580,
+          "end_ms": 44820,
+          "text": " out",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 44.82,
+          "end_sec": 45.1,
+          "begin_ms": 44820,
+          "end_ms": 45100,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 45.1,
+          "end_sec": 45.62,
+          "begin_ms": 45100,
+          "end_ms": 45620,
+          "text": " calibration",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 45.62,
+          "end_sec": 46.5,
+          "begin_ms": 45620,
+          "end_ms": 46500,
+          "text": " results",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 46.62,
+          "end_sec": 46.76,
+          "begin_ms": 46620,
+          "end_ms": 46760,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 46.76,
+          "end_sec": 46.9,
+          "begin_ms": 46760,
+          "end_ms": 46900,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 46.9,
+          "end_sec": 47.1,
+          "begin_ms": 46900,
+          "end_ms": 47100,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 47.1,
+          "end_sec": 47.62,
+          "begin_ms": 47100,
+          "end_ms": 47620,
+          "text": " tools",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 47.62,
+          "end_sec": 47.7,
+          "begin_ms": 47620,
+          "end_ms": 47700,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 47.7,
+          "end_sec": 47.9,
+          "begin_ms": 47700,
+          "end_ms": 47900,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 47.9,
+          "end_sec": 48.22,
+          "begin_ms": 47900,
+          "end_ms": 48220,
+          "text": " used",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 48.22,
+          "end_sec": 48.66,
+          "begin_ms": 48220,
+          "end_ms": 48660,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 48.66,
+          "end_sec": 49.18,
+          "begin_ms": 48660,
+          "end_ms": 49180,
+          "text": " identify",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 49.18,
+          "end_sec": 49.38,
+          "begin_ms": 49180,
+          "end_ms": 49380,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 49.38,
+          "end_sec": 49.66,
+          "begin_ms": 49380,
+          "end_ms": 49660,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 49.66,
+          "end_sec": 49.94,
+          "begin_ms": 49660,
+          "end_ms": 49940,
+          "text": " cause",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 51.82,
+      "end_sec": 58.74,
+      "begin_ms": 51820,
+      "end_ms": 58740,
+      "text": "A 5Y investigation is a systematic problem-solving technique used to identify the root cause of an issue.",
+      "srt_begin": "00:00:51,820",
+      "srt_end": "00:00:58,740",
+      "words": [
+        {
+          "begin_sec": 51.82,
+          "end_sec": 52.1,
+          "begin_ms": 51820,
+          "end_ms": 52100,
+          "text": " A",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 52.1,
+          "end_sec": 52.26,
+          "begin_ms": 52100,
+          "end_ms": 52260,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 52.26,
+          "end_sec": 52.42,
+          "begin_ms": 52260,
+          "end_ms": 52420,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 52.42,
+          "end_sec": 52.82,
+          "begin_ms": 52420,
+          "end_ms": 52820,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 52.82,
+          "end_sec": 53.38,
+          "begin_ms": 52820,
+          "end_ms": 53380,
+          "text": " investigation",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 53.38,
+          "end_sec": 53.54,
+          "begin_ms": 53380,
+          "end_ms": 53540,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 53.54,
+          "end_sec": 53.82,
+          "begin_ms": 53540,
+          "end_ms": 53820,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 53.82,
+          "end_sec": 54.5,
+          "begin_ms": 53820,
+          "end_ms": 54500,
+          "text": " systematic",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 54.5,
+          "end_sec": 54.74,
+          "begin_ms": 54500,
+          "end_ms": 54740,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 54.74,
+          "end_sec": 54.86,
+          "begin_ms": 54740,
+          "end_ms": 54860,
+          "text": "-",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 54.86,
+          "end_sec": 55.26,
+          "begin_ms": 54860,
+          "end_ms": 55260,
+          "text": "solving",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 55.26,
+          "end_sec": 55.98,
+          "begin_ms": 55260,
+          "end_ms": 55980,
+          "text": " technique",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 55.98,
+          "end_sec": 56.46,
+          "begin_ms": 55980,
+          "end_ms": 56460,
+          "text": " used",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 56.46,
+          "end_sec": 56.82,
+          "begin_ms": 56460,
+          "end_ms": 56820,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 56.82,
+          "end_sec": 57.46,
+          "begin_ms": 56820,
+          "end_ms": 57460,
+          "text": " identify",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 57.46,
+          "end_sec": 57.66,
+          "begin_ms": 57460,
+          "end_ms": 57660,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 57.66,
+          "end_sec": 57.94,
+          "begin_ms": 57660,
+          "end_ms": 57940,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 57.94,
+          "end_sec": 58.14,
+          "begin_ms": 57940,
+          "end_ms": 58140,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 58.14,
+          "end_sec": 58.34,
+          "begin_ms": 58140,
+          "end_ms": 58340,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 58.34,
+          "end_sec": 58.54,
+          "begin_ms": 58340,
+          "end_ms": 58540,
+          "text": " an",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 58.54,
+          "end_sec": 58.74,
+          "begin_ms": 58540,
+          "end_ms": 58740,
+          "text": " issue",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 59.3,
+      "end_sec": 62.22,
+      "begin_ms": 59300,
+      "end_ms": 62220,
+      "text": "通过反复问为什么来。",
+      "srt_begin": "00:00:59,300",
+      "srt_end": "00:01:02,220",
+      "words": [
+        {
+          "begin_sec": 59.3,
+          "end_sec": 60.38,
+          "begin_ms": 59300,
+          "end_ms": 60380,
+          "text": "通过",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 60.38,
+          "end_sec": 60.86,
+          "begin_ms": 60380,
+          "end_ms": 60860,
+          "text": "反复",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 60.86,
+          "end_sec": 60.9,
+          "begin_ms": 60860,
+          "end_ms": 60900,
+          "text": "问",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 60.9,
+          "end_sec": 61.62,
+          "begin_ms": 60900,
+          "end_ms": 61620,
+          "text": "为什么",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 61.62,
+          "end_sec": 62.22,
+          "begin_ms": 61620,
+          "end_ms": 62220,
+          "text": "来",
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "begin_sec": 64.12,
+      "end_sec": 72.04,
+      "begin_ms": 64120,
+      "end_ms": 72040,
+      "text": "Next, 5Y is a useful and effective tool for identifying the root cause during the investigation.",
+      "srt_begin": "00:01:04,120",
+      "srt_end": "00:01:12,040",
+      "words": [
+        {
+          "begin_sec": 64.12,
+          "end_sec": 65.08,
+          "begin_ms": 64120,
+          "end_ms": 65080,
+          "text": "Next",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 65.2,
+          "end_sec": 65.32,
+          "begin_ms": 65200,
+          "end_ms": 65320,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 65.32,
+          "end_sec": 65.44,
+          "begin_ms": 65320,
+          "end_ms": 65440,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 65.44,
+          "end_sec": 65.68,
+          "begin_ms": 65440,
+          "end_ms": 65680,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 65.68,
+          "end_sec": 65.88,
+          "begin_ms": 65680,
+          "end_ms": 65880,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 65.88,
+          "end_sec": 66.08,
+          "begin_ms": 65880,
+          "end_ms": 66080,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 66.08,
+          "end_sec": 66.64,
+          "begin_ms": 66080,
+          "end_ms": 66640,
+          "text": " useful",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 66.64,
+          "end_sec": 67.0,
+          "begin_ms": 66640,
+          "end_ms": 67000,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 67.0,
+          "end_sec": 67.44,
+          "begin_ms": 67000,
+          "end_ms": 67440,
+          "text": " effective",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 67.44,
+          "end_sec": 67.72,
+          "begin_ms": 67440,
+          "end_ms": 67720,
+          "text": " tool",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 67.72,
+          "end_sec": 68.08,
+          "begin_ms": 67720,
+          "end_ms": 68080,
+          "text": " for",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 68.08,
+          "end_sec": 68.68,
+          "begin_ms": 68080,
+          "end_ms": 68680,
+          "text": " identifying",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 68.68,
+          "end_sec": 68.92,
+          "begin_ms": 68680,
+          "end_ms": 68920,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 68.92,
+          "end_sec": 69.2,
+          "begin_ms": 68920,
+          "end_ms": 69200,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 69.2,
+          "end_sec": 69.88,
+          "begin_ms": 69200,
+          "end_ms": 69880,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 69.88,
+          "end_sec": 70.08,
+          "begin_ms": 69880,
+          "end_ms": 70080,
+          "text": " during",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 70.08,
+          "end_sec": 70.6,
+          "begin_ms": 70080,
+          "end_ms": 70600,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 70.6,
+          "end_sec": 72.04,
+          "begin_ms": 70600,
+          "end_ms": 72040,
+          "text": " investigation",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 76.36,
+      "end_sec": 83.96,
+      "begin_ms": 76360,
+      "end_ms": 83960,
+      "text": "Next, simply ask the question and try to find the exact answer for that.",
+      "srt_begin": "00:01:16,360",
+      "srt_end": "00:01:23,960",
+      "words": [
+        {
+          "begin_sec": 76.36,
+          "end_sec": 77.16,
+          "begin_ms": 76360,
+          "end_ms": 77160,
+          "text": "Next",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 77.72,
+          "end_sec": 78.24,
+          "begin_ms": 77720,
+          "end_ms": 78240,
+          "text": " simply",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 78.24,
+          "end_sec": 78.6,
+          "begin_ms": 78240,
+          "end_ms": 78600,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 78.6,
+          "end_sec": 78.84,
+          "begin_ms": 78600,
+          "end_ms": 78840,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 78.84,
+          "end_sec": 79.68,
+          "begin_ms": 78840,
+          "end_ms": 79680,
+          "text": " question",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 79.68,
+          "end_sec": 80.0,
+          "begin_ms": 79680,
+          "end_ms": 80000,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 80.0,
+          "end_sec": 80.24,
+          "begin_ms": 80000,
+          "end_ms": 80240,
+          "text": " try",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 80.24,
+          "end_sec": 80.56,
+          "begin_ms": 80240,
+          "end_ms": 80560,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 80.56,
+          "end_sec": 81.28,
+          "begin_ms": 80560,
+          "end_ms": 81280,
+          "text": " find",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 81.28,
+          "end_sec": 81.68,
+          "begin_ms": 81280,
+          "end_ms": 81680,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 81.68,
+          "end_sec": 82.32,
+          "begin_ms": 81680,
+          "end_ms": 82320,
+          "text": " exact",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 82.32,
+          "end_sec": 82.68,
+          "begin_ms": 82320,
+          "end_ms": 82680,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 82.68,
+          "end_sec": 82.96,
+          "begin_ms": 82680,
+          "end_ms": 82960,
+          "text": " for",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 82.96,
+          "end_sec": 83.96,
+          "begin_ms": 82960,
+          "end_ms": 83960,
+          "text": " that",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 84.2,
+      "end_sec": 92.24,
+      "begin_ms": 84200,
+      "end_ms": 92240,
+      "text": "In this, we can ask \"why\" on every step to go into the deep and identify the root cause.",
+      "srt_begin": "00:01:24,200",
+      "srt_end": "00:01:32,240",
+      "words": [
+        {
+          "begin_sec": 84.2,
+          "end_sec": 84.4,
+          "begin_ms": 84200,
+          "end_ms": 84400,
+          "text": " In",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 84.4,
+          "end_sec": 84.76,
+          "begin_ms": 84400,
+          "end_ms": 84760,
+          "text": " this",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 85.68,
+          "end_sec": 85.8,
+          "begin_ms": 85680,
+          "end_ms": 85800,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 85.8,
+          "end_sec": 86.16,
+          "begin_ms": 85800,
+          "end_ms": 86160,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 86.16,
+          "end_sec": 86.44,
+          "begin_ms": 86160,
+          "end_ms": 86440,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 86.44,
+          "end_sec": 86.56,
+          "begin_ms": 86440,
+          "end_ms": 86560,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 86.56,
+          "end_sec": 86.68,
+          "begin_ms": 86560,
+          "end_ms": 86680,
+          "text": "\"",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 86.68,
+          "end_sec": 86.88,
+          "begin_ms": 86680,
+          "end_ms": 86880,
+          "text": "why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 86.88,
+          "end_sec": 87.0,
+          "begin_ms": 86880,
+          "end_ms": 87000,
+          "text": "\"",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 87.0,
+          "end_sec": 87.36,
+          "begin_ms": 87000,
+          "end_ms": 87360,
+          "text": " on",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 87.36,
+          "end_sec": 87.68,
+          "begin_ms": 87360,
+          "end_ms": 87680,
+          "text": " every",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 87.68,
+          "end_sec": 88.04,
+          "begin_ms": 87680,
+          "end_ms": 88040,
+          "text": " step",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 88.04,
+          "end_sec": 88.28,
+          "begin_ms": 88040,
+          "end_ms": 88280,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 88.28,
+          "end_sec": 88.6,
+          "begin_ms": 88280,
+          "end_ms": 88600,
+          "text": " go",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 88.6,
+          "end_sec": 88.84,
+          "begin_ms": 88600,
+          "end_ms": 88840,
+          "text": " into",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 88.84,
+          "end_sec": 89.04,
+          "begin_ms": 88840,
+          "end_ms": 89040,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 89.04,
+          "end_sec": 89.4,
+          "begin_ms": 89040,
+          "end_ms": 89400,
+          "text": " deep",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 89.4,
+          "end_sec": 89.84,
+          "begin_ms": 89400,
+          "end_ms": 89840,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 89.84,
+          "end_sec": 90.44,
+          "begin_ms": 89840,
+          "end_ms": 90440,
+          "text": " identify",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 90.44,
+          "end_sec": 90.88,
+          "begin_ms": 90440,
+          "end_ms": 90880,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 90.88,
+          "end_sec": 91.16,
+          "begin_ms": 90880,
+          "end_ms": 91160,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 91.16,
+          "end_sec": 92.24,
+          "begin_ms": 91160,
+          "end_ms": 92240,
+          "text": " cause",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 93.04,
+      "end_sec": 101.28,
+      "begin_ms": 93040,
+      "end_ms": 101280,
+      "text": "In 5Y analysis, we can frequently ask \"why it happened,\" so we can get the right answer.",
+      "srt_begin": "00:01:33,040",
+      "srt_end": "00:01:41,280",
+      "words": [
+        {
+          "begin_sec": 93.04,
+          "end_sec": 93.72,
+          "begin_ms": 93040,
+          "end_ms": 93720,
+          "text": " In",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 93.72,
+          "end_sec": 93.86,
+          "begin_ms": 93720,
+          "end_ms": 93860,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 93.86,
+          "end_sec": 94.0,
+          "begin_ms": 93860,
+          "end_ms": 94000,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 94.0,
+          "end_sec": 94.16,
+          "begin_ms": 94000,
+          "end_ms": 94160,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 94.16,
+          "end_sec": 94.36,
+          "begin_ms": 94160,
+          "end_ms": 94360,
+          "text": " analysis",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 94.76,
+          "end_sec": 94.92,
+          "begin_ms": 94760,
+          "end_ms": 94920,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 94.92,
+          "end_sec": 94.96,
+          "begin_ms": 94920,
+          "end_ms": 94960,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 94.96,
+          "end_sec": 95.36,
+          "begin_ms": 94960,
+          "end_ms": 95360,
+          "text": " frequently",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 95.36,
+          "end_sec": 95.84,
+          "begin_ms": 95360,
+          "end_ms": 95840,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 95.84,
+          "end_sec": 96.44,
+          "begin_ms": 95840,
+          "end_ms": 96440,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 96.44,
+          "end_sec": 97.04,
+          "begin_ms": 96440,
+          "end_ms": 97040,
+          "text": "\"",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 97.44,
+          "end_sec": 97.68,
+          "begin_ms": 97440,
+          "end_ms": 97680,
+          "text": "why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 97.68,
+          "end_sec": 98.2,
+          "begin_ms": 97680,
+          "end_ms": 98200,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 98.2,
+          "end_sec": 98.56,
+          "begin_ms": 98200,
+          "end_ms": 98560,
+          "text": " happened",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 98.66,
+          "end_sec": 98.76,
+          "begin_ms": 98660,
+          "end_ms": 98760,
+          "text": "\"",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 98.76,
+          "end_sec": 99.2,
+          "begin_ms": 98760,
+          "end_ms": 99200,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 99.2,
+          "end_sec": 99.32,
+          "begin_ms": 99200,
+          "end_ms": 99320,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 99.32,
+          "end_sec": 99.52,
+          "begin_ms": 99320,
+          "end_ms": 99520,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 99.52,
+          "end_sec": 99.8,
+          "begin_ms": 99520,
+          "end_ms": 99800,
+          "text": " get",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 99.8,
+          "end_sec": 100.56,
+          "begin_ms": 99800,
+          "end_ms": 100560,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 100.56,
+          "end_sec": 101.08,
+          "begin_ms": 100560,
+          "end_ms": 101080,
+          "text": " right",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 101.08,
+          "end_sec": 101.28,
+          "begin_ms": 101080,
+          "end_ms": 101280,
+          "text": " answer",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 103.3,
+      "end_sec": 110.94,
+      "begin_ms": 103300,
+      "end_ms": 110940,
+      "text": "So now we will discuss when 5Y analysis can be used; that is, the exact purpose of using 5Y.",
+      "srt_begin": "00:01:43,300",
+      "srt_end": "00:01:50,940",
+      "words": [
+        {
+          "begin_sec": 103.3,
+          "end_sec": 104.18,
+          "begin_ms": 103300,
+          "end_ms": 104180,
+          "text": "So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 104.18,
+          "end_sec": 104.5,
+          "begin_ms": 104180,
+          "end_ms": 104500,
+          "text": " now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 104.5,
+          "end_sec": 104.62,
+          "begin_ms": 104500,
+          "end_ms": 104620,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 104.62,
+          "end_sec": 105.02,
+          "begin_ms": 104620,
+          "end_ms": 105020,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 105.02,
+          "end_sec": 105.5,
+          "begin_ms": 105020,
+          "end_ms": 105500,
+          "text": " discuss",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 105.5,
+          "end_sec": 105.78,
+          "begin_ms": 105500,
+          "end_ms": 105780,
+          "text": " when",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 105.78,
+          "end_sec": 105.92,
+          "begin_ms": 105780,
+          "end_ms": 105920,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 105.92,
+          "end_sec": 106.06,
+          "begin_ms": 105920,
+          "end_ms": 106060,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 106.06,
+          "end_sec": 106.26,
+          "begin_ms": 106060,
+          "end_ms": 106260,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 106.26,
+          "end_sec": 106.7,
+          "begin_ms": 106260,
+          "end_ms": 106700,
+          "text": " analysis",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 106.7,
+          "end_sec": 106.74,
+          "begin_ms": 106700,
+          "end_ms": 106740,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 106.74,
+          "end_sec": 106.98,
+          "begin_ms": 106740,
+          "end_ms": 106980,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 106.98,
+          "end_sec": 107.42,
+          "begin_ms": 106980,
+          "end_ms": 107420,
+          "text": " used",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 107.42,
+          "end_sec": 107.46,
+          "begin_ms": 107420,
+          "end_ms": 107460,
+          "text": ";",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 107.46,
+          "end_sec": 107.66,
+          "begin_ms": 107460,
+          "end_ms": 107660,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 107.66,
+          "end_sec": 107.82,
+          "begin_ms": 107660,
+          "end_ms": 107820,
+          "text": " is",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 107.86,
+          "end_sec": 108.22,
+          "begin_ms": 107860,
+          "end_ms": 108220,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 108.22,
+          "end_sec": 108.78,
+          "begin_ms": 108220,
+          "end_ms": 108780,
+          "text": " exact",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 108.78,
+          "end_sec": 109.18,
+          "begin_ms": 108780,
+          "end_ms": 109180,
+          "text": " purpose",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 109.18,
+          "end_sec": 109.46,
+          "begin_ms": 109180,
+          "end_ms": 109460,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 109.46,
+          "end_sec": 110.02,
+          "begin_ms": 109460,
+          "end_ms": 110020,
+          "text": " using",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 110.02,
+          "end_sec": 110.18,
+          "begin_ms": 110020,
+          "end_ms": 110180,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 110.18,
+          "end_sec": 110.34,
+          "begin_ms": 110180,
+          "end_ms": 110340,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 110.34,
+          "end_sec": 110.94,
+          "begin_ms": 110340,
+          "end_ms": 110940,
+          "text": "Y",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 112.14,
+      "end_sec": 121.02,
+      "begin_ms": 112140,
+      "end_ms": 121020,
+      "text": "First, it helps to identify the root cause of a problem, meaning you can find out the root cause of a nonconformance.",
+      "srt_begin": "00:01:52,140",
+      "srt_end": "00:02:01,020",
+      "words": [
+        {
+          "begin_sec": 112.14,
+          "end_sec": 112.38,
+          "begin_ms": 112140,
+          "end_ms": 112380,
+          "text": " First",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 113.22,
+          "end_sec": 113.54,
+          "begin_ms": 113220,
+          "end_ms": 113540,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 113.54,
+          "end_sec": 113.78,
+          "begin_ms": 113540,
+          "end_ms": 113780,
+          "text": " helps",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 113.78,
+          "end_sec": 114.02,
+          "begin_ms": 113780,
+          "end_ms": 114020,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 114.02,
+          "end_sec": 114.54,
+          "begin_ms": 114020,
+          "end_ms": 114540,
+          "text": " identify",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 114.54,
+          "end_sec": 114.78,
+          "begin_ms": 114540,
+          "end_ms": 114780,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 114.78,
+          "end_sec": 115.02,
+          "begin_ms": 114780,
+          "end_ms": 115020,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 115.02,
+          "end_sec": 115.38,
+          "begin_ms": 115020,
+          "end_ms": 115380,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 115.38,
+          "end_sec": 115.58,
+          "begin_ms": 115380,
+          "end_ms": 115580,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 115.58,
+          "end_sec": 115.86,
+          "begin_ms": 115580,
+          "end_ms": 115860,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 115.86,
+          "end_sec": 116.7,
+          "begin_ms": 115860,
+          "end_ms": 116700,
+          "text": " problem",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 116.9,
+          "end_sec": 117.3,
+          "begin_ms": 116900,
+          "end_ms": 117300,
+          "text": " meaning",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 117.3,
+          "end_sec": 117.42,
+          "begin_ms": 117300,
+          "end_ms": 117420,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 117.42,
+          "end_sec": 117.7,
+          "begin_ms": 117420,
+          "end_ms": 117700,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 117.7,
+          "end_sec": 117.94,
+          "begin_ms": 117700,
+          "end_ms": 117940,
+          "text": " find",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 117.94,
+          "end_sec": 118.18,
+          "begin_ms": 117940,
+          "end_ms": 118180,
+          "text": " out",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 118.18,
+          "end_sec": 118.34,
+          "begin_ms": 118180,
+          "end_ms": 118340,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 118.34,
+          "end_sec": 118.58,
+          "begin_ms": 118340,
+          "end_ms": 118580,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 118.58,
+          "end_sec": 118.9,
+          "begin_ms": 118580,
+          "end_ms": 118900,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 118.9,
+          "end_sec": 119.1,
+          "begin_ms": 118900,
+          "end_ms": 119100,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 119.1,
+          "end_sec": 119.22,
+          "begin_ms": 119100,
+          "end_ms": 119220,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 119.22,
+          "end_sec": 119.46,
+          "begin_ms": 119220,
+          "end_ms": 119460,
+          "text": " non",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 119.46,
+          "end_sec": 119.58,
+          "begin_ms": 119460,
+          "end_ms": 119580,
+          "text": "con",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 119.58,
+          "end_sec": 121.02,
+          "begin_ms": 119580,
+          "end_ms": 121020,
+          "text": "formance",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 122.7,
+      "end_sec": 128.98,
+      "begin_ms": 122700,
+      "end_ms": 128980,
+      "text": "Second, it determines the relationship between different root causes of a problem.",
+      "srt_begin": "00:02:02,700",
+      "srt_end": "00:02:08,979",
+      "words": [
+        {
+          "begin_sec": 122.7,
+          "end_sec": 123.06,
+          "begin_ms": 122700,
+          "end_ms": 123060,
+          "text": " Second",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 123.98,
+          "end_sec": 124.94,
+          "begin_ms": 123980,
+          "end_ms": 124940,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 124.94,
+          "end_sec": 125.38,
+          "begin_ms": 124940,
+          "end_ms": 125380,
+          "text": " determines",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 125.38,
+          "end_sec": 125.62,
+          "begin_ms": 125380,
+          "end_ms": 125620,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 125.62,
+          "end_sec": 126.34,
+          "begin_ms": 125620,
+          "end_ms": 126340,
+          "text": " relationship",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 126.34,
+          "end_sec": 126.98,
+          "begin_ms": 126340,
+          "end_ms": 126980,
+          "text": " between",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 126.98,
+          "end_sec": 127.42,
+          "begin_ms": 126980,
+          "end_ms": 127420,
+          "text": " different",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 127.42,
+          "end_sec": 127.66,
+          "begin_ms": 127420,
+          "end_ms": 127660,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 127.66,
+          "end_sec": 127.94,
+          "begin_ms": 127660,
+          "end_ms": 127940,
+          "text": " causes",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 127.94,
+          "end_sec": 128.14,
+          "begin_ms": 127940,
+          "end_ms": 128140,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 128.14,
+          "end_sec": 128.46,
+          "begin_ms": 128140,
+          "end_ms": 128460,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 128.46,
+          "end_sec": 128.98,
+          "begin_ms": 128460,
+          "end_ms": 128980,
+          "text": " problem",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 129.12,
+      "end_sec": 133.72,
+      "begin_ms": 129120,
+      "end_ms": 133720,
+      "text": "That is, you can interpret the different cause with five why analysis.",
+      "srt_begin": "00:02:09,120",
+      "srt_end": "00:02:13,720",
+      "words": [
+        {
+          "begin_sec": 129.12,
+          "end_sec": 129.44,
+          "begin_ms": 129120,
+          "end_ms": 129440,
+          "text": "That",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 129.44,
+          "end_sec": 129.48,
+          "begin_ms": 129440,
+          "end_ms": 129480,
+          "text": " is",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 129.72,
+          "end_sec": 129.88,
+          "begin_ms": 129720,
+          "end_ms": 129880,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 129.88,
+          "end_sec": 130.48,
+          "begin_ms": 129880,
+          "end_ms": 130480,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 130.48,
+          "end_sec": 131.2,
+          "begin_ms": 130480,
+          "end_ms": 131200,
+          "text": " interpret",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 131.2,
+          "end_sec": 131.52,
+          "begin_ms": 131200,
+          "end_ms": 131520,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 131.52,
+          "end_sec": 131.84,
+          "begin_ms": 131520,
+          "end_ms": 131840,
+          "text": " different",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 131.84,
+          "end_sec": 132.36,
+          "begin_ms": 131840,
+          "end_ms": 132360,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 132.36,
+          "end_sec": 132.56,
+          "begin_ms": 132360,
+          "end_ms": 132560,
+          "text": " with",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 132.56,
+          "end_sec": 132.68,
+          "begin_ms": 132560,
+          "end_ms": 132680,
+          "text": " five",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 132.68,
+          "end_sec": 133.44,
+          "begin_ms": 132680,
+          "end_ms": 133440,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 133.44,
+          "end_sec": 133.72,
+          "begin_ms": 133440,
+          "end_ms": 133720,
+          "text": " analysis",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 135.16,
+      "end_sec": 148.64,
+      "begin_ms": 135160,
+      "end_ms": 148640,
+      "text": "Third is it is one of the simplest tools and easy to complete without any statistical analysis right so in this you do not need to have any statistical data to find out the root cause.",
+      "srt_begin": "00:02:15,160",
+      "srt_end": "00:02:28,640",
+      "words": [
+        {
+          "begin_sec": 135.16,
+          "end_sec": 136.0,
+          "begin_ms": 135160,
+          "end_ms": 136000,
+          "text": "Third",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 136.0,
+          "end_sec": 136.48,
+          "begin_ms": 136000,
+          "end_ms": 136480,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 136.48,
+          "end_sec": 136.64,
+          "begin_ms": 136480,
+          "end_ms": 136640,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 136.64,
+          "end_sec": 136.8,
+          "begin_ms": 136640,
+          "end_ms": 136800,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 136.8,
+          "end_sec": 136.96,
+          "begin_ms": 136800,
+          "end_ms": 136960,
+          "text": " one",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 136.96,
+          "end_sec": 137.08,
+          "begin_ms": 136960,
+          "end_ms": 137080,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 137.08,
+          "end_sec": 137.36,
+          "begin_ms": 137080,
+          "end_ms": 137360,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 137.36,
+          "end_sec": 137.76,
+          "begin_ms": 137360,
+          "end_ms": 137760,
+          "text": " simplest",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 137.76,
+          "end_sec": 138.2,
+          "begin_ms": 137760,
+          "end_ms": 138200,
+          "text": " tools",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 138.2,
+          "end_sec": 138.6,
+          "begin_ms": 138200,
+          "end_ms": 138600,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 138.6,
+          "end_sec": 138.8,
+          "begin_ms": 138600,
+          "end_ms": 138800,
+          "text": " easy",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 138.8,
+          "end_sec": 139.12,
+          "begin_ms": 138800,
+          "end_ms": 139120,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 139.12,
+          "end_sec": 139.6,
+          "begin_ms": 139120,
+          "end_ms": 139600,
+          "text": " complete",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 139.6,
+          "end_sec": 140.56,
+          "begin_ms": 139600,
+          "end_ms": 140560,
+          "text": " without",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 140.56,
+          "end_sec": 141.4,
+          "begin_ms": 140560,
+          "end_ms": 141400,
+          "text": " any",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 141.4,
+          "end_sec": 142.16,
+          "begin_ms": 141400,
+          "end_ms": 142160,
+          "text": " statistical",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 142.16,
+          "end_sec": 142.72,
+          "begin_ms": 142160,
+          "end_ms": 142720,
+          "text": " analysis",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 142.72,
+          "end_sec": 143.36,
+          "begin_ms": 142720,
+          "end_ms": 143360,
+          "text": " right",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 143.36,
+          "end_sec": 143.56,
+          "begin_ms": 143360,
+          "end_ms": 143560,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 143.56,
+          "end_sec": 143.72,
+          "begin_ms": 143560,
+          "end_ms": 143720,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 143.72,
+          "end_sec": 144.0,
+          "begin_ms": 143720,
+          "end_ms": 144000,
+          "text": " this",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 144.0,
+          "end_sec": 144.12,
+          "begin_ms": 144000,
+          "end_ms": 144120,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 144.12,
+          "end_sec": 144.28,
+          "begin_ms": 144120,
+          "end_ms": 144280,
+          "text": " do",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 144.28,
+          "end_sec": 144.48,
+          "begin_ms": 144280,
+          "end_ms": 144480,
+          "text": " not",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 144.48,
+          "end_sec": 144.68,
+          "begin_ms": 144480,
+          "end_ms": 144680,
+          "text": " need",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 144.68,
+          "end_sec": 144.88,
+          "begin_ms": 144680,
+          "end_ms": 144880,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 144.88,
+          "end_sec": 145.52,
+          "begin_ms": 144880,
+          "end_ms": 145520,
+          "text": " have",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 145.52,
+          "end_sec": 146.4,
+          "begin_ms": 145520,
+          "end_ms": 146400,
+          "text": " any",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 146.4,
+          "end_sec": 147.0,
+          "begin_ms": 146400,
+          "end_ms": 147000,
+          "text": " statistical",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 147.0,
+          "end_sec": 147.28,
+          "begin_ms": 147000,
+          "end_ms": 147280,
+          "text": " data",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 147.28,
+          "end_sec": 147.56,
+          "begin_ms": 147280,
+          "end_ms": 147560,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 147.56,
+          "end_sec": 147.8,
+          "begin_ms": 147560,
+          "end_ms": 147800,
+          "text": " find",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 147.8,
+          "end_sec": 148.0,
+          "begin_ms": 147800,
+          "end_ms": 148000,
+          "text": " out",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 148.0,
+          "end_sec": 148.2,
+          "begin_ms": 148000,
+          "end_ms": 148200,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 148.2,
+          "end_sec": 148.6,
+          "begin_ms": 148200,
+          "end_ms": 148600,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 148.6,
+          "end_sec": 148.64,
+          "begin_ms": 148600,
+          "end_ms": 148640,
+          "text": " cause",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 151.98,
+      "end_sec": 156.86,
+      "begin_ms": 151980,
+      "end_ms": 156860,
+      "text": "So now we will discuss how to use 5Y analysis.",
+      "srt_begin": "00:02:31,980",
+      "srt_end": "00:02:36,860",
+      "words": [
+        {
+          "begin_sec": 151.98,
+          "end_sec": 152.86,
+          "begin_ms": 151980,
+          "end_ms": 152860,
+          "text": "So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 152.86,
+          "end_sec": 153.06,
+          "begin_ms": 152860,
+          "end_ms": 153060,
+          "text": " now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 153.06,
+          "end_sec": 153.22,
+          "begin_ms": 153060,
+          "end_ms": 153220,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 153.22,
+          "end_sec": 153.62,
+          "begin_ms": 153220,
+          "end_ms": 153620,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 153.62,
+          "end_sec": 154.1,
+          "begin_ms": 153620,
+          "end_ms": 154100,
+          "text": " discuss",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 154.1,
+          "end_sec": 154.34,
+          "begin_ms": 154100,
+          "end_ms": 154340,
+          "text": " how",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 154.34,
+          "end_sec": 154.58,
+          "begin_ms": 154340,
+          "end_ms": 154580,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 154.58,
+          "end_sec": 154.94,
+          "begin_ms": 154580,
+          "end_ms": 154940,
+          "text": " use",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 154.94,
+          "end_sec": 155.08,
+          "begin_ms": 154940,
+          "end_ms": 155080,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 155.08,
+          "end_sec": 155.22,
+          "begin_ms": 155080,
+          "end_ms": 155220,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 155.22,
+          "end_sec": 155.58,
+          "begin_ms": 155220,
+          "end_ms": 155580,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 155.58,
+          "end_sec": 156.86,
+          "begin_ms": 155580,
+          "end_ms": 156860,
+          "text": " analysis",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 157.14,
+      "end_sec": 167.02,
+      "begin_ms": 157140,
+      "end_ms": 167020,
+      "text": "First, write down the specific problem; writing the issue helps you to formalize the problem and describe it completely.",
+      "srt_begin": "00:02:37,140",
+      "srt_end": "00:02:47,020",
+      "words": [
+        {
+          "begin_sec": 157.14,
+          "end_sec": 157.42,
+          "begin_ms": 157140,
+          "end_ms": 157420,
+          "text": " First",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 159.14,
+          "end_sec": 159.34,
+          "begin_ms": 159140,
+          "end_ms": 159340,
+          "text": " write",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 159.34,
+          "end_sec": 159.58,
+          "begin_ms": 159340,
+          "end_ms": 159580,
+          "text": " down",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 159.58,
+          "end_sec": 159.82,
+          "begin_ms": 159580,
+          "end_ms": 159820,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 159.82,
+          "end_sec": 160.42,
+          "begin_ms": 159820,
+          "end_ms": 160420,
+          "text": " specific",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 160.42,
+          "end_sec": 160.78,
+          "begin_ms": 160420,
+          "end_ms": 160780,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 160.78,
+          "end_sec": 161.38,
+          "begin_ms": 160780,
+          "end_ms": 161380,
+          "text": ";",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 161.42,
+          "end_sec": 161.74,
+          "begin_ms": 161420,
+          "end_ms": 161740,
+          "text": " writing",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 161.74,
+          "end_sec": 161.98,
+          "begin_ms": 161740,
+          "end_ms": 161980,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 161.98,
+          "end_sec": 162.3,
+          "begin_ms": 161980,
+          "end_ms": 162300,
+          "text": " issue",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 162.3,
+          "end_sec": 163.42,
+          "begin_ms": 162300,
+          "end_ms": 163420,
+          "text": " helps",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 163.42,
+          "end_sec": 163.7,
+          "begin_ms": 163420,
+          "end_ms": 163700,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 163.7,
+          "end_sec": 164.02,
+          "begin_ms": 163700,
+          "end_ms": 164020,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 164.02,
+          "end_sec": 164.1,
+          "begin_ms": 164020,
+          "end_ms": 164100,
+          "text": " formal",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 164.1,
+          "end_sec": 164.38,
+          "begin_ms": 164100,
+          "end_ms": 164380,
+          "text": "ize",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 164.38,
+          "end_sec": 164.66,
+          "begin_ms": 164380,
+          "end_ms": 164660,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 164.66,
+          "end_sec": 165.02,
+          "begin_ms": 164660,
+          "end_ms": 165020,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 165.02,
+          "end_sec": 165.42,
+          "begin_ms": 165020,
+          "end_ms": 165420,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 165.42,
+          "end_sec": 165.82,
+          "begin_ms": 165420,
+          "end_ms": 165820,
+          "text": " describe",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 165.82,
+          "end_sec": 166.18,
+          "begin_ms": 165820,
+          "end_ms": 166180,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 166.18,
+          "end_sec": 167.02,
+          "begin_ms": 166180,
+          "end_ms": 167020,
+          "text": " completely",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 167.06,
+      "end_sec": 170.62,
+      "begin_ms": 167060,
+      "end_ms": 170620,
+      "text": "It also helps a team to focus on the same problem.",
+      "srt_begin": "00:02:47,060",
+      "srt_end": "00:02:50,620",
+      "words": [
+        {
+          "begin_sec": 167.06,
+          "end_sec": 167.42,
+          "begin_ms": 167060,
+          "end_ms": 167420,
+          "text": " It",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 167.42,
+          "end_sec": 167.74,
+          "begin_ms": 167420,
+          "end_ms": 167740,
+          "text": " also",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 167.74,
+          "end_sec": 168.38,
+          "begin_ms": 167740,
+          "end_ms": 168380,
+          "text": " helps",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 168.38,
+          "end_sec": 168.66,
+          "begin_ms": 168380,
+          "end_ms": 168660,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 168.66,
+          "end_sec": 168.9,
+          "begin_ms": 168660,
+          "end_ms": 168900,
+          "text": " team",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 168.9,
+          "end_sec": 169.22,
+          "begin_ms": 168900,
+          "end_ms": 169220,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 169.22,
+          "end_sec": 169.58,
+          "begin_ms": 169220,
+          "end_ms": 169580,
+          "text": " focus",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 169.58,
+          "end_sec": 169.74,
+          "begin_ms": 169580,
+          "end_ms": 169740,
+          "text": " on",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 169.74,
+          "end_sec": 169.94,
+          "begin_ms": 169740,
+          "end_ms": 169940,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 169.94,
+          "end_sec": 170.38,
+          "begin_ms": 169940,
+          "end_ms": 170380,
+          "text": " same",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 170.38,
+          "end_sec": 170.62,
+          "begin_ms": 170380,
+          "end_ms": 170620,
+          "text": " problem",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 170.78,
+      "end_sec": 174.22,
+      "begin_ms": 170780,
+      "end_ms": 174220,
+      "text": "So, you need to have a clear specific problem.",
+      "srt_begin": "00:02:50,780",
+      "srt_end": "00:02:54,220",
+      "words": [
+        {
+          "begin_sec": 170.78,
+          "end_sec": 170.94,
+          "begin_ms": 170780,
+          "end_ms": 170940,
+          "text": " So",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 171.22,
+          "end_sec": 171.38,
+          "begin_ms": 171220,
+          "end_ms": 171380,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 171.38,
+          "end_sec": 171.54,
+          "begin_ms": 171380,
+          "end_ms": 171540,
+          "text": " need",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 171.54,
+          "end_sec": 171.7,
+          "begin_ms": 171540,
+          "end_ms": 171700,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 171.7,
+          "end_sec": 171.94,
+          "begin_ms": 171700,
+          "end_ms": 171940,
+          "text": " have",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 171.94,
+          "end_sec": 172.58,
+          "begin_ms": 171940,
+          "end_ms": 172580,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 172.58,
+          "end_sec": 173.1,
+          "begin_ms": 172580,
+          "end_ms": 173100,
+          "text": " clear",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 173.1,
+          "end_sec": 173.7,
+          "begin_ms": 173100,
+          "end_ms": 173700,
+          "text": " specific",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 173.7,
+          "end_sec": 174.22,
+          "begin_ms": 173700,
+          "end_ms": 174220,
+          "text": " problem",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 175.38,
+      "end_sec": 180.46,
+      "begin_ms": 175380,
+      "end_ms": 180460,
+      "text": "Then, ask why the problem happens and write the answer down below the problem.",
+      "srt_begin": "00:02:55,380",
+      "srt_end": "00:03:00,460",
+      "words": [
+        {
+          "begin_sec": 175.38,
+          "end_sec": 175.66,
+          "begin_ms": 175380,
+          "end_ms": 175660,
+          "text": " Then",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 175.98,
+          "end_sec": 176.26,
+          "begin_ms": 175980,
+          "end_ms": 176260,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 176.26,
+          "end_sec": 176.5,
+          "begin_ms": 176260,
+          "end_ms": 176500,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 176.5,
+          "end_sec": 176.78,
+          "begin_ms": 176500,
+          "end_ms": 176780,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 176.78,
+          "end_sec": 177.22,
+          "begin_ms": 176780,
+          "end_ms": 177220,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 177.22,
+          "end_sec": 177.74,
+          "begin_ms": 177220,
+          "end_ms": 177740,
+          "text": " happens",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 177.74,
+          "end_sec": 178.1,
+          "begin_ms": 177740,
+          "end_ms": 178100,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 178.1,
+          "end_sec": 178.34,
+          "begin_ms": 178100,
+          "end_ms": 178340,
+          "text": " write",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 178.34,
+          "end_sec": 179.14,
+          "begin_ms": 178340,
+          "end_ms": 179140,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 179.14,
+          "end_sec": 179.46,
+          "begin_ms": 179140,
+          "end_ms": 179460,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 179.46,
+          "end_sec": 179.78,
+          "begin_ms": 179460,
+          "end_ms": 179780,
+          "text": " down",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 179.78,
+          "end_sec": 179.98,
+          "begin_ms": 179780,
+          "end_ms": 179980,
+          "text": " below",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 179.98,
+          "end_sec": 180.38,
+          "begin_ms": 179980,
+          "end_ms": 180380,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 180.38,
+          "end_sec": 180.46,
+          "begin_ms": 180380,
+          "end_ms": 180460,
+          "text": " problem",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 181.26,
+      "end_sec": 185.78,
+      "begin_ms": 181260,
+      "end_ms": 185780,
+      "text": "Right, so when you ask why problem observed, so you must have an answer.",
+      "srt_begin": "00:03:01,260",
+      "srt_end": "00:03:05,780",
+      "words": [
+        {
+          "begin_sec": 181.26,
+          "end_sec": 181.42,
+          "begin_ms": 181260,
+          "end_ms": 181420,
+          "text": "Right",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 181.94,
+          "end_sec": 182.74,
+          "begin_ms": 181940,
+          "end_ms": 182740,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 182.74,
+          "end_sec": 182.9,
+          "begin_ms": 182740,
+          "end_ms": 182900,
+          "text": " when",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 182.9,
+          "end_sec": 183.18,
+          "begin_ms": 182900,
+          "end_ms": 183180,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 183.18,
+          "end_sec": 183.5,
+          "begin_ms": 183180,
+          "end_ms": 183500,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 183.5,
+          "end_sec": 183.82,
+          "begin_ms": 183500,
+          "end_ms": 183820,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 183.82,
+          "end_sec": 184.34,
+          "begin_ms": 183820,
+          "end_ms": 184340,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 184.34,
+          "end_sec": 184.38,
+          "begin_ms": 184340,
+          "end_ms": 184380,
+          "text": " observed",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 184.66,
+          "end_sec": 184.86,
+          "begin_ms": 184660,
+          "end_ms": 184860,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 184.86,
+          "end_sec": 184.98,
+          "begin_ms": 184860,
+          "end_ms": 184980,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 184.98,
+          "end_sec": 185.22,
+          "begin_ms": 184980,
+          "end_ms": 185220,
+          "text": " must",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 185.22,
+          "end_sec": 185.38,
+          "begin_ms": 185220,
+          "end_ms": 185380,
+          "text": " have",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 185.38,
+          "end_sec": 185.62,
+          "begin_ms": 185380,
+          "end_ms": 185620,
+          "text": " an",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 185.62,
+          "end_sec": 185.78,
+          "begin_ms": 185620,
+          "end_ms": 185780,
+          "text": " answer",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 186.46,
+      "end_sec": 211.06,
+      "begin_ms": 186460,
+      "end_ms": 211060,
+      "text": "So that answer you need to write it right then now if the answer you just provided does not identify the root cause of the problem that you wrote down in step one, ask why again and route write that answer down right so again you can ask why it was happened based on the answer you got here in the first time okay?",
+      "srt_begin": "00:03:06,460",
+      "srt_end": "00:03:31,060",
+      "words": [
+        {
+          "begin_sec": 186.46,
+          "end_sec": 186.82,
+          "begin_ms": 186460,
+          "end_ms": 186820,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 186.82,
+          "end_sec": 187.38,
+          "begin_ms": 186820,
+          "end_ms": 187380,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 187.38,
+          "end_sec": 187.66,
+          "begin_ms": 187380,
+          "end_ms": 187660,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 187.66,
+          "end_sec": 187.78,
+          "begin_ms": 187660,
+          "end_ms": 187780,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 187.78,
+          "end_sec": 187.98,
+          "begin_ms": 187780,
+          "end_ms": 187980,
+          "text": " need",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 187.98,
+          "end_sec": 188.38,
+          "begin_ms": 187980,
+          "end_ms": 188380,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 188.38,
+          "end_sec": 188.62,
+          "begin_ms": 188380,
+          "end_ms": 188620,
+          "text": " write",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 188.62,
+          "end_sec": 189.14,
+          "begin_ms": 188620,
+          "end_ms": 189140,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 189.14,
+          "end_sec": 190.18,
+          "begin_ms": 189140,
+          "end_ms": 190180,
+          "text": " right",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 190.18,
+          "end_sec": 191.06,
+          "begin_ms": 190180,
+          "end_ms": 191060,
+          "text": " then",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 191.06,
+          "end_sec": 191.46,
+          "begin_ms": 191060,
+          "end_ms": 191460,
+          "text": " now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 191.46,
+          "end_sec": 191.86,
+          "begin_ms": 191460,
+          "end_ms": 191860,
+          "text": " if",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 191.86,
+          "end_sec": 192.18,
+          "begin_ms": 191860,
+          "end_ms": 192180,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 192.18,
+          "end_sec": 192.46,
+          "begin_ms": 192180,
+          "end_ms": 192460,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 192.46,
+          "end_sec": 192.66,
+          "begin_ms": 192460,
+          "end_ms": 192660,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 192.66,
+          "end_sec": 193.06,
+          "begin_ms": 192660,
+          "end_ms": 193060,
+          "text": " just",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 193.06,
+          "end_sec": 193.54,
+          "begin_ms": 193060,
+          "end_ms": 193540,
+          "text": " provided",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 193.54,
+          "end_sec": 193.78,
+          "begin_ms": 193540,
+          "end_ms": 193780,
+          "text": " does",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 193.78,
+          "end_sec": 194.14,
+          "begin_ms": 193780,
+          "end_ms": 194140,
+          "text": " not",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 194.14,
+          "end_sec": 194.62,
+          "begin_ms": 194140,
+          "end_ms": 194620,
+          "text": " identify",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 194.62,
+          "end_sec": 194.74,
+          "begin_ms": 194620,
+          "end_ms": 194740,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 194.74,
+          "end_sec": 195.02,
+          "begin_ms": 194740,
+          "end_ms": 195020,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 195.02,
+          "end_sec": 195.7,
+          "begin_ms": 195020,
+          "end_ms": 195700,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 195.7,
+          "end_sec": 195.9,
+          "begin_ms": 195700,
+          "end_ms": 195900,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 195.9,
+          "end_sec": 196.18,
+          "begin_ms": 195900,
+          "end_ms": 196180,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 196.18,
+          "end_sec": 196.54,
+          "begin_ms": 196180,
+          "end_ms": 196540,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 196.54,
+          "end_sec": 196.82,
+          "begin_ms": 196540,
+          "end_ms": 196820,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 196.82,
+          "end_sec": 197.06,
+          "begin_ms": 196820,
+          "end_ms": 197060,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 197.06,
+          "end_sec": 197.26,
+          "begin_ms": 197060,
+          "end_ms": 197260,
+          "text": " wrote",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 197.26,
+          "end_sec": 197.5,
+          "begin_ms": 197260,
+          "end_ms": 197500,
+          "text": " down",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 197.5,
+          "end_sec": 197.82,
+          "begin_ms": 197500,
+          "end_ms": 197820,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 197.82,
+          "end_sec": 198.1,
+          "begin_ms": 197820,
+          "end_ms": 198100,
+          "text": " step",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 198.1,
+          "end_sec": 198.14,
+          "begin_ms": 198100,
+          "end_ms": 198140,
+          "text": " one",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 198.9,
+          "end_sec": 199.34,
+          "begin_ms": 198900,
+          "end_ms": 199340,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 199.34,
+          "end_sec": 199.78,
+          "begin_ms": 199340,
+          "end_ms": 199780,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 199.78,
+          "end_sec": 200.18,
+          "begin_ms": 199780,
+          "end_ms": 200180,
+          "text": " again",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 200.18,
+          "end_sec": 200.5,
+          "begin_ms": 200180,
+          "end_ms": 200500,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 200.5,
+          "end_sec": 201.38,
+          "begin_ms": 200500,
+          "end_ms": 201380,
+          "text": " route",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 201.38,
+          "end_sec": 201.82,
+          "begin_ms": 201380,
+          "end_ms": 201820,
+          "text": " write",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 201.82,
+          "end_sec": 202.18,
+          "begin_ms": 201820,
+          "end_ms": 202180,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 202.18,
+          "end_sec": 202.46,
+          "begin_ms": 202180,
+          "end_ms": 202460,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 202.46,
+          "end_sec": 202.78,
+          "begin_ms": 202460,
+          "end_ms": 202780,
+          "text": " down",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 202.78,
+          "end_sec": 203.46,
+          "begin_ms": 202780,
+          "end_ms": 203460,
+          "text": " right",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 203.46,
+          "end_sec": 203.86,
+          "begin_ms": 203460,
+          "end_ms": 203860,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 203.86,
+          "end_sec": 204.18,
+          "begin_ms": 203860,
+          "end_ms": 204180,
+          "text": " again",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 204.18,
+          "end_sec": 204.3,
+          "begin_ms": 204180,
+          "end_ms": 204300,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 204.3,
+          "end_sec": 204.62,
+          "begin_ms": 204300,
+          "end_ms": 204620,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 204.62,
+          "end_sec": 205.02,
+          "begin_ms": 204620,
+          "end_ms": 205020,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 205.02,
+          "end_sec": 205.22,
+          "begin_ms": 205020,
+          "end_ms": 205220,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 205.22,
+          "end_sec": 205.34,
+          "begin_ms": 205220,
+          "end_ms": 205340,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 205.34,
+          "end_sec": 205.66,
+          "begin_ms": 205340,
+          "end_ms": 205660,
+          "text": " was",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 205.66,
+          "end_sec": 206.02,
+          "begin_ms": 205660,
+          "end_ms": 206020,
+          "text": " happened",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 206.02,
+          "end_sec": 206.26,
+          "begin_ms": 206020,
+          "end_ms": 206260,
+          "text": " based",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 206.26,
+          "end_sec": 206.42,
+          "begin_ms": 206260,
+          "end_ms": 206420,
+          "text": " on",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 206.42,
+          "end_sec": 206.74,
+          "begin_ms": 206420,
+          "end_ms": 206740,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 206.74,
+          "end_sec": 207.02,
+          "begin_ms": 206740,
+          "end_ms": 207020,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 207.02,
+          "end_sec": 207.22,
+          "begin_ms": 207020,
+          "end_ms": 207220,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 207.22,
+          "end_sec": 207.94,
+          "begin_ms": 207220,
+          "end_ms": 207940,
+          "text": " got",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 207.94,
+          "end_sec": 208.18,
+          "begin_ms": 207940,
+          "end_ms": 208180,
+          "text": " here",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 208.18,
+          "end_sec": 208.34,
+          "begin_ms": 208180,
+          "end_ms": 208340,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 208.34,
+          "end_sec": 208.54,
+          "begin_ms": 208340,
+          "end_ms": 208540,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 208.54,
+          "end_sec": 209.18,
+          "begin_ms": 208540,
+          "end_ms": 209180,
+          "text": " first",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 209.18,
+          "end_sec": 210.22,
+          "begin_ms": 209180,
+          "end_ms": 210220,
+          "text": " time",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 210.22,
+          "end_sec": 211.06,
+          "begin_ms": 210220,
+          "end_ms": 211060,
+          "text": " okay",
+          "punctuation": "? "
+        }
+      ]
+    },
+    {
+      "begin_sec": 212.9,
+      "end_sec": 237.78,
+      "begin_ms": 212900,
+      "end_ms": 237780,
+      "text": "So now loop back to step three here until the team is in agreement that problems root cause is identified and again this may take fewer or more times than five times right so again you can ask why it was happened based on the answer you got second time right so in such a way you can ask why and get the root cause of a problem.",
+      "srt_begin": "00:03:32,900",
+      "srt_end": "00:03:57,780",
+      "words": [
+        {
+          "begin_sec": 212.9,
+          "end_sec": 213.66,
+          "begin_ms": 212900,
+          "end_ms": 213660,
+          "text": "So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 213.66,
+          "end_sec": 214.82,
+          "begin_ms": 213660,
+          "end_ms": 214820,
+          "text": " now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 214.82,
+          "end_sec": 215.3,
+          "begin_ms": 214820,
+          "end_ms": 215300,
+          "text": " loop",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 215.3,
+          "end_sec": 215.54,
+          "begin_ms": 215300,
+          "end_ms": 215540,
+          "text": " back",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 215.54,
+          "end_sec": 215.78,
+          "begin_ms": 215540,
+          "end_ms": 215780,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 215.78,
+          "end_sec": 216.14,
+          "begin_ms": 215780,
+          "end_ms": 216140,
+          "text": " step",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 216.14,
+          "end_sec": 216.78,
+          "begin_ms": 216140,
+          "end_ms": 216780,
+          "text": " three",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 216.78,
+          "end_sec": 217.86,
+          "begin_ms": 216780,
+          "end_ms": 217860,
+          "text": " here",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 217.86,
+          "end_sec": 218.14,
+          "begin_ms": 217860,
+          "end_ms": 218140,
+          "text": " until",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 218.14,
+          "end_sec": 218.34,
+          "begin_ms": 218140,
+          "end_ms": 218340,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 218.34,
+          "end_sec": 218.62,
+          "begin_ms": 218340,
+          "end_ms": 218620,
+          "text": " team",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 218.62,
+          "end_sec": 219.06,
+          "begin_ms": 218620,
+          "end_ms": 219060,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 219.06,
+          "end_sec": 219.3,
+          "begin_ms": 219060,
+          "end_ms": 219300,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 219.3,
+          "end_sec": 219.7,
+          "begin_ms": 219300,
+          "end_ms": 219700,
+          "text": " agreement",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 219.7,
+          "end_sec": 220.14,
+          "begin_ms": 219700,
+          "end_ms": 220140,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 220.14,
+          "end_sec": 220.54,
+          "begin_ms": 220140,
+          "end_ms": 220540,
+          "text": " problems",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 220.54,
+          "end_sec": 220.78,
+          "begin_ms": 220540,
+          "end_ms": 220780,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 220.78,
+          "end_sec": 221.02,
+          "begin_ms": 220780,
+          "end_ms": 221020,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 221.02,
+          "end_sec": 221.42,
+          "begin_ms": 221020,
+          "end_ms": 221420,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 221.42,
+          "end_sec": 222.26,
+          "begin_ms": 221420,
+          "end_ms": 222260,
+          "text": " identified",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 222.26,
+          "end_sec": 222.66,
+          "begin_ms": 222260,
+          "end_ms": 222660,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 222.66,
+          "end_sec": 223.06,
+          "begin_ms": 222660,
+          "end_ms": 223060,
+          "text": " again",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 223.06,
+          "end_sec": 223.34,
+          "begin_ms": 223060,
+          "end_ms": 223340,
+          "text": " this",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 223.34,
+          "end_sec": 223.58,
+          "begin_ms": 223340,
+          "end_ms": 223580,
+          "text": " may",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 223.58,
+          "end_sec": 224.06,
+          "begin_ms": 223580,
+          "end_ms": 224060,
+          "text": " take",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 224.06,
+          "end_sec": 224.54,
+          "begin_ms": 224060,
+          "end_ms": 224540,
+          "text": " fewer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 224.54,
+          "end_sec": 224.78,
+          "begin_ms": 224540,
+          "end_ms": 224780,
+          "text": " or",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 224.78,
+          "end_sec": 225.06,
+          "begin_ms": 224780,
+          "end_ms": 225060,
+          "text": " more",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 225.06,
+          "end_sec": 225.78,
+          "begin_ms": 225060,
+          "end_ms": 225780,
+          "text": " times",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 225.78,
+          "end_sec": 226.38,
+          "begin_ms": 225780,
+          "end_ms": 226380,
+          "text": " than",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 226.38,
+          "end_sec": 226.94,
+          "begin_ms": 226380,
+          "end_ms": 226940,
+          "text": " five",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 226.94,
+          "end_sec": 227.46,
+          "begin_ms": 226940,
+          "end_ms": 227460,
+          "text": " times",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 227.46,
+          "end_sec": 228.1,
+          "begin_ms": 227460,
+          "end_ms": 228100,
+          "text": " right",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 228.1,
+          "end_sec": 228.34,
+          "begin_ms": 228100,
+          "end_ms": 228340,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 228.34,
+          "end_sec": 228.62,
+          "begin_ms": 228340,
+          "end_ms": 228620,
+          "text": " again",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 228.62,
+          "end_sec": 228.7,
+          "begin_ms": 228620,
+          "end_ms": 228700,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 228.7,
+          "end_sec": 229.02,
+          "begin_ms": 228700,
+          "end_ms": 229020,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 229.02,
+          "end_sec": 229.34,
+          "begin_ms": 229020,
+          "end_ms": 229340,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 229.34,
+          "end_sec": 229.54,
+          "begin_ms": 229340,
+          "end_ms": 229540,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 229.54,
+          "end_sec": 229.7,
+          "begin_ms": 229540,
+          "end_ms": 229700,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 229.7,
+          "end_sec": 230.06,
+          "begin_ms": 229700,
+          "end_ms": 230060,
+          "text": " was",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 230.06,
+          "end_sec": 230.38,
+          "begin_ms": 230060,
+          "end_ms": 230380,
+          "text": " happened",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 230.38,
+          "end_sec": 230.62,
+          "begin_ms": 230380,
+          "end_ms": 230620,
+          "text": " based",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 230.62,
+          "end_sec": 230.82,
+          "begin_ms": 230620,
+          "end_ms": 230820,
+          "text": " on",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 230.82,
+          "end_sec": 231.06,
+          "begin_ms": 230820,
+          "end_ms": 231060,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 231.06,
+          "end_sec": 231.34,
+          "begin_ms": 231060,
+          "end_ms": 231340,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 231.34,
+          "end_sec": 231.5,
+          "begin_ms": 231340,
+          "end_ms": 231500,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 231.5,
+          "end_sec": 232.14,
+          "begin_ms": 231500,
+          "end_ms": 232140,
+          "text": " got",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 232.14,
+          "end_sec": 232.38,
+          "begin_ms": 232140,
+          "end_ms": 232380,
+          "text": " second",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 232.38,
+          "end_sec": 232.66,
+          "begin_ms": 232380,
+          "end_ms": 232660,
+          "text": " time",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 232.66,
+          "end_sec": 233.18,
+          "begin_ms": 232660,
+          "end_ms": 233180,
+          "text": " right",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 233.18,
+          "end_sec": 233.34,
+          "begin_ms": 233180,
+          "end_ms": 233340,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 233.34,
+          "end_sec": 233.54,
+          "begin_ms": 233340,
+          "end_ms": 233540,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 233.54,
+          "end_sec": 233.7,
+          "begin_ms": 233540,
+          "end_ms": 233700,
+          "text": " such",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 233.7,
+          "end_sec": 233.82,
+          "begin_ms": 233700,
+          "end_ms": 233820,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 233.82,
+          "end_sec": 234.02,
+          "begin_ms": 233820,
+          "end_ms": 234020,
+          "text": " way",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 234.02,
+          "end_sec": 234.14,
+          "begin_ms": 234020,
+          "end_ms": 234140,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 234.14,
+          "end_sec": 234.46,
+          "begin_ms": 234140,
+          "end_ms": 234460,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 234.46,
+          "end_sec": 234.86,
+          "begin_ms": 234460,
+          "end_ms": 234860,
+          "text": " ask",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 234.86,
+          "end_sec": 235.22,
+          "begin_ms": 234860,
+          "end_ms": 235220,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 235.22,
+          "end_sec": 235.46,
+          "begin_ms": 235220,
+          "end_ms": 235460,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 235.46,
+          "end_sec": 235.7,
+          "begin_ms": 235460,
+          "end_ms": 235700,
+          "text": " get",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 235.7,
+          "end_sec": 235.86,
+          "begin_ms": 235700,
+          "end_ms": 235860,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 235.86,
+          "end_sec": 236.18,
+          "begin_ms": 235860,
+          "end_ms": 236180,
+          "text": " root",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 236.18,
+          "end_sec": 236.5,
+          "begin_ms": 236180,
+          "end_ms": 236500,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 236.5,
+          "end_sec": 236.7,
+          "begin_ms": 236500,
+          "end_ms": 236700,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 236.7,
+          "end_sec": 237.02,
+          "begin_ms": 236700,
+          "end_ms": 237020,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 237.02,
+          "end_sec": 237.78,
+          "begin_ms": 237020,
+          "end_ms": 237780,
+          "text": " problem",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 237.88,
+      "end_sec": 239.76,
+      "begin_ms": 237880,
+      "end_ms": 239760,
+      "text": "直到根因识别。",
+      "srt_begin": "00:03:57,880",
+      "srt_end": "00:03:59,760",
+      "words": [
+        {
+          "begin_sec": 237.88,
+          "end_sec": 238.44,
+          "begin_ms": 237880,
+          "end_ms": 238440,
+          "text": "直到",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 238.44,
+          "end_sec": 238.6,
+          "begin_ms": 238440,
+          "end_ms": 238600,
+          "text": "根",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 238.6,
+          "end_sec": 238.84,
+          "begin_ms": 238600,
+          "end_ms": 238840,
+          "text": "因",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 238.84,
+          "end_sec": 239.76,
+          "begin_ms": 238840,
+          "end_ms": 239760,
+          "text": "识别",
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "begin_sec": 242.62,
+      "end_sec": 249.62,
+      "begin_ms": 242620,
+      "end_ms": 249620,
+      "text": "Now in this slide we will take an example that is how to apply 5Y in an investigation, right?",
+      "srt_begin": "00:04:02,620",
+      "srt_end": "00:04:09,620",
+      "words": [
+        {
+          "begin_sec": 242.62,
+          "end_sec": 243.34,
+          "begin_ms": 242620,
+          "end_ms": 243340,
+          "text": "Now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 243.34,
+          "end_sec": 243.5,
+          "begin_ms": 243340,
+          "end_ms": 243500,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 243.5,
+          "end_sec": 243.7,
+          "begin_ms": 243500,
+          "end_ms": 243700,
+          "text": " this",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 243.7,
+          "end_sec": 243.98,
+          "begin_ms": 243700,
+          "end_ms": 243980,
+          "text": " slide",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 243.98,
+          "end_sec": 244.1,
+          "begin_ms": 243980,
+          "end_ms": 244100,
+          "text": " we",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 244.1,
+          "end_sec": 244.3,
+          "begin_ms": 244100,
+          "end_ms": 244300,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 244.3,
+          "end_sec": 244.58,
+          "begin_ms": 244300,
+          "end_ms": 244580,
+          "text": " take",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 244.58,
+          "end_sec": 244.82,
+          "begin_ms": 244580,
+          "end_ms": 244820,
+          "text": " an",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 244.82,
+          "end_sec": 245.3,
+          "begin_ms": 244820,
+          "end_ms": 245300,
+          "text": " example",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 245.3,
+          "end_sec": 245.46,
+          "begin_ms": 245300,
+          "end_ms": 245460,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 245.46,
+          "end_sec": 245.74,
+          "begin_ms": 245460,
+          "end_ms": 245740,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 245.74,
+          "end_sec": 245.98,
+          "begin_ms": 245740,
+          "end_ms": 245980,
+          "text": " how",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 245.98,
+          "end_sec": 246.3,
+          "begin_ms": 245980,
+          "end_ms": 246300,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 246.3,
+          "end_sec": 247.3,
+          "begin_ms": 246300,
+          "end_ms": 247300,
+          "text": " apply",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 247.3,
+          "end_sec": 247.46,
+          "begin_ms": 247300,
+          "end_ms": 247460,
+          "text": " ",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 247.46,
+          "end_sec": 247.62,
+          "begin_ms": 247460,
+          "end_ms": 247620,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 247.62,
+          "end_sec": 247.94,
+          "begin_ms": 247620,
+          "end_ms": 247940,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 247.94,
+          "end_sec": 248.22,
+          "begin_ms": 247940,
+          "end_ms": 248220,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 248.22,
+          "end_sec": 248.74,
+          "begin_ms": 248220,
+          "end_ms": 248740,
+          "text": " an",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 248.74,
+          "end_sec": 249.26,
+          "begin_ms": 248740,
+          "end_ms": 249260,
+          "text": " investigation",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 249.34,
+          "end_sec": 249.62,
+          "begin_ms": 249340,
+          "end_ms": 249620,
+          "text": " right",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 250.34,
+      "end_sec": 258.66,
+      "begin_ms": 250340,
+      "end_ms": 258660,
+      "text": "So for example let's take one example with problem statement that is machine breakdown in a manufacturing facility, right?",
+      "srt_begin": "00:04:10,340",
+      "srt_end": "00:04:18,660",
+      "words": [
+        {
+          "begin_sec": 250.34,
+          "end_sec": 250.78,
+          "begin_ms": 250340,
+          "end_ms": 250780,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 250.78,
+          "end_sec": 251.02,
+          "begin_ms": 250780,
+          "end_ms": 251020,
+          "text": " for",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 251.02,
+          "end_sec": 251.82,
+          "begin_ms": 251020,
+          "end_ms": 251820,
+          "text": " example",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 251.82,
+          "end_sec": 251.9,
+          "begin_ms": 251820,
+          "end_ms": 251900,
+          "text": " let",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 251.9,
+          "end_sec": 252.12,
+          "begin_ms": 251900,
+          "end_ms": 252120,
+          "text": "'",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 252.12,
+          "end_sec": 252.34,
+          "begin_ms": 252120,
+          "end_ms": 252340,
+          "text": "s",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 252.34,
+          "end_sec": 252.7,
+          "begin_ms": 252340,
+          "end_ms": 252700,
+          "text": " take",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 252.7,
+          "end_sec": 252.94,
+          "begin_ms": 252700,
+          "end_ms": 252940,
+          "text": " one",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 252.94,
+          "end_sec": 253.34,
+          "begin_ms": 252940,
+          "end_ms": 253340,
+          "text": " example",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 253.34,
+          "end_sec": 253.66,
+          "begin_ms": 253340,
+          "end_ms": 253660,
+          "text": " with",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 253.66,
+          "end_sec": 254.02,
+          "begin_ms": 253660,
+          "end_ms": 254020,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 254.02,
+          "end_sec": 254.62,
+          "begin_ms": 254020,
+          "end_ms": 254620,
+          "text": " statement",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 254.62,
+          "end_sec": 254.82,
+          "begin_ms": 254620,
+          "end_ms": 254820,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 254.82,
+          "end_sec": 255.38,
+          "begin_ms": 254820,
+          "end_ms": 255380,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 255.38,
+          "end_sec": 255.78,
+          "begin_ms": 255380,
+          "end_ms": 255780,
+          "text": " machine",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 255.78,
+          "end_sec": 256.54,
+          "begin_ms": 255780,
+          "end_ms": 256540,
+          "text": " breakdown",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 256.54,
+          "end_sec": 256.94,
+          "begin_ms": 256540,
+          "end_ms": 256940,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 256.94,
+          "end_sec": 257.34,
+          "begin_ms": 256940,
+          "end_ms": 257340,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 257.34,
+          "end_sec": 257.98,
+          "begin_ms": 257340,
+          "end_ms": 257980,
+          "text": " manufacturing",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 257.98,
+          "end_sec": 258.18,
+          "begin_ms": 257980,
+          "end_ms": 258180,
+          "text": " facility",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 258.46,
+          "end_sec": 258.66,
+          "begin_ms": 258460,
+          "end_ms": 258660,
+          "text": " right",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 259.42,
+      "end_sec": 262.22,
+      "begin_ms": 259420,
+      "end_ms": 262220,
+      "text": "So our first question will be why did the machine breakdown?",
+      "srt_begin": "00:04:19,420",
+      "srt_end": "00:04:22,220",
+      "words": [
+        {
+          "begin_sec": 259.42,
+          "end_sec": 259.66,
+          "begin_ms": 259420,
+          "end_ms": 259660,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 259.66,
+          "end_sec": 259.9,
+          "begin_ms": 259660,
+          "end_ms": 259900,
+          "text": " our",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 259.9,
+          "end_sec": 260.18,
+          "begin_ms": 259900,
+          "end_ms": 260180,
+          "text": " first",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 260.18,
+          "end_sec": 260.46,
+          "begin_ms": 260180,
+          "end_ms": 260460,
+          "text": " question",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 260.46,
+          "end_sec": 260.66,
+          "begin_ms": 260460,
+          "end_ms": 260660,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 260.66,
+          "end_sec": 260.94,
+          "begin_ms": 260660,
+          "end_ms": 260940,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 260.94,
+          "end_sec": 261.18,
+          "begin_ms": 260940,
+          "end_ms": 261180,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 261.18,
+          "end_sec": 261.38,
+          "begin_ms": 261180,
+          "end_ms": 261380,
+          "text": " did",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 261.38,
+          "end_sec": 261.62,
+          "begin_ms": 261380,
+          "end_ms": 261620,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 261.62,
+          "end_sec": 261.98,
+          "begin_ms": 261620,
+          "end_ms": 261980,
+          "text": " machine",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 261.98,
+          "end_sec": 262.22,
+          "begin_ms": 261980,
+          "end_ms": 262220,
+          "text": " breakdown",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 262.94,
+      "end_sec": 267.82,
+      "begin_ms": 262940,
+      "end_ms": 267820,
+      "text": "So let's say the answer is due to overheating, right?",
+      "srt_begin": "00:04:22,940",
+      "srt_end": "00:04:27,820",
+      "words": [
+        {
+          "begin_sec": 262.94,
+          "end_sec": 263.14,
+          "begin_ms": 262940,
+          "end_ms": 263140,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 263.14,
+          "end_sec": 263.22,
+          "begin_ms": 263140,
+          "end_ms": 263220,
+          "text": " let",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 263.22,
+          "end_sec": 263.28,
+          "begin_ms": 263220,
+          "end_ms": 263280,
+          "text": "'",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 263.28,
+          "end_sec": 263.34,
+          "begin_ms": 263280,
+          "end_ms": 263340,
+          "text": "s",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 263.34,
+          "end_sec": 263.86,
+          "begin_ms": 263340,
+          "end_ms": 263860,
+          "text": " say",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 263.86,
+          "end_sec": 264.22,
+          "begin_ms": 263860,
+          "end_ms": 264220,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 264.22,
+          "end_sec": 265.22,
+          "begin_ms": 264220,
+          "end_ms": 265220,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 265.22,
+          "end_sec": 265.7,
+          "begin_ms": 265220,
+          "end_ms": 265700,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 265.7,
+          "end_sec": 265.9,
+          "begin_ms": 265700,
+          "end_ms": 265900,
+          "text": " due",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 265.9,
+          "end_sec": 266.58,
+          "begin_ms": 265900,
+          "end_ms": 266580,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 266.58,
+          "end_sec": 266.74,
+          "begin_ms": 266580,
+          "end_ms": 266740,
+          "text": " overhe",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 266.74,
+          "end_sec": 266.86,
+          "begin_ms": 266740,
+          "end_ms": 266860,
+          "text": "ating",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 267.26,
+          "end_sec": 267.82,
+          "begin_ms": 267260,
+          "end_ms": 267820,
+          "text": " right",
+          "punctuation": "? "
+        }
+      ]
+    },
+    {
+      "begin_sec": 267.92,
+      "end_sec": 271.48,
+      "begin_ms": 267920,
+      "end_ms": 271480,
+      "text": "So, second question will be why did it overheat?",
+      "srt_begin": "00:04:27,920",
+      "srt_end": "00:04:31,480",
+      "words": [
+        {
+          "begin_sec": 267.92,
+          "end_sec": 268.28,
+          "begin_ms": 267920,
+          "end_ms": 268280,
+          "text": "So",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 268.36,
+          "end_sec": 268.64,
+          "begin_ms": 268360,
+          "end_ms": 268640,
+          "text": " second",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 268.64,
+          "end_sec": 268.96,
+          "begin_ms": 268640,
+          "end_ms": 268960,
+          "text": " question",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 268.96,
+          "end_sec": 269.16,
+          "begin_ms": 268960,
+          "end_ms": 269160,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 269.16,
+          "end_sec": 270.04,
+          "begin_ms": 269160,
+          "end_ms": 270040,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 270.04,
+          "end_sec": 270.28,
+          "begin_ms": 270040,
+          "end_ms": 270280,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 270.28,
+          "end_sec": 270.52,
+          "begin_ms": 270280,
+          "end_ms": 270520,
+          "text": " did",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 270.52,
+          "end_sec": 271.28,
+          "begin_ms": 270520,
+          "end_ms": 271280,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 271.28,
+          "end_sec": 271.39,
+          "begin_ms": 271280,
+          "end_ms": 271390,
+          "text": " over",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 271.39,
+          "end_sec": 271.48,
+          "begin_ms": 271390,
+          "end_ms": 271480,
+          "text": "heat",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 271.88,
+      "end_sec": 271.92,
+      "begin_ms": 271880,
+      "end_ms": 271920,
+      "text": "Right.",
+      "srt_begin": "00:04:31,880",
+      "srt_end": "00:04:31,920",
+      "words": [
+        {
+          "begin_sec": 271.88,
+          "end_sec": 271.92,
+          "begin_ms": 271880,
+          "end_ms": 271920,
+          "text": " Right",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 272.32,
+      "end_sec": 275.76,
+      "begin_ms": 272320,
+      "end_ms": 275760,
+      "text": "So answer let's assume that lack of regular maintenance.",
+      "srt_begin": "00:04:32,320",
+      "srt_end": "00:04:35,760",
+      "words": [
+        {
+          "begin_sec": 272.32,
+          "end_sec": 272.76,
+          "begin_ms": 272320,
+          "end_ms": 272760,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 272.76,
+          "end_sec": 273.08,
+          "begin_ms": 272760,
+          "end_ms": 273080,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 273.08,
+          "end_sec": 273.16,
+          "begin_ms": 273080,
+          "end_ms": 273160,
+          "text": " let",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 273.16,
+          "end_sec": 273.26,
+          "begin_ms": 273160,
+          "end_ms": 273260,
+          "text": "'",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 273.26,
+          "end_sec": 273.36,
+          "begin_ms": 273260,
+          "end_ms": 273360,
+          "text": "s",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 273.36,
+          "end_sec": 273.68,
+          "begin_ms": 273360,
+          "end_ms": 273680,
+          "text": " assume",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 273.68,
+          "end_sec": 274.24,
+          "begin_ms": 273680,
+          "end_ms": 274240,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 274.24,
+          "end_sec": 274.52,
+          "begin_ms": 274240,
+          "end_ms": 274520,
+          "text": " lack",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 274.52,
+          "end_sec": 274.92,
+          "begin_ms": 274520,
+          "end_ms": 274920,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 274.92,
+          "end_sec": 275.56,
+          "begin_ms": 274920,
+          "end_ms": 275560,
+          "text": " regular",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 275.56,
+          "end_sec": 275.76,
+          "begin_ms": 275560,
+          "end_ms": 275760,
+          "text": " maintenance",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 276.6,
+      "end_sec": 280.4,
+      "begin_ms": 276600,
+      "end_ms": 280400,
+      "text": "So due to the lack of regular maintenance, it was overheated.",
+      "srt_begin": "00:04:36,600",
+      "srt_end": "00:04:40,400",
+      "words": [
+        {
+          "begin_sec": 276.6,
+          "end_sec": 277.6,
+          "begin_ms": 276600,
+          "end_ms": 277600,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 277.6,
+          "end_sec": 277.72,
+          "begin_ms": 277600,
+          "end_ms": 277720,
+          "text": " due",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 277.72,
+          "end_sec": 277.84,
+          "begin_ms": 277720,
+          "end_ms": 277840,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 277.84,
+          "end_sec": 278.0,
+          "begin_ms": 277840,
+          "end_ms": 278000,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 278.0,
+          "end_sec": 278.24,
+          "begin_ms": 278000,
+          "end_ms": 278240,
+          "text": " lack",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 278.24,
+          "end_sec": 278.48,
+          "begin_ms": 278240,
+          "end_ms": 278480,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 278.48,
+          "end_sec": 278.88,
+          "begin_ms": 278480,
+          "end_ms": 278880,
+          "text": " regular",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 278.88,
+          "end_sec": 279.28,
+          "begin_ms": 278880,
+          "end_ms": 279280,
+          "text": " maintenance",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 279.32,
+          "end_sec": 279.44,
+          "begin_ms": 279320,
+          "end_ms": 279440,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 279.44,
+          "end_sec": 280.0,
+          "begin_ms": 279440,
+          "end_ms": 280000,
+          "text": " was",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 280.0,
+          "end_sec": 280.2,
+          "begin_ms": 280000,
+          "end_ms": 280200,
+          "text": " overhe",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 280.2,
+          "end_sec": 280.4,
+          "begin_ms": 280200,
+          "end_ms": 280400,
+          "text": "ated",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 280.48,
+      "end_sec": 280.52,
+      "begin_ms": 280480,
+      "end_ms": 280520,
+      "text": "Right.",
+      "srt_begin": "00:04:40,480",
+      "srt_end": "00:04:40,520",
+      "words": [
+        {
+          "begin_sec": 280.48,
+          "end_sec": 280.52,
+          "begin_ms": 280480,
+          "end_ms": 280520,
+          "text": " Right",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 281.16,
+      "end_sec": 284.48,
+      "begin_ms": 281160,
+      "end_ms": 284480,
+      "text": "So third question will be why was maintenance irregular?",
+      "srt_begin": "00:04:41,160",
+      "srt_end": "00:04:44,480",
+      "words": [
+        {
+          "begin_sec": 281.16,
+          "end_sec": 281.52,
+          "begin_ms": 281160,
+          "end_ms": 281520,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 281.52,
+          "end_sec": 281.8,
+          "begin_ms": 281520,
+          "end_ms": 281800,
+          "text": " third",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 281.8,
+          "end_sec": 282.16,
+          "begin_ms": 281800,
+          "end_ms": 282160,
+          "text": " question",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 282.16,
+          "end_sec": 282.32,
+          "begin_ms": 282160,
+          "end_ms": 282320,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 282.32,
+          "end_sec": 282.88,
+          "begin_ms": 282320,
+          "end_ms": 282880,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 282.88,
+          "end_sec": 283.16,
+          "begin_ms": 282880,
+          "end_ms": 283160,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 283.16,
+          "end_sec": 283.64,
+          "begin_ms": 283160,
+          "end_ms": 283640,
+          "text": " was",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 283.64,
+          "end_sec": 284.28,
+          "begin_ms": 283640,
+          "end_ms": 284280,
+          "text": " maintenance",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 284.28,
+          "end_sec": 284.48,
+          "begin_ms": 284280,
+          "end_ms": 284480,
+          "text": " irregular",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 285.24,
+      "end_sec": 289.28,
+      "begin_ms": 285240,
+      "end_ms": 289280,
+      "text": "So let's assume the answer is insufficient staffing.",
+      "srt_begin": "00:04:45,240",
+      "srt_end": "00:04:49,280",
+      "words": [
+        {
+          "begin_sec": 285.24,
+          "end_sec": 285.44,
+          "begin_ms": 285240,
+          "end_ms": 285440,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 285.44,
+          "end_sec": 285.56,
+          "begin_ms": 285440,
+          "end_ms": 285560,
+          "text": " let",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 285.56,
+          "end_sec": 285.68,
+          "begin_ms": 285560,
+          "end_ms": 285680,
+          "text": "'",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 285.68,
+          "end_sec": 285.8,
+          "begin_ms": 285680,
+          "end_ms": 285800,
+          "text": "s",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 285.8,
+          "end_sec": 286.08,
+          "begin_ms": 285800,
+          "end_ms": 286080,
+          "text": " assume",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 286.08,
+          "end_sec": 286.36,
+          "begin_ms": 286080,
+          "end_ms": 286360,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 286.36,
+          "end_sec": 286.64,
+          "begin_ms": 286360,
+          "end_ms": 286640,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 286.64,
+          "end_sec": 287.24,
+          "begin_ms": 286640,
+          "end_ms": 287240,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 287.24,
+          "end_sec": 288.0,
+          "begin_ms": 287240,
+          "end_ms": 288000,
+          "text": " insufficient",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 288.0,
+          "end_sec": 289.28,
+          "begin_ms": 288000,
+          "end_ms": 289280,
+          "text": " staffing",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 289.32,
+      "end_sec": 289.52,
+      "begin_ms": 289320,
+      "end_ms": 289520,
+      "text": "Right.",
+      "srt_begin": "00:04:49,320",
+      "srt_end": "00:04:49,520",
+      "words": [
+        {
+          "begin_sec": 289.32,
+          "end_sec": 289.52,
+          "begin_ms": 289320,
+          "end_ms": 289520,
+          "text": " Right",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 289.76,
+      "end_sec": 295.2,
+      "begin_ms": 289760,
+      "end_ms": 295200,
+      "text": "So next question will be like why was the staffing insufficient?",
+      "srt_begin": "00:04:49,760",
+      "srt_end": "00:04:55,200",
+      "words": [
+        {
+          "begin_sec": 289.76,
+          "end_sec": 290.76,
+          "begin_ms": 289760,
+          "end_ms": 290760,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 290.76,
+          "end_sec": 291.16,
+          "begin_ms": 290760,
+          "end_ms": 291160,
+          "text": " next",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 291.16,
+          "end_sec": 291.56,
+          "begin_ms": 291160,
+          "end_ms": 291560,
+          "text": " question",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 291.56,
+          "end_sec": 291.76,
+          "begin_ms": 291560,
+          "end_ms": 291760,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 291.76,
+          "end_sec": 291.96,
+          "begin_ms": 291760,
+          "end_ms": 291960,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 291.96,
+          "end_sec": 292.92,
+          "begin_ms": 291960,
+          "end_ms": 292920,
+          "text": " like",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 292.92,
+          "end_sec": 293.12,
+          "begin_ms": 292920,
+          "end_ms": 293120,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 293.12,
+          "end_sec": 293.32,
+          "begin_ms": 293120,
+          "end_ms": 293320,
+          "text": " was",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 293.32,
+          "end_sec": 293.48,
+          "begin_ms": 293320,
+          "end_ms": 293480,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 293.48,
+          "end_sec": 294.32,
+          "begin_ms": 293480,
+          "end_ms": 294320,
+          "text": " staffing",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 294.32,
+          "end_sec": 295.2,
+          "begin_ms": 294320,
+          "end_ms": 295200,
+          "text": " insufficient",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 295.24,
+      "end_sec": 295.84,
+      "begin_ms": 295240,
+      "end_ms": 295840,
+      "text": "Right.",
+      "srt_begin": "00:04:55,240",
+      "srt_end": "00:04:55,840",
+      "words": [
+        {
+          "begin_sec": 295.24,
+          "end_sec": 295.84,
+          "begin_ms": 295240,
+          "end_ms": 295840,
+          "text": " Right",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 295.88,
+      "end_sec": 298.88,
+      "begin_ms": 295880,
+      "end_ms": 298880,
+      "text": "So let's assume the answer that is budget constraints.",
+      "srt_begin": "00:04:55,880",
+      "srt_end": "00:04:58,880",
+      "words": [
+        {
+          "begin_sec": 295.88,
+          "end_sec": 296.04,
+          "begin_ms": 295880,
+          "end_ms": 296040,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 296.04,
+          "end_sec": 296.16,
+          "begin_ms": 296040,
+          "end_ms": 296160,
+          "text": " let",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 296.16,
+          "end_sec": 296.28,
+          "begin_ms": 296160,
+          "end_ms": 296280,
+          "text": "'",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 296.28,
+          "end_sec": 296.4,
+          "begin_ms": 296280,
+          "end_ms": 296400,
+          "text": "s",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 296.4,
+          "end_sec": 296.64,
+          "begin_ms": 296400,
+          "end_ms": 296640,
+          "text": " assume",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 296.64,
+          "end_sec": 296.88,
+          "begin_ms": 296640,
+          "end_ms": 296880,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 296.88,
+          "end_sec": 297.32,
+          "begin_ms": 296880,
+          "end_ms": 297320,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 297.32,
+          "end_sec": 297.52,
+          "begin_ms": 297320,
+          "end_ms": 297520,
+          "text": " that",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 297.52,
+          "end_sec": 297.84,
+          "begin_ms": 297520,
+          "end_ms": 297840,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 297.84,
+          "end_sec": 298.44,
+          "begin_ms": 297840,
+          "end_ms": 298440,
+          "text": " budget",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 298.44,
+          "end_sec": 298.88,
+          "begin_ms": 298440,
+          "end_ms": 298880,
+          "text": " constraints",
+          "punctuation": "."
+        }
+      ]
+    },
+    {
+      "begin_sec": 298.92,
+      "end_sec": 299.16,
+      "begin_ms": 298920,
+      "end_ms": 299160,
+      "text": "Right.",
+      "srt_begin": "00:04:58,920",
+      "srt_end": "00:04:59,160",
+      "words": [
+        {
+          "begin_sec": 298.92,
+          "end_sec": 299.16,
+          "begin_ms": 298920,
+          "end_ms": 299160,
+          "text": " Right",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 299.68,
+      "end_sec": 305.8,
+      "begin_ms": 299680,
+      "end_ms": 305800,
+      "text": "So the next question will be why were there buzzup constraints, right?",
+      "srt_begin": "00:04:59,680",
+      "srt_end": "00:05:05,800",
+      "words": [
+        {
+          "begin_sec": 299.68,
+          "end_sec": 300.6,
+          "begin_ms": 299680,
+          "end_ms": 300600,
+          "text": "So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 300.6,
+          "end_sec": 300.76,
+          "begin_ms": 300600,
+          "end_ms": 300760,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 300.76,
+          "end_sec": 301.04,
+          "begin_ms": 300760,
+          "end_ms": 301040,
+          "text": " next",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 301.04,
+          "end_sec": 301.36,
+          "begin_ms": 301040,
+          "end_ms": 301360,
+          "text": " question",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 301.36,
+          "end_sec": 301.52,
+          "begin_ms": 301360,
+          "end_ms": 301520,
+          "text": " will",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 301.52,
+          "end_sec": 302.0,
+          "begin_ms": 301520,
+          "end_ms": 302000,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 302.0,
+          "end_sec": 303.16,
+          "begin_ms": 302000,
+          "end_ms": 303160,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 303.16,
+          "end_sec": 303.84,
+          "begin_ms": 303160,
+          "end_ms": 303840,
+          "text": " were",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 303.84,
+          "end_sec": 304.04,
+          "begin_ms": 303840,
+          "end_ms": 304040,
+          "text": " there",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 304.04,
+          "end_sec": 304.24,
+          "begin_ms": 304040,
+          "end_ms": 304240,
+          "text": " buzz",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 304.24,
+          "end_sec": 305.04,
+          "begin_ms": 304240,
+          "end_ms": 305040,
+          "text": "up",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 305.04,
+          "end_sec": 305.24,
+          "begin_ms": 305040,
+          "end_ms": 305240,
+          "text": " constraints",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 305.48,
+          "end_sec": 305.8,
+          "begin_ms": 305480,
+          "end_ms": 305800,
+          "text": " right",
+          "punctuation": "?"
+        }
+      ]
+    },
+    {
+      "begin_sec": 306.08,
+      "end_sec": 311.96,
+      "begin_ms": 306080,
+      "end_ms": 311960,
+      "text": "So the answer let's assume it financial cut in operational expenses, right.",
+      "srt_begin": "00:05:06,080",
+      "srt_end": "00:05:11,960",
+      "words": [
+        {
+          "begin_sec": 306.08,
+          "end_sec": 306.28,
+          "begin_ms": 306080,
+          "end_ms": 306280,
+          "text": " So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 306.28,
+          "end_sec": 306.6,
+          "begin_ms": 306280,
+          "end_ms": 306600,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 306.6,
+          "end_sec": 307.68,
+          "begin_ms": 306600,
+          "end_ms": 307680,
+          "text": " answer",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 307.68,
+          "end_sec": 307.72,
+          "begin_ms": 307680,
+          "end_ms": 307720,
+          "text": " let",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 307.72,
+          "end_sec": 307.84,
+          "begin_ms": 307720,
+          "end_ms": 307840,
+          "text": "'",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 307.84,
+          "end_sec": 307.96,
+          "begin_ms": 307840,
+          "end_ms": 307960,
+          "text": "s",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 307.96,
+          "end_sec": 308.24,
+          "begin_ms": 307960,
+          "end_ms": 308240,
+          "text": " assume",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 308.24,
+          "end_sec": 308.8,
+          "begin_ms": 308240,
+          "end_ms": 308800,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 308.8,
+          "end_sec": 309.28,
+          "begin_ms": 308800,
+          "end_ms": 309280,
+          "text": " financial",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 309.28,
+          "end_sec": 309.68,
+          "begin_ms": 309280,
+          "end_ms": 309680,
+          "text": " cut",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 309.68,
+          "end_sec": 310.12,
+          "begin_ms": 309680,
+          "end_ms": 310120,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 310.12,
+          "end_sec": 311.0,
+          "begin_ms": 310120,
+          "end_ms": 311000,
+          "text": " operational",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 311.0,
+          "end_sec": 311.68,
+          "begin_ms": 311000,
+          "end_ms": 311680,
+          "text": " expenses",
+          "punctuation": ","
+        },
+        {
+          "begin_sec": 311.72,
+          "end_sec": 311.96,
+          "begin_ms": 311720,
+          "end_ms": 311960,
+          "text": " right",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 313.5,
+      "end_sec": 340.1,
+      "begin_ms": 313500,
+      "end_ms": 340100,
+      "text": "So now you can say the machine breakdown in manufacturing facility is caused by overheating and specifically due to the lack of regular maintenance so in such a way you can perform the five why analysis so here I am I have given one normal you know example so it may be different cause based on the problem statement right.",
+      "srt_begin": "00:05:13,500",
+      "srt_end": "00:05:40,100",
+      "words": [
+        {
+          "begin_sec": 313.5,
+          "end_sec": 314.34,
+          "begin_ms": 313500,
+          "end_ms": 314340,
+          "text": "So",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 314.34,
+          "end_sec": 314.62,
+          "begin_ms": 314340,
+          "end_ms": 314620,
+          "text": " now",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 314.62,
+          "end_sec": 314.74,
+          "begin_ms": 314620,
+          "end_ms": 314740,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 314.74,
+          "end_sec": 314.98,
+          "begin_ms": 314740,
+          "end_ms": 314980,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 314.98,
+          "end_sec": 315.58,
+          "begin_ms": 314980,
+          "end_ms": 315580,
+          "text": " say",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 315.58,
+          "end_sec": 315.94,
+          "begin_ms": 315580,
+          "end_ms": 315940,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 315.94,
+          "end_sec": 316.26,
+          "begin_ms": 315940,
+          "end_ms": 316260,
+          "text": " machine",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 316.26,
+          "end_sec": 316.7,
+          "begin_ms": 316260,
+          "end_ms": 316700,
+          "text": " breakdown",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 316.7,
+          "end_sec": 317.06,
+          "begin_ms": 316700,
+          "end_ms": 317060,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 317.06,
+          "end_sec": 317.7,
+          "begin_ms": 317060,
+          "end_ms": 317700,
+          "text": " manufacturing",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 317.7,
+          "end_sec": 318.26,
+          "begin_ms": 317700,
+          "end_ms": 318260,
+          "text": " facility",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 318.26,
+          "end_sec": 319.1,
+          "begin_ms": 318260,
+          "end_ms": 319100,
+          "text": " is",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 319.1,
+          "end_sec": 319.46,
+          "begin_ms": 319100,
+          "end_ms": 319460,
+          "text": " caused",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 319.46,
+          "end_sec": 320.66,
+          "begin_ms": 319460,
+          "end_ms": 320660,
+          "text": " by",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 320.66,
+          "end_sec": 320.82,
+          "begin_ms": 320660,
+          "end_ms": 320820,
+          "text": " overhe",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 320.82,
+          "end_sec": 321.38,
+          "begin_ms": 320820,
+          "end_ms": 321380,
+          "text": "ating",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 321.38,
+          "end_sec": 321.82,
+          "begin_ms": 321380,
+          "end_ms": 321820,
+          "text": " and",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 321.82,
+          "end_sec": 322.5,
+          "begin_ms": 321820,
+          "end_ms": 322500,
+          "text": " specifically",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 322.5,
+          "end_sec": 322.62,
+          "begin_ms": 322500,
+          "end_ms": 322620,
+          "text": " due",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 322.62,
+          "end_sec": 322.78,
+          "begin_ms": 322620,
+          "end_ms": 322780,
+          "text": " to",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 322.78,
+          "end_sec": 322.98,
+          "begin_ms": 322780,
+          "end_ms": 322980,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 322.98,
+          "end_sec": 323.18,
+          "begin_ms": 322980,
+          "end_ms": 323180,
+          "text": " lack",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 323.18,
+          "end_sec": 323.5,
+          "begin_ms": 323180,
+          "end_ms": 323500,
+          "text": " of",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 323.5,
+          "end_sec": 323.94,
+          "begin_ms": 323500,
+          "end_ms": 323940,
+          "text": " regular",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 323.94,
+          "end_sec": 324.42,
+          "begin_ms": 323940,
+          "end_ms": 324420,
+          "text": " maintenance",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 324.42,
+          "end_sec": 324.74,
+          "begin_ms": 324420,
+          "end_ms": 324740,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 324.74,
+          "end_sec": 324.98,
+          "begin_ms": 324740,
+          "end_ms": 324980,
+          "text": " in",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 324.98,
+          "end_sec": 325.18,
+          "begin_ms": 324980,
+          "end_ms": 325180,
+          "text": " such",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 325.18,
+          "end_sec": 325.34,
+          "begin_ms": 325180,
+          "end_ms": 325340,
+          "text": " a",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 325.34,
+          "end_sec": 325.9,
+          "begin_ms": 325340,
+          "end_ms": 325900,
+          "text": " way",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 325.9,
+          "end_sec": 326.06,
+          "begin_ms": 325900,
+          "end_ms": 326060,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 326.06,
+          "end_sec": 326.42,
+          "begin_ms": 326060,
+          "end_ms": 326420,
+          "text": " can",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 326.42,
+          "end_sec": 326.7,
+          "begin_ms": 326420,
+          "end_ms": 326700,
+          "text": " perform",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 326.7,
+          "end_sec": 326.9,
+          "begin_ms": 326700,
+          "end_ms": 326900,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 326.9,
+          "end_sec": 326.94,
+          "begin_ms": 326900,
+          "end_ms": 326940,
+          "text": " five",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 326.94,
+          "end_sec": 327.62,
+          "begin_ms": 326940,
+          "end_ms": 327620,
+          "text": " why",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 327.62,
+          "end_sec": 328.54,
+          "begin_ms": 327620,
+          "end_ms": 328540,
+          "text": " analysis",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 328.54,
+          "end_sec": 328.74,
+          "begin_ms": 328540,
+          "end_ms": 328740,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 328.74,
+          "end_sec": 329.02,
+          "begin_ms": 328740,
+          "end_ms": 329020,
+          "text": " here",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 329.02,
+          "end_sec": 329.14,
+          "begin_ms": 329020,
+          "end_ms": 329140,
+          "text": " I",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 329.14,
+          "end_sec": 330.02,
+          "begin_ms": 329140,
+          "end_ms": 330020,
+          "text": " am",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 330.02,
+          "end_sec": 330.14,
+          "begin_ms": 330020,
+          "end_ms": 330140,
+          "text": " I",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 330.14,
+          "end_sec": 330.34,
+          "begin_ms": 330140,
+          "end_ms": 330340,
+          "text": " have",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 330.34,
+          "end_sec": 330.74,
+          "begin_ms": 330340,
+          "end_ms": 330740,
+          "text": " given",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 330.74,
+          "end_sec": 331.14,
+          "begin_ms": 330740,
+          "end_ms": 331140,
+          "text": " one",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 331.14,
+          "end_sec": 331.7,
+          "begin_ms": 331140,
+          "end_ms": 331700,
+          "text": " normal",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 331.7,
+          "end_sec": 331.82,
+          "begin_ms": 331700,
+          "end_ms": 331820,
+          "text": " you",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 331.82,
+          "end_sec": 332.7,
+          "begin_ms": 331820,
+          "end_ms": 332700,
+          "text": " know",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 332.7,
+          "end_sec": 333.94,
+          "begin_ms": 332700,
+          "end_ms": 333940,
+          "text": " example",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 333.94,
+          "end_sec": 334.7,
+          "begin_ms": 333940,
+          "end_ms": 334700,
+          "text": " so",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 334.7,
+          "end_sec": 334.86,
+          "begin_ms": 334700,
+          "end_ms": 334860,
+          "text": " it",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 334.86,
+          "end_sec": 335.06,
+          "begin_ms": 334860,
+          "end_ms": 335060,
+          "text": " may",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 335.06,
+          "end_sec": 335.82,
+          "begin_ms": 335060,
+          "end_ms": 335820,
+          "text": " be",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 335.82,
+          "end_sec": 336.5,
+          "begin_ms": 335820,
+          "end_ms": 336500,
+          "text": " different",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 336.5,
+          "end_sec": 336.98,
+          "begin_ms": 336500,
+          "end_ms": 336980,
+          "text": " cause",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 336.98,
+          "end_sec": 337.22,
+          "begin_ms": 336980,
+          "end_ms": 337220,
+          "text": " based",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 337.22,
+          "end_sec": 337.42,
+          "begin_ms": 337220,
+          "end_ms": 337420,
+          "text": " on",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 337.42,
+          "end_sec": 338.46,
+          "begin_ms": 337420,
+          "end_ms": 338460,
+          "text": " the",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 338.46,
+          "end_sec": 338.86,
+          "begin_ms": 338460,
+          "end_ms": 338860,
+          "text": " problem",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 338.86,
+          "end_sec": 339.34,
+          "begin_ms": 338860,
+          "end_ms": 339340,
+          "text": " statement",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 339.34,
+          "end_sec": 340.1,
+          "begin_ms": 339340,
+          "end_ms": 340100,
+          "text": " right",
+          "punctuation": ". "
+        }
+      ]
+    },
+    {
+      "begin_sec": 342.56,
+      "end_sec": 346.2,
+      "begin_ms": 342560,
+      "end_ms": 346200,
+      "text": "朋友们，这就是关于5Y调查工具的全部内容。",
+      "srt_begin": "00:05:42,560",
+      "srt_end": "00:05:46,200",
+      "words": [
+        {
+          "begin_sec": 342.56,
+          "end_sec": 342.84,
+          "begin_ms": 342560,
+          "end_ms": 342840,
+          "text": "朋友们",
+          "punctuation": "，"
+        },
+        {
+          "begin_sec": 342.88,
+          "end_sec": 343.24,
+          "begin_ms": 342880,
+          "end_ms": 343240,
+          "text": "这就是",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 343.24,
+          "end_sec": 343.88,
+          "begin_ms": 343240,
+          "end_ms": 343880,
+          "text": "关于",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 343.88,
+          "end_sec": 344.2,
+          "begin_ms": 343880,
+          "end_ms": 344200,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 344.2,
+          "end_sec": 344.24,
+          "begin_ms": 344200,
+          "end_ms": 344240,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 344.24,
+          "end_sec": 344.32,
+          "begin_ms": 344240,
+          "end_ms": 344320,
+          "text": "调查",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 344.32,
+          "end_sec": 344.4,
+          "begin_ms": 344320,
+          "end_ms": 344400,
+          "text": "工具",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 344.4,
+          "end_sec": 344.68,
+          "begin_ms": 344400,
+          "end_ms": 344680,
+          "text": "的",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 344.68,
+          "end_sec": 345.36,
+          "begin_ms": 344680,
+          "end_ms": 345360,
+          "text": "全部",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 345.36,
+          "end_sec": 346.2,
+          "begin_ms": 345360,
+          "end_ms": 346200,
+          "text": "内容",
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "begin_sec": 346.4,
+      "end_sec": 350.68,
+      "begin_ms": 346400,
+      "end_ms": 350680,
+      "text": "我希望你们现在能够理解什么是5Y分析。",
+      "srt_begin": "00:05:46,400",
+      "srt_end": "00:05:50,680",
+      "words": [
+        {
+          "begin_sec": 346.4,
+          "end_sec": 347.12,
+          "begin_ms": 346400,
+          "end_ms": 347120,
+          "text": "我希望",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 347.12,
+          "end_sec": 347.24,
+          "begin_ms": 347120,
+          "end_ms": 347240,
+          "text": "你们",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 347.24,
+          "end_sec": 347.32,
+          "begin_ms": 347240,
+          "end_ms": 347320,
+          "text": "现在",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 347.32,
+          "end_sec": 347.4,
+          "begin_ms": 347320,
+          "end_ms": 347400,
+          "text": "能够",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 347.4,
+          "end_sec": 348.04,
+          "begin_ms": 347400,
+          "end_ms": 348040,
+          "text": "理解",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 348.04,
+          "end_sec": 349.36,
+          "begin_ms": 348040,
+          "end_ms": 349360,
+          "text": "什么是",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 349.36,
+          "end_sec": 349.64,
+          "begin_ms": 349360,
+          "end_ms": 349640,
+          "text": "5",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 349.64,
+          "end_sec": 349.72,
+          "begin_ms": 349640,
+          "end_ms": 349720,
+          "text": "Y",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 349.72,
+          "end_sec": 350.68,
+          "begin_ms": 349720,
+          "end_ms": 350680,
+          "text": "分析",
+          "punctuation": "。"
+        }
+      ]
+    },
+    {
+      "begin_sec": 351.68,
+      "end_sec": 353.16,
+      "begin_ms": 351680,
+      "end_ms": 353160,
+      "text": "谢谢大家观看这个视频。",
+      "srt_begin": "00:05:51,680",
+      "srt_end": "00:05:53,160",
+      "words": [
+        {
+          "begin_sec": 351.68,
+          "end_sec": 352.0,
+          "begin_ms": 351680,
+          "end_ms": 352000,
+          "text": "谢谢",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 352.0,
+          "end_sec": 352.4,
+          "begin_ms": 352000,
+          "end_ms": 352400,
+          "text": "大家",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 352.4,
+          "end_sec": 352.92,
+          "begin_ms": 352400,
+          "end_ms": 352920,
+          "text": "观看",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 352.92,
+          "end_sec": 353.04,
+          "begin_ms": 352920,
+          "end_ms": 353040,
+          "text": "这个",
+          "punctuation": ""
+        },
+        {
+          "begin_sec": 353.04,
+          "end_sec": 353.16,
+          "begin_ms": 353040,
+          "end_ms": 353160,
+          "text": "视频",
+          "punctuation": "。"
+        }
+      ]
+    }
+  ],
+  "vision_scenes": [
+    {
+      "start_time": "00:00:00",
+      "end_time": "00:00:19",
+      "description": "视频开场展示标题页，左侧深灰色箭头框内写有“5 Why Analysis”，右侧是一个流程图，显示五个标有“Why?”的蓝色方框逐级向下，最终指向一个黄色的“Root Cause!”圆圈，上方有大标题“5 Why?”。",
+      "start_sec": 0,
+      "end_sec": 19
+    },
+    {
+      "start_time": "00:00:19",
+      "end_time": "00:00:33",
+      "description": "画面切换至白色背景，左侧显示黑色文字“PHARMA QUALITY”，中间是YouTube标志。随后，一个红色的“subscribe”按钮和点击的手形图标出现在YouTube标志上方，提示观众订阅频道。",
+      "start_sec": 19,
+      "end_sec": 33
+    },
+    {
+      "start_time": "00:00:33",
+      "end_time": "00:01:43",
+      "description": "进入新幻灯片，标题为“What is 5-Why Analysis?”。右侧紫色背景上有许多白色问号和一把放大的黄色放大镜。左侧依次出现三个要点，解释5-Why分析是一种通过反复问“为什么”来识别问题根本原因的系统性解决问题的技术。",
+      "start_sec": 33,
+      "end_sec": 103
+    },
+    {
+      "start_time": "00:01:43",
+      "end_time": "00:02:31",
+      "description": "幻灯片标题变为“When to use a 5-Why Analysis?”。右侧是一个浅蓝色背景上的巨大3D白色问号。左侧列出使用场景：帮助识别问题的根本原因、确定不同根本原因之间的关系，以及指出这是一种无需统计分析的简单工具。",
+      "start_sec": 103,
+      "end_sec": 151
+    },
+    {
+      "start_time": "00:02:31",
+      "end_time": "00:04:02",
+      "description": "幻灯片标题为“How to use 5-Why Analysis?”。页面展示了四个步骤，配有图标：1. 写下具体问题；2. 问为什么发生并写下答案；3. 如果答案不是根本原因，继续问为什么；4. 循环直到团队确认识别出根本原因。红色激光笔在文字上移动进行讲解。",
+      "start_sec": 151,
+      "end_sec": 242
+    },
+    {
+      "start_time": "00:04:02",
+      "end_time": "00:05:42",
+      "description": "展示案例分析幻灯片，标题为“Example: Application of 5 Why Investigation”。问题是“制造工厂的机器故障”。流程图展示了5个为什么的推导过程：机器故障->过热->缺乏定期维护->人员不足->预算限制->运营费用削减。红色激光笔沿着流程图路径移动。",
+      "start_sec": 242,
+      "end_sec": 342
+    },
+    {
+      "start_time": "00:05:42",
+      "end_time": "00:05:54",
+      "description": "视频最后展示结束页，白色背景上有彩色的手绘风格字体“Thank You”，周围有蓝色边框装饰。",
+      "start_sec": 342,
+      "end_sec": 354
+    }
+  ],
+  "asr_full_text": "Hello friends, I hope you like my videos.If you have any questions, you can ask me in the comments.In this video, we will discuss one of the frequently used investigation tools: 5Y analysis.Friends, my YouTube channel name is Pharma Quality, so please view, like, comment and subscribe my channel to get the knowledge about the pharma quality standards and practices.So now in this slide we will discuss what is 5Y analysis.Basically, during any non-conformance, deviation out of specification or out of calibration results, 5Y tools can be used to identify the root cause.A 5Y investigation is a systematic problem-solving technique used to identify the root cause of an issue.通过反复问为什么来。Next, 5Y is a useful and effective tool for identifying the root cause during the investigation.Next, simply ask the question and try to find the exact answer for that.In this, we can ask \"why\" on every step to go into the deep and identify the root cause.In 5Y analysis, we can frequently ask \"why it happened,\" so we can get the right answer.So now we will discuss when 5Y analysis can be used; that is, the exact purpose of using 5Y.First, it helps to identify the root cause of a problem, meaning you can find out the root cause of a nonconformance.Second, it determines the relationship between different root causes of a problem.That is, you can interpret the different cause with five why analysis.Third is it is one of the simplest tools and easy to complete without any statistical analysis right so in this you do not need to have any statistical data to find out the root cause.So now we will discuss how to use 5Y analysis.First, write down the specific problem; writing the issue helps you to formalize the problem and describe it completely.It also helps a team to focus on the same problem.So, you need to have a clear specific problem.Then, ask why the problem happens and write the answer down below the problem.Right, so when you ask why problem observed, so you must have an answer.So that answer you need to write it right then now if the answer you just provided does not identify the root cause of the problem that you wrote down in step one, ask why again and route write that answer down right so again you can ask why it was happened based on the answer you got here in the first time okay?So now loop back to step three here until the team is in agreement that problems root cause is identified and again this may take fewer or more times than five times right so again you can ask why it was happened based on the answer you got second time right so in such a way you can ask why and get the root cause of a problem.直到根因识别。Now in this slide we will take an example that is how to apply 5Y in an investigation, right?So for example let's take one example with problem statement that is machine breakdown in a manufacturing facility, right?So our first question will be why did the machine breakdown?So let's say the answer is due to overheating, right?So, second question will be why did it overheat?Right.So answer let's assume that lack of regular maintenance.So due to the lack of regular maintenance, it was overheated.Right.So third question will be why was maintenance irregular?So let's assume the answer is insufficient staffing.Right.So next question will be like why was the staffing insufficient?Right.So let's assume the answer that is budget constraints.Right.So the next question will be why were there buzzup constraints, right?So the answer let's assume it financial cut in operational expenses, right.So now you can say the machine breakdown in manufacturing facility is caused by overheating and specifically due to the lack of regular maintenance so in such a way you can perform the five why analysis so here I am I have given one normal you know example so it may be different cause based on the problem statement right.朋友们，这就是关于5Y调查工具的全部内容。我希望你们现在能够理解什么是5Y分析。谢谢大家观看这个视频。"
+}
