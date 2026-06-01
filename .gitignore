@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env
+
+# 测试输出
+tests/
+test_output/
+
+# 参考文件
+ref_doc/
+
+# Skill 打包产物
+*.skill
+*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude 本地配置（含个人路径等信息）
+.claude/settings.local.json
+
+# 依赖锁文件（按需保留）
+# Pipfile.lock
+# poetry.lock
