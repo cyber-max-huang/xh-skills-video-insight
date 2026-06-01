@@ -1,0 +1,50 @@
+### [00:00:00 - 00:00:07]
+**语音**：Hello friends, I hope you like my videos.Today, in this video, we will discuss a very important topic in the pharmaceutical quality system: FMEA, which stands for Failure Mode and Effect Analysis tool.
+**画面**：视频以标题卡开始，白色背景卡片上写着黑色大字“INVESTIGATION TOOL FMEA”，背景为浅色木纹。
+
+### [00:00:07 - 00:00:18]
+**语音**：Today, in this video, we will discuss a very important topic in the pharmaceutical quality system: FMEA, which stands for Failure Mode and Effect Analysis tool.Friends, my YouTube channel name is Farmer Quality, so please view, like, comment and subscribe my channel.
+**画面**：右侧出现FMEA的全称图解，四个彩色标签分别代表F（Failure）、M（Modes and）、E（Effects）、A（Analysis），并配有相关图标。
+
+### [00:00:18 - 00:00:26]
+**语音**：Friends, my YouTube channel name is Farmer Quality, so please view, like, comment and subscribe my channel.
+**画面**：画面切换，左侧显示红色文字“PHARMA QUALITY”，右侧出现一个红色的YouTube订阅按钮动画，鼠标点击订阅。
+
+### [00:00:26 - 00:01:20]
+**语音**：So now first we will understand what is FMEA tool so the failure mode and effect analysis or FMEA is a systematic approach to identifying and addressing potential failure in a process or products right so a failure mode refers to the specific ways a process or product might fail to perform as intended so the FMEA involves analyzing these failure modes understanding their potential effects, Identifying the root cause and implementing the action to mitigate or prevent these failures, right?So by systematically evaluating risk, FMEA helps to improve reliability, safety, and overall quality in processes and products, which ensure compliance with industry standards and regulations, right?So now here we will discuss about the FMEA tool that is when it is to be used right so the purpose of FMEA is to take action to eliminate or reduce failures starting with the highest priority ones right FMEA helps document current knowledge and action related to potential risk and failure which creating a foundation for continuous improvement.
+**画面**：幻灯片展示问题“What is FMEA (Failure Mode and Effect Analysis)?”，随后右侧淡入定义文本，解释FMEA是一种识别和处理潜在故障的系统方法。
+
+### [00:01:20 - 00:02:01]
+**语音**：So now here we will discuss about the FMEA tool that is when it is to be used right so the purpose of FMEA is to take action to eliminate or reduce failures starting with the highest priority ones right FMEA helps document current knowledge and action related to potential risk and failure which creating a foundation for continuous improvement.So basically, FMEA tools and its approach is particularly valuable during the design phase where it helps to prevent failures before they occur, which ensure the reliability and safety of product and processes, right?
+**画面**：幻灯片展示问题“When to use a Failure Mode And Effect (FMEA) (purpose)?”，随后右侧显示文本，解释FMEA的目的是消除或减少故障，记录知识，并用于持续改进。
+
+### [00:02:01 - 00:03:17]
+**语音**：So now here we will discuss about the key terms in FMEA tools right so first one is the failure mode so this refers to the ways in which a process or product could fail next one is the effect so these are the consequences or outcome of the failure right which often impacting quality safety or performance.Next is cause, so the underlying reason or root cause behind the failure.So to prioritize these risks FMEA uses the risk priority number which is called RPN so the formula for RPN is severity into occurrence into detection so this calculated value helps to determine which risk require immediate attention ensuring that high priority issues are addressed first that means if the risk is higher then you need to take the corrective and preventive actions right.So the calculation criteria I have explained in my last video of quality risk management, so you can refer the criteria from that video and also I'm putting the link into this description so that you can refer right.
+**画面**：幻灯片标题为“Key Terms in FMEA”，依次列出并解释关键术语：Failure Mode（故障模式）、Effect（影响）、Cause（原因）以及Risk Priority Number (RPN) 及其计算公式。
+
+### [00:03:17 - 00:04:45]
+**语音**：So now in this slide we will discuss the types of FMEA, so first one is the design FMEA.So the design FMEA is a systematic approach used during the design phase of a product it helps identify potential failure modes their effect and their causes before the production begins right so at the time of procurement these design FMEA need to be implemented right to assess the risk.So the primary goal of the design FMEA is to improve product design, enhance reliability and reduce the risk and here are some key elements which include first one is the function analysis of components so with the understanding the roles and interaction of each component in the design right next is the identification of potential design related failures.So here pinpointing areas where the design might fail to meet the performance or safety standards, right?Next is the implementation of corrective action.If your risk is identified at higher category, then you need to take the steps to eliminate or reduce the risk identified during the analysis, right?So by addressing potential issues early, 设计FMEA确保了稳健且可靠的产设计，对吧？所以，让我们理解下一个，即过程FMEA。
+**画面**：幻灯片标题为“Types of FMEA”，首先介绍“Design FMEA”，解释其是在产品设计阶段识别潜在故障模式的系统方法，并列出了关键要素。
+
+### [00:04:45 - 00:06:02]
+**语音**：所以，让我们理解下一个，即过程FMEA。所以，过程FMEA是一种结构化的方法，用于识别和分析制造或装配过程中潜在的失败模式，对吧？所以，过程FMEA的目标是提高过程可靠性。And ensure consistent product quality, right?So this process FMEA when we can use at the time of routine process activity, right?So the few key elements which includes first one is analyzing each step of the process where examining every stage to identify potential weak points, right?Next is identifying potential process related failures and their impacts so here understanding how process deviations can affect the final product or performance right next is developing controls and action to mitigate the risk so implementing the preventive measure and corrective action to address identified risk if that risk is at higher category right so by systematically addressing process related risk, Process FMEA ensure smooth operation and high quality outcomes, right?
+**画面**：在Design FMEA下方出现“Process FMEA (PFMEA)”的介绍，解释其为制造或装配过程中识别潜在故障的结构化方法，并列出了关键要素。
+
+### [00:06:02 - 00:06:19]
+**语音**：Next is identifying potential process related failures and their impacts so here understanding how process deviations can affect the final product or performance right next is developing controls and action to mitigate the risk so implementing the preventive measure and corrective action to address identified risk if that risk is at higher category right so by systematically addressing process related risk, Process FMEA ensure smooth operation and high quality outcomes, right?So here let's understand the design FMEA and process FMEA with an example so here I am taking just one random example from isolator right so here several other requirement and processes can be evaluated in the same way so let's first understand with design FMEA right.
+**画面**：画面切换至深蓝色背景的过渡页，左上角写着白色文字“Example”。
+
+### [00:06:19 - 00:07:57]
+**语音**：So here let's understand the design FMEA and process FMEA with an example so here I am taking just one random example from isolator right so here several other requirement and processes can be evaluated in the same way so let's first understand with design FMEA right.So let's take one example that your requirement is like designing an isolator system to provide unidirectional vertical airflow so your sub state step will be non-uniform vertical airflow over the working area and the harm could be contaminated working area leading to compromise product sterility so severity I have written here as five.Right, so the next is cause of form.So cause of form which may include poor design of air flow distribution, incorrect HEPA filter placement in adequate fan capacity right and the occurrence for this I have ranked as four right so in the next column you need to provide the existing control so existing control could be computational fluid dynamics simulation for airflow design.Hepa filter efficiency validation, fan capacity calculation, particle detection feature, right?And the deduction I have assigned as one, so the RPN calculation that is S into O into D.是等于20，所以残余风险将被接受，不需要计算RPN。You know, take this example to design FMEA right so now let's understand the next example for process FMEA.
+**画面**：展示“Design FMEA (DFMEA)”的示例表格。表格包含Requirement, Process Unit, Harm, Severity, Cause, Existing Controls等列。一个红色圆点光标在表格单元格间移动，指示具体内容。
+
+### [00:07:57 - 00:09:32]
+**语音**：You know, take this example to design FMEA right so now let's understand the next example for process FMEA.So let's say your requirement is operating the isolated system to maintain uni-directional vertical airflow, so the process unit or sub-step could be deviation in air flow velocity during routine operation, right and the harm for this requirement can be increased risk of microbial contamination or particle deposition.So the severity for this I have assigned as five, so next is the cause of harm, so cause of harm could be blockage in the hepafilter, incorrect system maintenance or calibration equipment wear and tear, right?And next I have assigned the ranking as four for the occurrence right so here we need to provide the existing control so existing control could be preventive maintenance schedule routine airflow velocity checks environmental monitoring program.Next is the detection, so I have assigned it as one.So the RPN calculation will be twenty, right?And the residual risk shall be accepted.And again, you do not need to recalculate the RPN, right?So overall, in this way, you can.The FMEA for design, for design of equipment and for process of equipment, right?
+**画面**：在DFMEA表格下方出现“Process FMEA (PFMEA)”的示例表格。结构与上方类似，但内容针对过程操作（如Operating the isolator system）。红色光标继续在两个表格间移动指示。
+
+### [00:09:32 - 00:09:38]
+**语音**：The FMEA for design, for design of equipment and for process of equipment, right?So friends, this is all about the FMEA tool.
+**画面**：视频结束，显示一张带有蓝色水彩晕染背景的卡片，中间写着黑色手写体“Thank You”。
+
+### 补充语音片段（无对应画面）
+**语音** [00:09:38,900]：Thank you so much for watching the video!

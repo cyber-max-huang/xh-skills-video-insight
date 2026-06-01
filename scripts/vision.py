@@ -66,22 +66,25 @@ def analyze(video_url: str, fps: float = 1.0) -> list[dict]:
 
     client = OpenAI(api_key=api_key, base_url=base_url)
 
-    completion = client.chat.completions.create(
-        model="qwen3.6-plus",
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "video_url",
-                        "video_url": {"url": video_url},
-                        "fps": fps,
-                    },
-                    {"type": "text", "text": VISION_PROMPT},
-                ],
-            }
-        ],
-    )
+    try:
+        completion = client.chat.completions.create(
+            model="qwen3.6-plus",
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "video_url",
+                            "video_url": {"url": video_url},
+                            "fps": fps,
+                        },
+                        {"type": "text", "text": VISION_PROMPT},
+                    ],
+                }
+            ],
+        )
+    except Exception as e:
+        raise RuntimeError(f"Vision API call failed: {e}") from e
 
     raw_text = completion.choices[0].message.content
     logger.info(f"Vision model returned {len(raw_text)} characters")
@@ -136,11 +139,15 @@ def _parse_scene_json(text: str) -> list[dict]:
 
 
 def _parse_time(time_str: str) -> float:
-    """Parse HH:MM:SS to seconds."""
+    """Parse HH:MM:SS or MM:SS to seconds. Returns 0.0 on parse failure."""
     time_str = time_str.strip()
     parts = time_str.split(":")
-    if len(parts) == 3:
-        return int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
-    if len(parts) == 2:
-        return int(parts[0]) * 60 + int(parts[1])
+    try:
+        if len(parts) == 3:
+            return int(parts[0]) * 3600 + int(parts[1]) * 60 + int(parts[2])
+        if len(parts) == 2:
+            return int(parts[0]) * 60 + int(parts[1])
+    except (ValueError, IndexError):
+        pass
+    logger.warning(f"Unable to parse time string: '{time_str}', defaulting to 0.0")
     return 0.0

@@ -1,69 +1,25 @@
-# Video Insight Skill
+# 视频洞察 Skill
 
-Analyze video content and generate comprehensive understanding reports with subtitles.
+这是一个 Claude Code Skill。完整的 Skill 定义、编排指令、报告生成提示词和输出格式规范请见 **SKILL.md**。
 
-## What it does
+## 快速参考
 
-This skill takes a video URL and produces:
-1. **SRT subtitle file** — full speech transcription with timestamps
-2. **Markdown video understanding report** — comprehensive analysis combining audio and visual content
+- **Skill 名称**：`xh-skills-video-insight`
+- **触发条件**：用户要求分析视频、提取字幕、生成视频报告
+- **API 依赖**：`DASHSCOPE_API_KEY`（阿里云百炼）
+- **入口脚本**：`python3 scripts/collect_data.py --url "<视频URL>" --output <输出目录>`
+- **产出文件**：`subtitles.srt`、`aligned_data.md`、`video_insight_report.md`、`content_detail.md`
 
-## Architecture
+## 架构（两阶段）
 
-The pipeline has three stages using Alibaba Cloud Bailian models:
-
-### Stage 1 — Audio Path: Speech Recognition
-- **Model**: Fun-ASR-MTL (`fun-asr-mtl`)
-- **What**: Extracts all spoken content from the video with word-level timestamps
-- **API**: DashScope async transcription (`dashscope.audio.asr.Transcription`)
-- **Output**: Structured JSON with sentences, words, timestamps (milliseconds)
-
-### Stage 2 — Visual Path: Video Understanding
-- **Model**: Qwen3.6-Plus (`qwen3.6-plus`)
-- **What**: Analyzes video frames to produce timestamped scene descriptions
-- **API**: OpenAI-compatible chat completions with `video_url` input type
-- **Output**: JSON array of scene segments with time ranges and descriptions
-
-### Stage 3 — Merge & Report Generation
-- **What**: Time-aligns the two data streams, then calls a text LLM to produce the final report
-- **Model**: Qwen-Plus (`qwen-plus`) for report generation
-- **Outputs**:
-  - `subtitles.srt` — standard SRT subtitle file
-  - `video_insight_report.md` — structured report with:
-    - Video overview (topic, duration, type, language, style)
-    - Segment-by-segment detailed analysis (visual + audio + combined understanding)
-    - Key points summary
-  - `pipeline_debug.json` — intermediate data for debugging
-
-## How to use
-
-Invoke when the user asks to analyze a video, understand video content, extract subtitles, or generate a video report.
-
-### Prerequisites
-1. Alibaba Cloud Bailian API key (set as `DASHSCOPE_API_KEY` environment variable)
-2. Python 3.9+ with dependencies installed (`pip install -r requirements.txt`)
-
-### Running the pipeline
-
-```bash
-python3 src/pipeline.py --url "https://example.com/video.mp4" --output ./output
+```
+视频URL
+  ├─→ Fun-ASR-MTL ──→ 语音转录（句子 + 词级时间戳）
+  ├─→ Qwen3.6-Plus ──→ 视觉场景描述（时间段 + 描述文本）
+  └─→ 时间对齐 ──→ 中间数据
+                       ↓
+          Claude（按SKILL.md指令）──→ 视频理解报告 + 内容详情
 ```
 
-Optional parameters:
-- `--fps 2` — frame rate for visual analysis (default: 1.0, range: 0.1-10)
-- `--lang zh en` — language hints for speech recognition (default: zh en)
-- `--report-model qwen-max` — model for report generation (default: qwen-plus)
-
-### When the user asks to analyze a video
-
-1. Confirm the video URL is publicly accessible
-2. Run: `python3 src/pipeline.py --url "<video_url>" --output ./video_insight_output`
-3. Report the paths to generated `subtitles.srt` and `video_insight_report.md`
-4. Offer to show or summarize the report contents
-
-## Important notes
-
-- The video must be accessible via a public URL
-- Fun-ASR-MTL processes audio asynchronously — the pipeline handles polling automatically
-- The report generation step uses prompt engineering to merge time-aligned speech and visual data
-- Visual analysis uses `fps=1.0` by default (one frame per second) for detailed coverage
+- **阶段1**：Python脚本负责数据采集（ASR + 视觉 → 对齐数据 + SRT字幕）
+- **阶段2**：Claude负责报告生成（读取对齐数据，按SKILL.md中的提示词生成报告和内容详情）

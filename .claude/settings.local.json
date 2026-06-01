@@ -11,7 +11,16 @@
       "Bash(curl *)",
       "Bash(python3 -c ' *)",
       "Bash(pip install *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "WebFetch(domain:skywork.ai)",
+      "WebFetch(domain:support.claude.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.sitepoint.com)",
+      "Bash(find / -maxdepth 4 -type d -name \"skill-creator\")",
+      "Bash(find / -maxdepth 4 -type d -name \".claude\" -path \"*/skills\")",
+      "Bash(pip3 install *)",
+      "Bash(grep -E \"^[0-9]+$\" /Users/xiaohuang/Desktop/claude_code/skill/xh-skills-video-insight/test_output/subtitles.srt)",
+      "Bash(DASHSCOPE_API_KEY=\"\" python3 scripts/collect_data.py --url \"https://example.com/test.mp4\" --output ./test_output)"
     ]
   }
 }

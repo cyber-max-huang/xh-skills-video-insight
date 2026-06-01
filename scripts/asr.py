@@ -71,11 +71,14 @@ def transcribe(file_url: str, language_hints=None, timeout_seconds=600) -> dict:
     logger.info(f"Submitting ASR task for: {file_url}")
     logger.info(f"Model: fun-asr-mtl, language_hints: {language_hints}")
 
-    task_response = Transcription.async_call(
-        model="fun-asr-mtl",
-        file_urls=[file_url],
-        language_hints=language_hints,
-    )
+    try:
+        task_response = Transcription.async_call(
+            model="fun-asr-mtl",
+            file_urls=[file_url],
+            language_hints=language_hints,
+        )
+    except Exception as e:
+        raise RuntimeError(f"ASR task submission failed: {e}") from e
 
     task_id = task_response.output.task_id
     logger.info(f"ASR task submitted, task_id: {task_id}")
@@ -176,6 +179,10 @@ def _parse_transcription_results(response) -> dict:
 
     # Sort by begin time
     all_sentences.sort(key=lambda s: s["begin_sec"])
+
+    if not all_sentences:
+        logger.warning("ASR completed but no sentences were extracted. "
+                       "Check if the video has an audio track or try different language hints.")
 
     return {
         "full_text": "".join(all_text_parts),
