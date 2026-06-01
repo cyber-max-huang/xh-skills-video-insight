@@ -22,6 +22,7 @@ import os
 import re
 import sys
 import time
+from urllib.parse import urlparse, unquote
 
 try:
     from .asr import transcribe
@@ -35,7 +36,16 @@ except ImportError:
     from utils import logger
 
 
-def run(video_url: str, output_dir: str = "./video_insight_output",
+def _extract_video_name(url: str) -> str:
+    """从视频URL中提取文件名（不含扩展名）作为文件夹名称。"""
+    path = urlparse(url).path
+    filename = path.rstrip("/").split("/")[-1]
+    filename = unquote(filename)
+    name = os.path.splitext(filename)[0]
+    return f"{name}_insight" if name else "video_insight_output"
+
+
+def run(video_url: str, output_dir: str = None,
         fps: float = 1.0, language_hints: list[str] = None) -> dict:
     """
     Run data collection: ASR + Vision → aligned data + SRT.
@@ -56,6 +66,9 @@ def run(video_url: str, output_dir: str = "./video_insight_output",
     # Basic URL format check
     if not re.match(r'^https?://', video_url):
         raise ValueError(f"Video URL must start with http:// or https://, got: {video_url}")
+
+    if output_dir is None:
+        output_dir = _extract_video_name(video_url)
 
     start_time = time.time()
 
@@ -129,8 +142,8 @@ Environment:
         help="Publicly accessible video URL to analyze"
     )
     parser.add_argument(
-        "--output", "-o", type=str, default="./video_insight_output",
-        help="Output directory (default: ./video_insight_output)"
+        "--output", "-o", type=str, default=None,
+        help="Output directory (default: derived from video filename)"
     )
     parser.add_argument(
         "--fps", type=float, default=1.0,

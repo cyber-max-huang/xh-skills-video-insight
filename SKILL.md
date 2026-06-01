@@ -41,12 +41,12 @@ description: >
 
 ```bash
 python3 "{baseDir}/scripts/collect_data.py" \
-  --url "<视频公网URL>" \
-  --output <输出目录>
+  --url "<视频公网URL>"
 ```
 
 可选参数：
 
+- `--output <目录>` — 输出目录，默认为从视频URL中提取的文件名加 `_insight` 后缀（去掉扩展名）。例如URL为 `https://example.com/path/myvideo.mp4`，则输出到 `./myvideo_insight/`。
 - `--fps <值>` — 视觉分析的帧提取率，默认1.0，范围0.1-10。对快节奏视频可用更高值（2-5）以获得更精细的场景检测。
 - `--lang <语言代码...>` — 语音识别的语言提示，默认 `zh en`。支持：zh、en、ja、ko、fr、de、es、pt等。
 
