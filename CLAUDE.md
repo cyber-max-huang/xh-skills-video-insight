@@ -9,14 +9,15 @@
 1. **SRT 字幕文件** — 完整语音转写，带逐句时间戳
 2. **视频理解报告** — 综合音频与视觉内容的深度分析
 3. **内容详情文章** — 将视频内容改写为纯文字知识文章，彻底去除视频格式痕迹
-4. **流水线调试数据** — 中间态 ASR + 视觉数据，便于调试
+4. **视频合并文档** — 内容详情与理解报告的拼接（`---` 分隔），文件名 `[video] {视频名}.md`
+5. **流水线调试数据** — 中间态 ASR + 视觉数据，便于调试
 
 ## 架构
 
 流水线分三个阶段，均使用阿里云百炼模型：
 
 ### 阶段一 — 音频路径：语音识别
-- **模型**：Fun-ASR-MTL（`fun-asr-mtl`）
+- **模型**：Fun-ASR（`fun-asr`）
 - **功能**：从视频中提取全部语音内容，含词级时间戳
 - **接口**：DashScope 异步转写（`dashscope.audio.asr.Transcription`）
 - **输出**：结构化 JSON，含句子、词语、时间戳（毫秒级）
@@ -24,7 +25,7 @@
 - **重试**：指数退避重试（最多 3 次，2s → 4s → 8s），覆盖任务提交和状态查询
 
 ### 阶段二 — 视觉路径：视频画面理解
-- **模型**：Qwen3.6-Plus（`qwen3.6-plus`）
+- **模型**：Qwen3.7-Plus（`qwen3.7-plus`）
 - **功能**：分析视频帧，生成带时间戳的场景描述（中文输出）
 - **接口**：OpenAI 兼容 chat completions，使用 `video_url` 输入类型
 - **输出**：JSON 数组，每个元素含时间范围和场景描述
@@ -40,6 +41,7 @@
   - `subtitles.srt` — 标准 SRT 字幕文件
   - `video_insight_report.md` — 结构化报告，含视频概要、分段详解、关键节点
   - `content_detail.md` — 纯文字知识文章，无任何视频格式词汇，按知识脉络组织
+  - `[video] {视频名}.md` — 内容详情与理解报告的拼接文档（`---` 分隔）
   - `pipeline_debug.json` — 中间数据，供调试使用
 
 ## 使用方式
@@ -65,13 +67,15 @@ python3 src/pipeline.py --url "https://example.com/video.mp4"
 | `--output, -o` | 输出目录 | 自动从视频文件名提取 |
 | `--fps` | 视觉分析帧率 [0.1-10] | 1.0 |
 | `--lang` | ASR 语言提示，如 `zh en` | zh en |
+| `--asr-model` | 语音识别模型 | fun-asr |
+| `--vision-model` | 视觉理解模型 | qwen3.7-plus |
 | `--report-model` | 报告生成模型 | qwen3.7-max |
 
 ### 当用户要求分析视频时
 
 1. 确认视频 URL 可公开访问
 2. 运行：`python3 src/pipeline.py --url "<视频URL>"`
-3. 告知用户生成的文件路径：`subtitles.srt`、`video_insight_report.md`、`content_detail.md`
+3. 告知用户生成的文件路径：`subtitles.srt`、`video_insight_report.md`、`content_detail.md`、`[video] {视频名}.md`
 4. 主动询问是否需要展示或总结报告内容
 
 ## API Key 配置
@@ -88,7 +92,7 @@ cp .env.example .env
 ## 关键说明
 
 - 视频必须通过公开 URL 访问
-- Fun-ASR-MTL 为异步处理，流水线自动轮询等待，最长 30 分钟
+- fun-asr 为异步处理，流水线自动轮询等待，最长 30 分钟
 - 报告生成阶段通过 Prompt Engineering 将时间对齐后的语音和画面数据合并
 - 视觉分析默认 `fps=1.0`（每秒一帧），平衡精度与成本
 - 视觉场景描述统一使用中文输出（面向中文用户）；字幕保留原始语音语言

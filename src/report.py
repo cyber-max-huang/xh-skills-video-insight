@@ -6,9 +6,9 @@ import json
 from openai import OpenAI
 
 try:
-    from .utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger, retry_with_backoff
+    from .utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger, retry_with_backoff, extract_output_dirname
 except ImportError:
-    from utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger, retry_with_backoff
+    from utils import get_api_key, get_base_url, save_text_file, ms_to_srt_time, logger, retry_with_backoff, extract_output_dirname
 
 # System prompt for the final video understanding report
 REPORT_SYSTEM_PROMPT = """你是一个专业的视频内容分析助手。你会收到同一段视频的两份信息：
@@ -325,6 +325,15 @@ def save_results(
     # Save content detail article
     detail_path = os.path.join(output_dir, "content_detail.md")
     save_text_file(detail_path, content_detail)
+
+    # Save combined video document: 内容详情 + 视频理解报告（用 --- 分隔）
+    # 文件名 [video] {视频名}.md
+    video_name = extract_output_dirname(video_url)
+    combined_content = f"{content_detail}\n\n---\n\n{report_content}"
+    save_text_file(
+        os.path.join(output_dir, f"[video] {video_name}.md"),
+        combined_content,
+    )
 
     # Save intermediate data for debugging/reuse
     debug_data = {

@@ -104,9 +104,11 @@ def _parse_extended_params(params_str: str, line_num: int) -> dict:
     解析扩展参数部分。
 
     支持的参数：
-        --lang zh en       → {"lang": ["zh", "en"]}
-        --fps 2            → {"fps": 2.0}
-        --report-model xxx → {"report_model": "xxx"}
+        --lang zh en        → {"lang": ["zh", "en"]}
+        --fps 2             → {"fps": 2.0}
+        --asr-model xxx     → {"asr_model": "xxx"}
+        --vision-model xxx  → {"vision_model": "xxx"}
+        --report-model xxx  → {"report_model": "xxx"}
 
     Args:
         params_str: 以 " --" 开头的参数字符串。
@@ -117,9 +119,9 @@ def _parse_extended_params(params_str: str, line_num: int) -> dict:
     """
     params = {}
 
-    # 匹配 --key value 模式
+    # 匹配 --key value 模式，值可含连字符（如模型名 qwen3.7-plus、fun-asr）
     # --lang 支持多个值（如 --lang zh en）
-    pattern = r"--(\S+)\s+([^-\n]+?)(?=\s+--|$)"
+    pattern = r"--(\S+)\s+(.+?)(?=\s+--|$)"
     matches = re.findall(pattern, params_str)
 
     for key, value in matches:
@@ -131,6 +133,10 @@ def _parse_extended_params(params_str: str, line_num: int) -> dict:
                 params["fps"] = float(value)
             except ValueError:
                 logger.warning(f"第 {line_num} 行 fps 参数无效: {value}，使用默认值")
+        elif key == "asr-model":
+            params["asr_model"] = value
+        elif key == "vision-model":
+            params["vision_model"] = value
         elif key == "report-model":
             params["report_model"] = value
         else:
@@ -144,6 +150,8 @@ def process_batch(
     parent_output_dir: str = "./batch_output",
     fps: float = 1.0,
     language_hints: list[str] | None = None,
+    asr_model: str = "fun-asr",
+    vision_model: str = "qwen3.7-plus",
     report_model: str = "qwen3.7-max",
     dry_run: bool = False,
 ) -> dict:
@@ -162,6 +170,8 @@ def process_batch(
         parent_output_dir: 所有视频输出的父目录（默认 ./batch_output）。
         fps: 全局默认帧率。
         language_hints: 全局默认语言提示。
+        asr_model: 全局默认语音识别模型。
+        vision_model: 全局默认视觉理解模型。
         report_model: 全局默认报告模型。
         dry_run: True 时只预览，不实际调用 API。
 
@@ -208,6 +218,8 @@ def process_batch(
         # 合并参数：行级覆盖 > 全局默认
         vid_fps = overrides.get("fps", fps)
         vid_lang = overrides.get("language_hints", language_hints)
+        vid_asr_model = overrides.get("asr_model", asr_model)
+        vid_vision_model = overrides.get("vision_model", vision_model)
         vid_model = overrides.get("report_model", report_model)
 
         # 视频专属输出目录
@@ -221,7 +233,8 @@ def process_batch(
 
         if dry_run:
             # 预览模式：只打印信息
-            logger.info(f"  fps: {vid_fps}, lang: {vid_lang}, model: {vid_model}")
+            logger.info(f"  fps: {vid_fps}, lang: {vid_lang}")
+            logger.info(f"  asr: {vid_asr_model}, vision: {vid_vision_model}, report: {vid_model}")
             if os.path.exists(debug_file):
                 logger.info(f"  ℹ️ 已有输出，将被跳过（断点续跑）")
             results.append({
@@ -256,6 +269,8 @@ def process_batch(
                 output_dir=output_dir,
                 fps=vid_fps,
                 language_hints=vid_lang,
+                asr_model=vid_asr_model,
+                vision_model=vid_vision_model,
                 report_model=vid_model,
             )
             elapsed = time.time() - start_time

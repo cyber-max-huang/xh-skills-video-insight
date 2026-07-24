@@ -1,5 +1,5 @@
 """
-视觉路径：通过 Qwen3.6-Plus 进行视频画面理解。
+视觉路径：通过 Qwen3.7-Plus 进行视频画面理解。
 
 使用阿里云百炼视觉理解模型分析视频帧，生成带时间戳的场景描述。
 
@@ -39,14 +39,15 @@ VISION_PROMPT = """请详细分析这个视频的内容。按时间顺序描述�
 请直接输出JSON数组，不要输出其他内容。"""
 
 
-def analyze(video_url: str, fps: float = 1.0) -> list[dict]:
+def analyze(video_url: str, fps: float = 1.0, model: str = "qwen3.7-plus") -> list[dict]:
     """
-    Analyze video content using Qwen3.6-Plus visual model.
+    Analyze video content using visual model.
 
     Args:
         video_url: Publicly accessible video URL.
         fps: Frame extraction rate (frames per second). Range [0.1, 10].
              Default 1.0 for detailed analysis.
+        model: Vision model name (default "qwen3.7-plus").
 
     Returns:
         List of scene descriptions with timestamps:
@@ -61,13 +62,13 @@ def analyze(video_url: str, fps: float = 1.0) -> list[dict]:
     base_url = get_base_url()
 
     logger.info(f"提交视频视觉分析: {video_url}")
-    logger.info(f"模型: qwen3.6-plus, fps: {fps}, max_tokens: 8192")
+    logger.info(f"模型: {model}, fps: {fps}, max_tokens: 8192")
 
     client = OpenAI(api_key=api_key, base_url=base_url)
 
     def _call_vision_api():
         return client.chat.completions.create(
-            model="qwen3.6-plus",
+            model=model,
             messages=[
                 {
                     "role": "user",

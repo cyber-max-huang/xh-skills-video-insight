@@ -3,8 +3,8 @@
 视频洞察流水线 — 主入口。
 
 编排完整的视频理解工作流：
-  1. 语音识别（Fun-ASR-MTL，音频路径）
-  2. 视觉分析（Qwen3.6-Plus，视觉路径）
+  1. 语音识别（fun-asr，音频路径）
+  2. 视觉分析（qwen3.7-plus，视觉路径）
   3. 时间对齐合并两条数据流
   4. 生成 SRT 字幕和 Markdown 视频理解报告
 
@@ -40,6 +40,8 @@ except ImportError:
 
 def run(video_url: str, output_dir: str = None,
         fps: float = 1.0, language_hints: list[str] = None,
+        asr_model: str = "fun-asr",
+        vision_model: str = "qwen3.7-plus",
         report_model: str = "qwen3.7-max") -> dict:
     """
     运行完整的视频洞察流水线。
@@ -49,7 +51,9 @@ def run(video_url: str, output_dir: str = None,
         output_dir: 输出目录。默认从视频文件名自动生成。
         fps: 视觉分析帧提取率（0.1 - 10）。
         language_hints: ASR 语言代码，如 ['zh', 'en']。
-        report_model: 报告生成的文本模型。
+        asr_model: 语音识别模型（默认 fun-asr）。
+        vision_model: 视觉理解模型（默认 qwen3.7-plus）。
+        report_model: 报告生成的文本模型（默认 qwen3.7-max）。
 
     Returns:
         包含生成文件路径的字典：
@@ -57,14 +61,18 @@ def run(video_url: str, output_dir: str = None,
             "srt_path": "...",
             "report_path": "...",
             "detail_path": "...",
+            "video_md_path": "...",
             "debug_path": "..."
         }
     """
     start_time = time.time()
 
+    # 视频文件名（去扩展名），用于输出目录与合并文档命名
+    video_name = extract_output_dirname(video_url)
+
     # 未指定输出目录时，从视频 URL 自动提取文件名
     if output_dir is None:
-        output_dir = extract_output_dirname(video_url)
+        output_dir = video_name
         logger.info(f"输出目录自动生成: {output_dir}")
 
     logger.info("=" * 60)
@@ -73,18 +81,18 @@ def run(video_url: str, output_dir: str = None,
     logger.info(f"输出目录: {output_dir}")
     logger.info("=" * 60)
 
-    # 阶段一：音频路径 — Fun-ASR-MTL 语音识别
+    # 阶段一：音频路径 — 语音识别
     logger.info("")
-    logger.info("[阶段 1/3] 音频路径：Fun-ASR-MTL 语音识别...")
-    asr_result = transcribe(video_url, language_hints=language_hints)
+    logger.info(f"[阶段 1/3] 音频路径：{asr_model} 语音识别...")
+    asr_result = transcribe(video_url, language_hints=language_hints, model=asr_model)
     asr_text = asr_result.get("full_text", "")
     logger.info(f"[阶段 1/3] 完成。转写 {len(asr_text)} 字符，"
                 f"{len(asr_result['sentences'])} 个句子。")
 
-    # 阶段二：视觉路径 — Qwen3.6-Plus 视频画面分析
+    # 阶段二：视觉路径 — 视频画面分析
     logger.info("")
-    logger.info("[阶段 2/3] 视觉路径：Qwen3.6-Plus 视频画面分析...")
-    vision_scenes = analyze(video_url, fps=fps)
+    logger.info(f"[阶段 2/3] 视觉路径：{vision_model} 视频画面分析...")
+    vision_scenes = analyze(video_url, fps=fps, model=vision_model)
     logger.info(f"[阶段 2/3] 完成。检测到 {len(vision_scenes)} 个场景。")
 
     # 阶段三：合并 — 生成 SRT 字幕 + 视频理解报告 + 内容详情
@@ -109,6 +117,7 @@ def run(video_url: str, output_dir: str = None,
     logger.info(f"字幕文件:     {output_dir}/subtitles.srt")
     logger.info(f"理解报告:     {output_dir}/video_insight_report.md")
     logger.info(f"内容详情:     {output_dir}/content_detail.md")
+    logger.info(f"合并文档:     {output_dir}/[video] {video_name}.md")
     logger.info(f"调试数据:     {output_dir}/pipeline_debug.json")
     logger.info("=" * 60)
 
@@ -116,6 +125,7 @@ def run(video_url: str, output_dir: str = None,
         "srt_path": os.path.join(output_dir, "subtitles.srt"),
         "report_path": os.path.join(output_dir, "video_insight_report.md"),
         "detail_path": os.path.join(output_dir, "content_detail.md"),
+        "video_md_path": os.path.join(output_dir, f"[video] {video_name}.md"),
         "debug_path": os.path.join(output_dir, "pipeline_debug.json"),
     }
 
@@ -138,6 +148,7 @@ def main():
   # 注释行和空行自动跳过
   https://example.com/video1.mp4
   https://example.com/video2.mp4  --lang en --fps 2     # 行级参数覆盖
+  https://example.com/video3.mp4  --report-model qwen3.7-max  # 行级覆盖模型
 
 配置：
   在项目根目录 .env 文件中设置 DASHSCOPE_API_KEY（推荐）
@@ -169,6 +180,14 @@ def main():
         help="ASR 语言提示，如 zh en（默认：zh en）"
     )
     parser.add_argument(
+        "--asr-model", type=str, default="fun-asr",
+        help="语音识别模型（默认：fun-asr）"
+    )
+    parser.add_argument(
+        "--vision-model", type=str, default="qwen3.7-plus",
+        help="视觉理解模型（默认：qwen3.7-plus）"
+    )
+    parser.add_argument(
         "--report-model", type=str, default="qwen3.7-max",
         help="报告生成模型（默认：qwen3.7-max）"
     )
@@ -197,6 +216,8 @@ def main():
                 parent_output_dir=batch_output_dir,
                 fps=args.fps,
                 language_hints=args.lang,
+                asr_model=args.asr_model,
+                vision_model=args.vision_model,
                 report_model=args.report_model,
                 dry_run=args.dry_run,
             )
@@ -207,6 +228,8 @@ def main():
                 output_dir=args.output,
                 fps=args.fps,
                 language_hints=args.lang,
+                asr_model=args.asr_model,
+                vision_model=args.vision_model,
                 report_model=args.report_model,
             )
     except RuntimeError as e:

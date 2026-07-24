@@ -1,5 +1,5 @@
 """
-音频路径：通过 Fun-ASR-MTL 进行语音识别。
+音频路径：通过 Fun-ASR 进行语音识别。
 
 使用阿里云百炼非实时语音识别 API，将视频/音频文件 URL 中的语音转为文字。
 
@@ -34,7 +34,8 @@ except ImportError:
     )
 
 
-def transcribe(file_url: str, language_hints=None, timeout_seconds=1800) -> dict:
+def transcribe(file_url: str, language_hints=None, timeout_seconds=1800,
+               model: str = "fun-asr") -> dict:
     """
     Submit audio/video for non-real-time ASR transcription and wait for results.
 
@@ -42,6 +43,7 @@ def transcribe(file_url: str, language_hints=None, timeout_seconds=1800) -> dict
         file_url: Publicly accessible URL of the video or audio file.
         language_hints: Optional list of language codes, e.g. ['zh', 'en'].
         timeout_seconds: Maximum time to wait for the async task (default 30 min).
+        model: ASR model name (default "fun-asr").
 
     Returns:
         Parsed transcription dict with structure:
@@ -70,12 +72,12 @@ def transcribe(file_url: str, language_hints=None, timeout_seconds=1800) -> dict
         language_hints = ["zh", "en"]
 
     logger.info(f"提交 ASR 任务: {file_url}")
-    logger.info(f"模型: fun-asr-mtl, 语言提示: {language_hints}")
+    logger.info(f"模型: {model}, 语言提示: {language_hints}")
 
     # Submit ASR task with retry
     task_response = retry_with_backoff(
         func=lambda: Transcription.async_call(
-            model="fun-asr-mtl",
+            model=model,
             file_urls=[file_url],
             language_hints=language_hints,
         ),

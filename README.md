@@ -40,13 +40,14 @@ python3 src/pipeline.py --batch urls.txt --dry-run
 
 ## 输出文件
 
-每个视频生成 4 个文件，存放在以视频文件名命名的目录中：
+每个视频生成 5 个文件，存放在以视频文件名命名的目录中：
 
 | 文件 | 说明 |
 |------|------|
 | `subtitles.srt` | 完整语音转写，标准 SRT 字幕格式，逐句带时间戳 |
 | `video_insight_report.md` | 综合视频理解报告（概要 → 分段详解 → 关键节点） |
 | `content_detail.md` | 纯文字知识文章，无任何视频格式痕迹，按知识脉络组织 |
+| `[video] {视频名}.md` | 内容详情与理解报告的拼接文档（`---` 分隔） |
 | `pipeline_debug.json` | 中间态数据（ASR 句子 + 视觉场景），供调试使用 |
 
 ## 流水线架构
@@ -54,9 +55,9 @@ python3 src/pipeline.py --batch urls.txt --dry-run
 ```
 视频 URL
   │
-  ├─ 阶段一 ──→ Fun-ASR-MTL ──→ 语音转写（句子 + 词级时间戳）
+  ├─ 阶段一 ──→ Fun-ASR ──→ 语音转写（句子 + 词级时间戳）
   │
-  ├─ 阶段二 ──→ Qwen3.6-Plus ──→ 视觉场景描述（时间范围 + 中文描述）
+  ├─ 阶段二 ──→ Qwen3.7-Plus ──→ 视觉场景描述（时间范围 + 中文描述）
   │
   └─ 阶段三 ──→ 时间对齐合并 ──→ Qwen3.7-Max ──→ 报告 + 内容详情 + 字幕
 ```
@@ -88,8 +89,8 @@ Vision 场景描述（带时间戳）─┘                                  │
 
 | 阶段 | 模型 | 接口类型 | 用途 |
 |------|------|---------|------|
-| 语音识别 | `fun-asr-mtl` | DashScope 异步 | 非实时语音识别，词级时间戳，最长支持 12 小时音频 |
-| 视觉理解 | `qwen3.6-plus` | OpenAI 兼容 | 视频帧分析，每秒 1 帧采样，生成中文场景描述 |
+| 语音识别 | `fun-asr` | DashScope 异步 | 非实时语音识别，词级时间戳，最长支持 12 小时音频 |
+| 视觉理解 | `qwen3.7-plus` | OpenAI 兼容 | 视频帧分析，每秒 1 帧采样，生成中文场景描述 |
 | 报告生成 | `qwen3.7-max` | OpenAI 兼容 | 综合音频+视觉对齐数据，生成结构化报告和内容文章 |
 
 ## 命令行参考
@@ -106,6 +107,8 @@ python3 src/pipeline.py --url <视频URL> [选项]
 | `--output, -o` | 输出目录 | 自动从视频文件名提取 |
 | `--fps` | 视觉分析帧率 [0.1-10] | 1.0 |
 | `--lang` | ASR 语言提示，空格分隔多个值 | zh en |
+| `--asr-model` | 语音识别模型 | fun-asr |
+| `--vision-model` | 视觉理解模型 | qwen3.7-plus |
 | `--report-model` | 报告生成模型 | qwen3.7-max |
 
 ### 批量模式
@@ -121,6 +124,8 @@ python3 src/pipeline.py --batch <URL列表文件> [选项]
 | `--dry-run` | 预览模式：只解析 URL 和输出路径，不调用 API | — |
 | `--fps` | 全局默认帧率（可被行级参数覆盖） | 1.0 |
 | `--lang` | 全局默认语言提示（可被行级参数覆盖） | zh en |
+| `--asr-model` | 全局默认语音识别模型（可被行级参数覆盖） | fun-asr |
+| `--vision-model` | 全局默认视觉理解模型（可被行级参数覆盖） | qwen3.7-plus |
 | `--report-model` | 全局默认报告模型（可被行级参数覆盖） | qwen3.7-max |
 
 ### 批量输入文件格式
@@ -142,6 +147,8 @@ https://example.com/Isolator.mp4  --report-model qwen-max
 |------|------|
 | `--lang` | `--lang en` 或 `--lang zh en` |
 | `--fps` | `--fps 2` |
+| `--asr-model` | `--asr-model fun-asr` |
+| `--vision-model` | `--vision-model qwen3.7-plus` |
 | `--report-model` | `--report-model qwen-max` |
 
 ### 批量模式特性
@@ -159,9 +166,10 @@ batch_output/
 │   ├── subtitles.srt
 │   ├── video_insight_report.md
 │   ├── content_detail.md
+│   ├── [video] 5 Why Analysis ....md
 │   └── pipeline_debug.json
 ├── FMEA Explained .../
-│   └── (4 files)
+│   └── (5 files)
 └── ...
 ```
 

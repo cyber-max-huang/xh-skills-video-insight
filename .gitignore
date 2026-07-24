@@ -5,10 +5,12 @@
 __pycache__/
 *.pyc
 *.pyo
+.venv/
 
 # 输出目录
 video_insight_output/
 test_output/
+batch_output/
 
 # IDE
 .vscode/
